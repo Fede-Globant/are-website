@@ -1,0 +1,594 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html  xml:lang="en-US" lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
+<meta http-equiv="X-UA-Compatible" content="IE=8" />
+<head id="Head">
+<!--**********************************************************************************-->
+<!-- DotNetNuke - http://www.dotnetnuke.com                                          -->
+<!-- Copyright (c) 2002-2012                                                          -->
+<!-- by DotNetNuke Corporation                                                        -->
+<!--**********************************************************************************-->
+<meta content="text/html; charset=UTF-8" http-equiv="Content-Type" /><meta content="text/javascript" http-equiv="Content-Script-Type" /><meta content="text/css" http-equiv="Content-Style-Type" /><meta id="MetaKeywords" name="KEYWORDS" content=",DotNetNuke,DNN" /><meta id="MetaCopyright" name="COPYRIGHT" content="Copyright [year] by DotNetNuke Corporation" /><meta id="MetaGenerator" name="GENERATOR" content="DotNetNuke " /><meta id="MetaAuthor" name="AUTHOR" content="ARE" /><meta name="RESOURCE-TYPE" content="DOCUMENT" /><meta name="DISTRIBUTION" content="GLOBAL" /><meta id="MetaRobots" name="ROBOTS" content="INDEX, FOLLOW" /><meta name="REVISIT-AFTER" content="1 DAYS" /><meta name="RATING" content="GENERAL" /><meta http-equiv="PAGE-ENTER" content="RevealTrans(Duration=0,Transition=1)" /><style id="StylePlaceholder" type="text/css"></style><link href="/Portals/_default/default.css?cdv=27" type="text/css" rel="stylesheet"/><link href="/DesktopModules/HTML/module.css?cdv=27" type="text/css" rel="stylesheet"/><link href="/Portals/_default/Skins/ARE-Skin/skin.css?cdv=27" type="text/css" rel="stylesheet"/><link href="/Portals/_default/Skins/_default/WebControlSkin/Default/ComboBox.Default.css?cdv=27" type="text/css" rel="stylesheet"/><link href="/admin/ControlPanel/module.css?cdv=27" type="text/css" rel="stylesheet"/><script src="/Resources/Shared/Scripts/jquery/jquery.min.js?cdv=27" type="text/javascript"></script><script src="/Resources/Shared/Scripts/jquery/jquery-ui.min.js?cdv=27" type="text/javascript"></script><link rel="stylesheet" type="text/css" href="modal.css" /><link rel='SHORTCUT ICON' href='/Portals/0/favicon.ico' type='image/x-icon' /><title>
+	Real Estate
+</title></head>
+
+<body id="Body">
+    
+    <form method="post" action="/real-estate.html" id="Form" enctype="multipart/form-data">
+<div class="aspNetHidden">
+<input type="hidden" name="StylesheetManager_TSSM" id="StylesheetManager_TSSM" value="" />
+<input type="hidden" name="ScriptManager_TSM" id="ScriptManager_TSM" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="FOvabuElGY+1RA6LbJLfUrf73Bfx+St6LNkuPsU95eHPRHhKiecrIZmTEnfd8hyT+PHEb6Q1lbxJBsDm/+ArYgUVPKNV+JZEAmB4BNNmlK0ckVQTFSG3eVRAkOPCXiSEmTulB3QJSkg96WjSQKF/PUgpZNnbSaoKm2CDfukpbtje9gzUKHAowErzEIETFl4aHkqwrmayqI1EK1t555jQYha9WbSu/ZRKP5a8mxqjy+bq40EFs7Ec2B9bKfW1lMGjPSA+89cJr/JeGc2hTCpycye6mb1m5s7Jonuvtda4fYh0nF75r6qANdDKVV0BN/zEHBczyO8ATSV3C1pqrlqWb8ZI1oS+G1kAevgVw5N5qb1LOHxXu6qo/S8IazX7J+9WNYGBXlFQVPj/69uu6BKgobfssI3JYV61IEMMod/tVxuS7qY8SrL0JtNkeBAWIYAkl+UBS7PlcGAzo6D3faKn8+aA1J4ZzCV4GVjnb7wzbtkbMndJAdxDYB/rLUYSdTIdncsC5pffvSMzY49uud8mUr4gS8S3pnqp480wGw3XWDVJQcsdYueveTYd9xM9VOYjA5nXgPSEAr1hRk4r55AKXXnNbIEBs9etH0sGNFu2NKb4mapD62Dzt6/MirjbsljcjD2zT68vNKv2ZDlYWrJwE3Z9d6zQLbgDjllbzYqG2Wcv0RXcRcn/8vB4xwUQdlsUSrqWG+YpZxO9b9F24Pnf0acprz2kilI5SxikzFZkp+t/BlwzO03TqFkT0+MQhvGogbqugDs6vGBL19dt+Ptev4JsCBnEyaw+MuVdIOcXBpbwtA6iYKorduLMl22yLUHC3+yAcd0SMLvBaLcvAnwDyYwTQr3iWTRsnOF2ChYpEu42Lk9S4izJDLWIOg7j4n2NLAfTTpFwenhXJMx4+HV2UuNCjNSb2Zok34QuYU8wksekBiqoX7J6Uy8aUsGBpgXimXXgy56L2LYyDIdc4VOOcP7Cd9zKz/0QTbbBtLirII0XSnS0om7M0wIJ1FY8d6iPj0/+TMx2vtIYYsLDrgMlfFH80eG/17Sg1odWxRBrmgyReGfCIN7XWkP1fMAYtHB/zmFYGx+gEyEXfkZrBQMR+nZN5HGVo8s1yoJr2ngCEZrfhl87Q4rw1WwulP1/VvOzwsTShv7T+6hAuFnQygOkzX8TolXVXoiD/w1TEBOWKTs7m7M6cDVZ9KXZyW/NQ4Jhn/pkjlCIOiSEw8MsEurGSRA8l6b4FKjGJkwFXSqU80a386QhXN9XZqbhWBM9OxIKhH4pJd4d/ZMP+arB/LUf6y2T4R0b51Lsf4Dhs+OAiQERtUik9h1ZY58tp8fQgTGd5r3vpBAEfKVNG52xyCM30TEAjCiSsv60qlY8GRFQ4uaYV204q+WZKcjrnkIPF6gA+LEYzMc7BQddbYz61Ek6xzE8WV37iCNK2eglMCbQqT99EdceG2mWdw7ymtgD/5HP0RTDN4apgxs7WD8HEtHWf2RJpubkmyurASReFMHctdHk3UVFJ9GVF0Od23SxQ8rxsPwSiLj45oLzI8UGCrerW7s0cW8C1gWCA6dKPENo4kwxe6+x+CQRfrqSLCloLSDsXDZ0ROcPkZKq3xeFCKZvv1OIpGUtburaN0mQe6ZeoTCVL3ox8O00sElg96trAcmE3OCvIg==" />
+</div>
+
+
+<script src="/Telerik.Web.UI.WebResource.axd?_TSM_HiddenField_=ScriptManager_TSM&amp;compress=1&amp;_TSM_CombinedScripts_=%3b%3bSystem.Web.Extensions%2c+Version%3d4.0.0.0%2c+Culture%3dneutral%2c+PublicKeyToken%3d31bf3856ad364e35%3aen-US%3ac9cbdec3-c810-4e87-846c-fb25a7c08002%3aea597d4b%3ab25378d2" type="text/javascript"></script>
+<script src="/js/dnn.js" type="text/javascript"></script>
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="TOFY7C4/Egzj4lp4dqdRIq7FwogRxk3clACQBqSz32kLzlqxMF6+hIoxDIKdsTKZE4STf7p2hT6dt5KdcPRqcQR++J+pEW9Il4EQu12yLianpGAuUJCxyuJzdG7259AM1N0HvfZbFXXqLs9n" />
+</div><script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ScriptManager', 'Form', [], [], [], 90, '');
+//]]>
+</script>
+
+        <script src="/js/dnncore.js?cdv=27" type="text/javascript"></script><script src="/js/dnn.modalpopup.js?cdv=27" type="text/javascript"></script><script src="/Resources/ControlPanel/ControlPanel.debug.js?cdv=27" type="text/javascript"></script><script src="/Resources/Shared/Scripts/jquery/jquery.hoverIntent.min.js?cdv=27" type="text/javascript"></script><script src="/js/dnn.jquery.js?cdv=27" type="text/javascript"></script>
+        
+        
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="/Portals/_default/Skins/ARE-Skin/skin-interior.js"></script>
+
+
+<!-- BEGIN MAIN CONTAINER -->
+<div id="main-container"> 
+  
+  <!-- BEGIN CONTENT CONTAINER -->
+  <div id="content-container">
+    <div id="banner">
+      <div id="util">
+		<div id="dnn_utilitynav"><div class="DnnModule DnnModule-DNN_HTML DnnModule-391"><a name="391"></a>
+<div id="dnn_ctr391_ContentPane" class="article"><!-- Start_Module_391 --><div id="dnn_ctr391_ModuleContent" class="DNNModuleContent ModDNNHTMLC">
+	
+<div id="dnn_ctr391_HtmlModule_lblContent" class="Normal">
+	<a href="/Home.aspx" title="Home">Home</a>&nbsp;|&nbsp;<a href="/ABOUTALEXANDRIA/ContactUs.aspx" title="Contact Us">Contact Us</a>
+&nbsp;|&nbsp; <a href="/Careers.aspx" title="Careers">Careers</a> &nbsp;|&nbsp;<a href="https://www.ng1.angusanywhere.com/TENANT/Alexandria/Main/Default.aspx" title="Tenant Requests" target="_blank">Tenant Requests</a>
+</div>
+
+</div><!-- End_Module_391 --></div>
+</div></div>
+      </div>
+      
+      <div id="dnn_logo"><div class="DnnModule DnnModule-DNN_HTML DnnModule-390"><a name="390"></a>
+<div id="dnn_ctr390_ContentPane" class="article"><!-- Start_Module_390 --><div id="dnn_ctr390_ModuleContent" class="DNNModuleContent ModDNNHTMLC">
+	
+<div id="dnn_ctr390_HtmlModule_lblContent" class="Normal">
+	<p style="text-align: center;"><a href="/Home.aspx"><img alt="" src="/portals/0/logo.gif" /></a></p>
+
+</div>
+
+</div><!-- End_Module_390 --></div>
+</div></div>
+      <div class="clearit">&#160;</div>
+    </div>
+    
+    <!-- BEGIN MAIN NAVIGATION -->
+    <div class="main-nav"><!-- DDRmenu v02.00.01 - ARE-main-nav template --><div class="nav-wrap">
+<ul class="top-level">
+	
+	<li class=" first has-child">
+		
+			<a href="./about.html" class=" first"><span>ABOUT ALEXANDRIA &raquo;</span></a>
+		
+            <div class="dropdown">
+			    <ul>
+				    
+	<li class="sub-item first">
+		
+			<a href="./about.html"><span>About Alexandria</span></a>
+		
+	</li>
+
+	<li class="sub-item">
+		
+			<a href="./sustainability.html"><span>Sustainability</span></a>
+		
+	</li>
+
+	<li class="sub-item">
+		
+			<a href="./timeline.html"><span>Timeline</span></a>
+		
+	</li>
+
+	<li class="sub-item">
+		
+			<a href="./meet-our-team.html"><span>Meet Our Team</span></a>
+		
+	</li>
+
+	<li class="sub-item">
+		
+			<a href="./about-alexandria/in-the-news.html"><span>In The News</span></a>
+		
+	</li>
+
+	<li class="sub-item">
+		
+			<a href="./careers.html"><span>Careers</span></a>
+		
+	</li>
+
+	<li class="sub-item last">
+		
+			<a href="./contact-us.html"><span>Contact Us</span></a>
+		
+	</li>
+
+			    </ul>
+            </div>
+		
+	</li>
+
+	<li class=" has-child">
+		
+			<a href="./cluster-model.html" class=""><span>OUR CLUSTER MODEL &raquo;</span></a>
+		
+            <div class="dropdown">
+			    <ul>
+				    
+	<li class="sub-item first last">
+		
+			<a href="./cluster-model.html"><span>Our Cluster Model</span></a>
+		
+	</li>
+
+			    </ul>
+            </div>
+		
+	</li>
+
+	<li class=" has-child">
+		
+			<a href="./global-properties.html" class=""><span>OUR CLUSTERS &raquo;</span></a>
+		
+            <div class="dropdown">
+			    <ul>
+				    
+	<li class="sub-item first">
+		
+			<a href="./global-properties.html"><span>Our Cluster Locations</span></a>
+		
+	</li>
+
+	<li class="sub-item">
+		
+			<a href="./greater-boston.html"><span>Greater Boston</span></a>
+		
+	</li>
+
+	<li class="sub-item">
+		
+			<a href="./san-francisco.html"><span>San Francisco Bay Area</span></a>
+		
+	</li>
+
+	<li class="sub-item">
+		
+			<a href="./new-york-city.html"><span>New York City</span></a>
+		
+	</li>
+
+	<li class="sub-item">
+		
+			<a href="./san-diego.html"><span>San Diego</span></a>
+		
+	</li>
+
+	<li class="sub-item">
+		
+			<a href="./seattle.html"><span>Seattle</span></a>
+		
+	</li>
+
+	<li class="sub-item">
+		
+			<a href="./suburban-dc.html"><span>Maryland</span></a>
+		
+	</li>
+
+	<li class="sub-item last">
+		
+			<a href="./research-triangle-park.html"><span>Research Triangle</span></a>
+		
+	</li>
+
+			    </ul>
+            </div>
+		
+	</li>
+
+	<li class=" selected has-child">
+		
+			<a href="./business-verticals.html" class=""><span>OUR BUSINESS VERTICALS &raquo;</span></a>
+		
+            <div class="dropdown">
+			    <ul>
+				    
+	<li class="sub-item first selected">
+		
+			<a href="./real-estate.html"><span>Real Estate</span></a>
+		
+	</li>
+
+	<li class="sub-item">
+		
+			<a href="./corporate-responsibility.html"><span>Corporate Responsibility</span></a>
+		
+	</li>
+
+	<li class="sub-item">
+		
+			<a href="./venture-investments.html"><span>Venture Investments</span></a>
+		
+	</li>
+
+	<li class="sub-item last">
+		
+			<a href="./thought-leadership.html"><span>Thought Leadership</span></a>
+		
+	</li>
+
+			    </ul>
+            </div>
+		
+	</li>
+
+	<li class=" last has-child">
+		
+			<a href="http://investor.are.com/CorporateProfile.aspx?iid=111908" class=""><span>FOR INVESTORS &raquo;</span></a>
+		
+            <div class="dropdown">
+			    <ul>
+				    
+	<li class="sub-item first has-child">
+		
+			<a href="http://investor.are.com/CorporateProfile.aspx?iid=111908"><span>For Our Investors</span></a>
+		
+			<ul class="shifted">
+				
+	<li class="sub-item first">
+		
+			<a href="http://investor.are.com/corporateprofile.aspx?iid=111908"><span>Corporate Profile</span></a>
+		
+	</li>
+
+	<li class="sub-item">
+		
+			<a href="http://investor.are.com/GenPage.aspx?IID=111908&amp;GKP=1073746504"><span>Company Overview</span></a>
+		
+	</li>
+
+	<li class="sub-item last">
+		
+			<a href="http://investor.are.com/inforequest.aspx?iid=111908"><span>Request Information</span></a>
+		
+	</li>
+
+			</ul>
+		
+	</li>
+
+	<li class="sub-item has-child">
+		
+			<a href="http://investor.are.com/stockinfo.aspx?iid=111908"><span>Financial Information</span></a>
+		
+			<ul class="shifted">
+				
+	<li class="sub-item first">
+		
+			<a href="http://investor.are.com/stockinfo.aspx?iid=111908"><span>Stock Information</span></a>
+		
+	</li>
+
+	<li class="sub-item">
+		
+			<a href="http://investor.are.com/GenPage.aspx?IID=111908&amp;GKP=206901"><span>Analyst Coverage</span></a>
+		
+	</li>
+
+	<li class="sub-item">
+		
+			<a href="http://investor.are.com/docs.aspx?iid=111908"><span>SEC Filings</span></a>
+		
+	</li>
+
+	<li class="sub-item">
+		
+			<a href="http://investor.are.com/divs.aspx?iid=111908"><span>Dividends</span></a>
+		
+	</li>
+
+	<li class="sub-item">
+		
+			<a href="http://investor.are.com/QuarterlyResults.aspx?iid=111908"><span>Supplemental</span></a>
+		
+	</li>
+
+	<li class="sub-item">
+		
+			<a href="http://investor.are.com/GenPage.aspx?IID=111908&amp;GKP=1073743338"><span>Company Presentations</span></a>
+		
+	</li>
+
+	<li class="sub-item">
+		
+			<a href="http://investor.are.com/GenPage.aspx?IID=111908&amp;GKP=207354"><span>Annual Reports</span></a>
+		
+	</li>
+
+	<li class="sub-item last">
+		
+			<a href="http://investor.are.com/FinancialDocs.aspx?iid=111908"><span>Proxy</span></a>
+		
+	</li>
+
+			</ul>
+		
+	</li>
+
+	<li class="sub-item has-child">
+		
+			<a href="http://investor.are.com/news.aspx?iid=111908"><span>News, Events &amp; Webcasts</span></a>
+		
+			<ul class="shifted">
+				
+	<li class="sub-item first">
+		
+			<a href="http://investor.are.com/news.aspx?iid=111908"><span>News</span></a>
+		
+	</li>
+
+	<li class="sub-item">
+		
+			<a href="http://investor.are.com/calendar.aspx?iid=111908"><span>Event Calendar</span></a>
+		
+	</li>
+
+	<li class="sub-item last">
+		
+			<a href="http://investor.are.com/presentations.aspx?iid=111908"><span>Webcasts</span></a>
+		
+	</li>
+
+			</ul>
+		
+	</li>
+
+	<li class="sub-item last has-child">
+		
+			<a href="http://investor.are.com/govdocs.aspx?iid=111908"><span>Corporate Governance</span></a>
+		
+			<ul class="shifted">
+				
+	<li class="sub-item first">
+		
+			<a href="http://investor.are.com/govdocs.aspx?iid=111908"><span>Disclosure</span></a>
+		
+	</li>
+
+	<li class="sub-item">
+		
+			<a href="http://investor.are.com/insiders.aspx?iid=111908"><span>Insider Filings</span></a>
+		
+	</li>
+
+	<li class="sub-item">
+		
+			<a href="./meet-our-team.html"><span>Officers &amp; Directors</span></a>
+		
+	</li>
+
+	<li class="sub-item last">
+		
+			<a href="http://investor.are.com/committeechart.aspx?iid=111908"><span>Committee Charting</span></a>
+		
+	</li>
+
+			</ul>
+		
+	</li>
+
+			    </ul>
+            </div>
+		
+	</li>
+
+</ul>
+
+
+</div></div>
+    <!-- END MAIN NAVIGATION -->
+    
+    <!-- DDRmenu v02.00.01 - ARE-sub-nav template --><div id="lnav">
+<ul class="side_menu">
+	
+	<li class=" first selected">
+		
+			<a href="./real-estate.html" class=" first"><span>Real Estate</span></a>
+		
+	</li>
+
+	<li class="">
+		
+			<a href="./corporate-responsibility.html" class=""><span>Corporate Responsibility</span></a>
+		
+	</li>
+
+	<li class="">
+		
+			<a href="./venture-investments.html" class=""><span>Venture Investments</span></a>
+		
+	</li>
+
+	<li class=" last">
+		
+			<a href="./thought-leadership.html" class=""><span>Thought Leadership</span></a>
+		
+	</li>
+
+</ul>
+
+
+</div>
+
+		<div id="content-r">
+        	 <div id="dnn_ContentPane"><div class="DnnModule DnnModule-DNN_HTML DnnModule-457"><a name="457"></a>
+<div id="dnn_ctr457_ContentPane" class="article"><!-- Start_Module_457 --><div id="dnn_ctr457_ModuleContent" class="DNNModuleContent ModDNNHTMLC">
+	
+<div id="dnn_ctr457_HtmlModule_lblContent" class="Normal">
+	<h1>Real Estate</h1>
+<div class="image">Enabling the World's Most Innovative Companies to Develop Scientific and Technological Breakthroughs to Advance Human Health</div>
+<div class="image"><img alt="" src="/portals/0/1165_day_hero_web.jpg" style="width: 750px; height: 299px;" /></div>
+<p><strong>
+</strong></p>
+<h3><strong>Our Essential Labspace<sup>&reg;</sup> Real Estate</strong></h3>
+<strong>
+</strong>
+<p>Alexandria&rsquo;s highly sophisticated real estate platform enables our tenants to focus on COVID-19-related and other mission-critical diagnostics, testing, therapies, and vaccines. Even in the height of the global pandemic, we have maintained 24/7 operations across all our regions given the essential nature of our real estate and the life-changing research being done in our buildings.
+&nbsp;</p>
+<p>We are uniquely focused on <strong>cultivating life science, technology, and agtech campuses</strong> that provide our innovative tenants with highly dynamic, collaborative, and intentionally designed environments that enhance their ability to successfully recruit and retain world-class talent and <strong>inspire productivity</strong>, <strong>efficiency</strong>, <strong>creativity</strong>, and <strong>success</strong>.&nbsp;</p>
+<table>
+    <tbody>
+        <tr>
+            <td><img alt="" src="./portals/0/fitness_web.jpg" style="width: 179px; height: 170px;" /></td>
+            <td style="width: 12px;">&nbsp;</td>
+            <td><img alt="" src="./portals/0/681GW_web.jpg" style="width: 256px; height: 170px;" /></td>
+            <td style="width: 12px;">&nbsp;</td>
+            <td><img alt="" src="./portals/0/Vertex_web.jpg" style="width: 250px; height: 170px;" /></td>
+        </tr>
+    </tbody>
+</table>
+<p><span style="color: #0070c0;"><em><br />
+<strong>
+That's What We at Alexandria Care About, That's What's in Our DNA&trade;</strong></em></span></p>
+</div>
+
+</div><!-- End_Module_457 --></div>
+</div></div>
+        </div>
+   
+   
+    <div class="clearit"></div>
+    <!-- END HOME FEATURES -->
+    
+    <div id="footer">
+      <p id="footer-l"><script type="text/javascript">var d = new Date(); var n = "&#169; " + d.getFullYear();document.getElementById("footer-l").innerHTML = n;</script> Alexandria Real Estate Equities, Inc.</p>
+      <p id="footer-r"><a href="/TermsofService.aspx">Terms of Use</a> | <a href="/Privacy.aspx">Privacy</a></p>
+      <p class="clearit">&#160;</p>
+    </div>
+  </div>
+  <!-- END CONTENT CONTAINER --> 
+  
+</div>
+<!-- END MAIN CONTAINER -->
+ 
+<link href="/css/slick.css" rel="stylesheet"/>
+<link href="/css/slick-theme.css" rel="stylesheet"/>
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script type="text/javascript">var $j = jQuery.noConflict(true);</script>
+<!-- REAL ESTATE PAGE CAROUSEL -->
+<script type="text/javascript">
+        $j('.realestate').slick({
+            dots: true,
+            arrows: false,
+            slideToShow: 1,
+            autoplay: true,
+            fade: true,
+            autoplaySpeed: 5000,
+            appendDots: $j('.realestate')
+        });
+</script>
+
+<!-- CLUSTER MODEL PAGE CAROUSEL -->
+<script type="text/javascript">
+        $j('.clustermodel').slick({
+            dots: false,
+            arrows: false,
+            slideToShow: 1,
+            autoplay: true,
+            fade: true,
+            autoplaySpeed: 4000
+        });
+</script>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-34575909-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+        <input name="ScrollTop" type="hidden" id="ScrollTop" />
+        <input name="__dnnVariable" type="hidden" id="__dnnVariable" autocomplete="off" value="`{`__scdoff`:`1`}" />
+        
+    
+<script type="text/javascript" src="/Resources/Shared/scripts/initWidgets.js" ></script></form>
+    
+    
+
+
+	<div class="simple_overlay">
+	</div>
+
+
+    <script type="text/javascript">
+        //<![CDATA[
+        
+        //This code is to force a refresh of browser cache
+        //in case an old version of dnn.js is loaded
+        //It should be removed as soon as .js versioning is added
+        jQuery(document).ready(function () {
+		
+            if (navigator.userAgent.indexOf(" Chrome/") == -1) {
+                if ((typeof dnnJscriptVersion === 'undefined' || dnnJscriptVersion !== "6.0.0") && typeof dnn !== 'undefined') {
+                    window.location.reload(true);
+                }
+            }
+			/*if(location.pathname=="/"){
+				jQuery(".simple_overlay").overlay({
+					 mask: {
+						color: '#000000',
+						loadSpeed: 200,
+						opacity: 0.6
+					  },
+					  load: true				
+					}
+				);
+			}*/			
+		});
+         //]]>
+    </script>
+
+	<script type="text/javascript">
+	/*<![CDATA[*/
+	(function() {
+		var sz = document.createElement('script'); sz.type = 'text/javascript'; sz.async = true;
+		sz.src = '//siteimproveanalytics.com/js/siteanalyze_6034058.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz, s);
+	})();
+	/*]]>*/
+	</script>
+
+<!-- Texas -->
+
+</body>
+</html>

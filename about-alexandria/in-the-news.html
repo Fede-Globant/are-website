@@ -1,0 +1,1589 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html  xml:lang="en-US" lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
+<meta http-equiv="X-UA-Compatible" content="IE=8" />
+<head id="Head">
+<!--**********************************************************************************-->
+<!-- DotNetNuke - http://www.dotnetnuke.com                                          -->
+<!-- Copyright (c) 2002-2012                                                          -->
+<!-- by DotNetNuke Corporation                                                        -->
+<!--**********************************************************************************-->
+<meta content="text/html; charset=UTF-8" http-equiv="Content-Type" /><meta content="text/javascript" http-equiv="Content-Script-Type" /><meta content="text/css" http-equiv="Content-Style-Type" /><meta id="MetaKeywords" name="KEYWORDS" content=",DotNetNuke,DNN" /><meta id="MetaCopyright" name="COPYRIGHT" content="Copyright [year] by DotNetNuke Corporation" /><meta id="MetaGenerator" name="GENERATOR" content="DotNetNuke " /><meta id="MetaAuthor" name="AUTHOR" content="ARE" /><meta name="RESOURCE-TYPE" content="DOCUMENT" /><meta name="DISTRIBUTION" content="GLOBAL" /><meta id="MetaRobots" name="ROBOTS" content="INDEX, FOLLOW" /><meta name="REVISIT-AFTER" content="1 DAYS" /><meta name="RATING" content="GENERAL" /><meta http-equiv="PAGE-ENTER" content="RevealTrans(Duration=0,Transition=1)" /><style id="StylePlaceholder" type="text/css"></style><link href="/Portals/_default/default.css?cdv=27" type="text/css" rel="stylesheet"/><link href="/DesktopModules/HTML/module.css?cdv=27" type="text/css" rel="stylesheet"/><link href="/Portals/_default/Skins/ARE-Skin/skin.css?cdv=27" type="text/css" rel="stylesheet"/><link href="/Portals/_default/Containers/DarkKnight/container.css?cdv=27" type="text/css" rel="stylesheet"/><link href="/Portals/_default/Skins/_default/WebControlSkin/Default/ComboBox.Default.css?cdv=27" type="text/css" rel="stylesheet"/><link href="/admin/ControlPanel/module.css?cdv=27" type="text/css" rel="stylesheet"/><script src="/Resources/Shared/Scripts/jquery/jquery.min.js?cdv=27" type="text/javascript"></script><script src="/Resources/Shared/Scripts/jquery/jquery-ui.min.js?cdv=27" type="text/javascript"></script><link rel="stylesheet" type="text/css" href="../modal.css" /><link rel='SHORTCUT ICON' href='/Portals/0/favicon.ico' type='image/x-icon' /><title>
+	In The News
+</title></head>
+
+<body id="Body">
+    
+    <form method="post" action="/about-alexandria/in-the-news.html" id="Form" enctype="multipart/form-data">
+<div class="aspNetHidden">
+<input type="hidden" name="StylesheetManager_TSSM" id="StylesheetManager_TSSM" value="" />
+<input type="hidden" name="ScriptManager_TSM" id="ScriptManager_TSM" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="PpIT+mkOvTd4r/y3UJnsY3/mRj/TApx6x5a5SWf2yINs6OQEGVUNXrM91g3hhKHF7UOx1tPNw/e5zkrDWjhP9PnQwUCjTv4RizhaWKoD7wKZXOkImfgqymm59GKaqzsfTzfgR+etL/CUw+9NtLdwu0tDQhszXGyQ87VynSFdhC7NYNopvvZLCwLo+NsUtiAK6NeXyqLeI0NnlJM2ysH7yv22xdWZ8zmguioVm/f9wFfaqJQQN/KpI8b3AHxBXfJXAP4ePiHK86oBu+BtovABxu9SrVUXwLZhI4FN+oxZjjhdplLaibr8pgX9eg0o3n8eOlsEWrlhsRbhfiSi+moY4Z1UCPzIAPwfuHGHu8id57uF7xalOHH4e9JX2XofWnxfz+09rO6r5kOmmeICLuFue0Ya9BUNVS8rGBnkBMP4xDpIUCarF9+Ou1GeaelVktEroJuEu8/CnE7Keb3/xoOS0zsu15T9K1R4svpMKJYe9lbC6acgrsi54mT27XlBUC81S2d4skYYT0BLjcCJ0sQ2aJqmDyCIr9chDNM0EEd/t0JMj8HByNXbFm+JWJ4HI6SUB6ZzZIx75I7mX6eHRqaIVUhbH95h2idQLq6A43vN8yCuoX43+lLe06756m1ovSITzE3KBFPOrFJ1r1IKJuIXN6oaP+mcc72MHo2xNecX4OmSxhKCArL/fSaLMv86ybR1Ms2fos5AaRpNrqzzxqmCOQ87L7WF0QFLNGsWe/sc9B574AHBZPl/w4YrfNPDdzmCLE/K6+GvnVD+vJ0zDAhks2OjIf5DaxSHjEz6DpCn7kUuLIHpjpT64tPT964H96lxVVSezDAa2znIBlmH1N9NARF6lCqQFUY8c9FVO4OCSwTz5POpS1piw28JaZjpzMZVSu/44NLiewNJXa0ezw0w4HR+uVALFegyzX9c4K0WeNSqMeveJTxyDWWxboOHLh9VvRkbapQh79MugVhxURDmMVccs0Q2ZGVN8R6rnQqn9zF2cM3P2dCvGABZGF6UcwiPdlVbWblNsHcIN4umNFoEROyBAoQmela5pc/VOxzAlD4t0fZwAZqljurFx6byGpMZMmJobaPfnAxAclmn8IDL1yk4btPWROSdJobHhlFowj4cbAtZZ4i+LKpS/VWrDXx6O8HVj1w+zdKhzmwcQ4U00Yp4nDhO5Q9KHCvsZhZlBTie3Y1RvteRQgk0USaOUTaevHbqPDDcgSmN2yvh3LE91AHRQpqfkZV8+7DEzp/x4jxisDjgtK7IkHDl9K6o1HxpOUIW+KGC++FbQDlfrxtUo2/oLLog55EAJU5WW5KBpaWqeX+OMUD73tCd0O7pXhHRixdCZvODegLeNtPJTcY1XhufdMZe+rJ2h+MXDOUPxWwG3WGBlofHtqmtXQnz7HAIVQZ5jYaIHMqVrzdhaqsPRx4cd5n5xsgVkNIgF1b0NWoEXtU8mzM3hQGK4ECFN7kTlcnWdSWypN66nXrPmYpby076Hu/1OQ/CzwprLHSrPlt4JnB50O1gcQk4nPgVzueAXmIuVMuB64gXkzk7XteTiukqPGBmkAO63PXLyHggC2MjuqQNW7uqM3VQnCvc0mhBm6Ize7MPf3R4HnHJ2Wn6zAoH5pxkSGKVFn9cHotW1LEkJCEa1NFfsapjWHS+vvKD0AjDjp6d/UYQrSMnjjgb3MCqw3g=" />
+</div>
+
+
+<script src="/Telerik.Web.UI.WebResource.axd?_TSM_HiddenField_=ScriptManager_TSM&amp;compress=1&amp;_TSM_CombinedScripts_=%3b%3bSystem.Web.Extensions%2c+Version%3d4.0.0.0%2c+Culture%3dneutral%2c+PublicKeyToken%3d31bf3856ad364e35%3aen-US%3ac9cbdec3-c810-4e87-846c-fb25a7c08002%3aea597d4b%3ab25378d2" type="text/javascript"></script>
+<script src="/js/dnn.js" type="text/javascript"></script>
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="ZEK3aMAY8Ne5iYmREcFafGwb45GktM5h59MU3wTJWPo56c/bRNNenUzg80Z0JJmLgIIO3T/0IZ91jOD1v5uNsKkZV3M9YU2qmgeOriQ9Esf/1kE/m4OnG54JfVBkHsWaRJLrvXFyYZ+JHrHv" />
+</div><script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ScriptManager', 'Form', [], [], [], 90, '');
+//]]>
+</script>
+
+        <script src="/js/dnncore.js?cdv=27" type="text/javascript"></script><script src="/js/dnn.modalpopup.js?cdv=27" type="text/javascript"></script><script src="/Resources/ControlPanel/ControlPanel.debug.js?cdv=27" type="text/javascript"></script><script src="/Resources/Shared/Scripts/jquery/jquery.hoverIntent.min.js?cdv=27" type="text/javascript"></script><script src="/js/dnn.jquery.js?cdv=27" type="text/javascript"></script>
+        
+        
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="/Portals/_default/Skins/ARE-Skin/skin-interior.js"></script>
+
+
+<!-- BEGIN MAIN CONTAINER -->
+<div id="main-container"> 
+  
+  <!-- BEGIN CONTENT CONTAINER -->
+  <div id="content-container">
+    <div id="banner">
+      <div id="util">
+		<div id="dnn_utilitynav"><div class="DnnModule DnnModule-DNN_HTML DnnModule-391"><a name="391"></a>
+<div id="dnn_ctr391_ContentPane" class="article"><!-- Start_Module_391 --><div id="dnn_ctr391_ModuleContent" class="DNNModuleContent ModDNNHTMLC">
+	
+<div id="dnn_ctr391_HtmlModule_lblContent" class="Normal">
+	<a href="/Home.aspx" title="Home">Home</a>&nbsp;|&nbsp;<a href="/ABOUTALEXANDRIA/ContactUs.aspx" title="Contact Us">Contact Us</a>
+&nbsp;|&nbsp; <a href="/Careers.aspx" title="Careers">Careers</a> &nbsp;|&nbsp;<a href="https://www.ng1.angusanywhere.com/TENANT/Alexandria/Main/Default.aspx" title="Tenant Requests" target="_blank">Tenant Requests</a>
+</div>
+
+</div><!-- End_Module_391 --></div>
+</div></div>
+      </div>
+      
+      <div id="dnn_logo"><div class="DnnModule DnnModule-DNN_HTML DnnModule-390"><a name="390"></a>
+<div id="dnn_ctr390_ContentPane" class="article"><!-- Start_Module_390 --><div id="dnn_ctr390_ModuleContent" class="DNNModuleContent ModDNNHTMLC">
+	
+<div id="dnn_ctr390_HtmlModule_lblContent" class="Normal">
+	<p style="text-align: center;"><a href="/Home.aspx"><img alt="" src="/portals/0/logo.gif" /></a></p>
+
+</div>
+
+</div><!-- End_Module_390 --></div>
+</div></div>
+      <div class="clearit">&#160;</div>
+    </div>
+    
+    <!-- BEGIN MAIN NAVIGATION -->
+    <div class="main-nav"><!-- DDRmenu v02.00.01 - ARE-main-nav template --><div class="nav-wrap">
+<ul class="top-level">
+	
+	<li class=" first selected has-child">
+		
+			<a href="./about.html" class=" first"><span>ABOUT ALEXANDRIA &raquo;</span></a>
+		
+            <div class="dropdown">
+			    <ul>
+				    
+	<li class="sub-item first">
+		
+			<a href="./about.html"><span>About Alexandria</span></a>
+		
+	</li>
+
+	<li class="sub-item">
+		
+			<a href="./sustainability.html"><span>Sustainability</span></a>
+		
+	</li>
+
+	<li class="sub-item">
+		
+			<a href="./timeline.html"><span>Timeline</span></a>
+		
+	</li>
+
+	<li class="sub-item">
+		
+			<a href="./meet-our-team.html"><span>Meet Our Team</span></a>
+		
+	</li>
+
+	<li class="sub-item selected">
+		
+			<a href="./about-alexandria/in-the-news.html"><span>In The News</span></a>
+		
+	</li>
+
+	<li class="sub-item">
+		
+			<a href="./careers.html"><span>Careers</span></a>
+		
+	</li>
+
+	<li class="sub-item last">
+		
+			<a href="./contact-us.html"><span>Contact Us</span></a>
+		
+	</li>
+
+			    </ul>
+            </div>
+		
+	</li>
+
+	<li class=" has-child">
+		
+			<a href="./cluster-model.html" class=""><span>OUR CLUSTER MODEL &raquo;</span></a>
+		
+            <div class="dropdown">
+			    <ul>
+				    
+	<li class="sub-item first last">
+		
+			<a href="./cluster-model.html"><span>Our Cluster Model</span></a>
+		
+	</li>
+
+			    </ul>
+            </div>
+		
+	</li>
+
+	<li class=" has-child">
+		
+			<a href="./global-properties.html" class=""><span>OUR CLUSTERS &raquo;</span></a>
+		
+            <div class="dropdown">
+			    <ul>
+				    
+	<li class="sub-item first">
+		
+			<a href="./global-properties.html"><span>Our Cluster Locations</span></a>
+		
+	</li>
+
+	<li class="sub-item">
+		
+			<a href="./greater-boston.html"><span>Greater Boston</span></a>
+		
+	</li>
+
+	<li class="sub-item">
+		
+			<a href="./san-francisco.html"><span>San Francisco Bay Area</span></a>
+		
+	</li>
+
+	<li class="sub-item">
+		
+			<a href="./new-york-city.html"><span>New York City</span></a>
+		
+	</li>
+
+	<li class="sub-item">
+		
+			<a href="./san-diego.html"><span>San Diego</span></a>
+		
+	</li>
+
+	<li class="sub-item">
+		
+			<a href="./seattle.html"><span>Seattle</span></a>
+		
+	</li>
+
+	<li class="sub-item">
+		
+			<a href="./suburban-dc.html"><span>Maryland</span></a>
+		
+	</li>
+
+	<li class="sub-item last">
+		
+			<a href="./research-triangle-park.html"><span>Research Triangle</span></a>
+		
+	</li>
+
+			    </ul>
+            </div>
+		
+	</li>
+
+	<li class=" has-child">
+		
+			<a href="./business-verticals.html" class=""><span>OUR BUSINESS VERTICALS &raquo;</span></a>
+		
+            <div class="dropdown">
+			    <ul>
+				    
+	<li class="sub-item first">
+		
+			<a href="./real-estate.html"><span>Real Estate</span></a>
+		
+	</li>
+
+	<li class="sub-item">
+		
+			<a href="./corporate-responsibility.html"><span>Corporate Responsibility</span></a>
+		
+	</li>
+
+	<li class="sub-item">
+		
+			<a href="./venture-investments.html"><span>Venture Investments</span></a>
+		
+	</li>
+
+	<li class="sub-item last">
+		
+			<a href="./thought-leadership.html"><span>Thought Leadership</span></a>
+		
+	</li>
+
+			    </ul>
+            </div>
+		
+	</li>
+
+	<li class=" last has-child">
+		
+			<a href="http://investor.are.com/CorporateProfile.aspx?iid=111908" class=""><span>FOR INVESTORS &raquo;</span></a>
+		
+            <div class="dropdown">
+			    <ul>
+				    
+	<li class="sub-item first has-child">
+		
+			<a href="http://investor.are.com/CorporateProfile.aspx?iid=111908"><span>For Our Investors</span></a>
+		
+			<ul class="shifted">
+				
+	<li class="sub-item first">
+		
+			<a href="http://investor.are.com/corporateprofile.aspx?iid=111908"><span>Corporate Profile</span></a>
+		
+	</li>
+
+	<li class="sub-item">
+		
+			<a href="http://investor.are.com/GenPage.aspx?IID=111908&amp;GKP=1073746504"><span>Company Overview</span></a>
+		
+	</li>
+
+	<li class="sub-item last">
+		
+			<a href="http://investor.are.com/inforequest.aspx?iid=111908"><span>Request Information</span></a>
+		
+	</li>
+
+			</ul>
+		
+	</li>
+
+	<li class="sub-item has-child">
+		
+			<a href="http://investor.are.com/stockinfo.aspx?iid=111908"><span>Financial Information</span></a>
+		
+			<ul class="shifted">
+				
+	<li class="sub-item first">
+		
+			<a href="http://investor.are.com/stockinfo.aspx?iid=111908"><span>Stock Information</span></a>
+		
+	</li>
+
+	<li class="sub-item">
+		
+			<a href="http://investor.are.com/GenPage.aspx?IID=111908&amp;GKP=206901"><span>Analyst Coverage</span></a>
+		
+	</li>
+
+	<li class="sub-item">
+		
+			<a href="http://investor.are.com/docs.aspx?iid=111908"><span>SEC Filings</span></a>
+		
+	</li>
+
+	<li class="sub-item">
+		
+			<a href="http://investor.are.com/divs.aspx?iid=111908"><span>Dividends</span></a>
+		
+	</li>
+
+	<li class="sub-item">
+		
+			<a href="http://investor.are.com/QuarterlyResults.aspx?iid=111908"><span>Supplemental</span></a>
+		
+	</li>
+
+	<li class="sub-item">
+		
+			<a href="http://investor.are.com/GenPage.aspx?IID=111908&amp;GKP=1073743338"><span>Company Presentations</span></a>
+		
+	</li>
+
+	<li class="sub-item">
+		
+			<a href="http://investor.are.com/GenPage.aspx?IID=111908&amp;GKP=207354"><span>Annual Reports</span></a>
+		
+	</li>
+
+	<li class="sub-item last">
+		
+			<a href="http://investor.are.com/FinancialDocs.aspx?iid=111908"><span>Proxy</span></a>
+		
+	</li>
+
+			</ul>
+		
+	</li>
+
+	<li class="sub-item has-child">
+		
+			<a href="http://investor.are.com/news.aspx?iid=111908"><span>News, Events &amp; Webcasts</span></a>
+		
+			<ul class="shifted">
+				
+	<li class="sub-item first">
+		
+			<a href="http://investor.are.com/news.aspx?iid=111908"><span>News</span></a>
+		
+	</li>
+
+	<li class="sub-item">
+		
+			<a href="http://investor.are.com/calendar.aspx?iid=111908"><span>Event Calendar</span></a>
+		
+	</li>
+
+	<li class="sub-item last">
+		
+			<a href="http://investor.are.com/presentations.aspx?iid=111908"><span>Webcasts</span></a>
+		
+	</li>
+
+			</ul>
+		
+	</li>
+
+	<li class="sub-item last has-child">
+		
+			<a href="http://investor.are.com/govdocs.aspx?iid=111908"><span>Corporate Governance</span></a>
+		
+			<ul class="shifted">
+				
+	<li class="sub-item first">
+		
+			<a href="http://investor.are.com/govdocs.aspx?iid=111908"><span>Disclosure</span></a>
+		
+	</li>
+
+	<li class="sub-item">
+		
+			<a href="http://investor.are.com/insiders.aspx?iid=111908"><span>Insider Filings</span></a>
+		
+	</li>
+
+	<li class="sub-item">
+		
+			<a href="./meet-our-team.html"><span>Officers &amp; Directors</span></a>
+		
+	</li>
+
+	<li class="sub-item last">
+		
+			<a href="http://investor.are.com/committeechart.aspx?iid=111908"><span>Committee Charting</span></a>
+		
+	</li>
+
+			</ul>
+		
+	</li>
+
+			    </ul>
+            </div>
+		
+	</li>
+
+</ul>
+
+
+</div></div>
+    <!-- END MAIN NAVIGATION -->
+    
+    <!-- DDRmenu v02.00.01 - ARE-sub-nav template --><div id="lnav">
+<ul class="side_menu">
+	
+	<li class=" first">
+		
+			<a href="./about.html" class=" first"><span>About Alexandria</span></a>
+		
+	</li>
+
+	<li class="">
+		
+			<a href="./sustainability.html" class=""><span>Sustainability</span></a>
+		
+	</li>
+
+	<li class="">
+		
+			<a href="./timeline.html" class=""><span>Timeline</span></a>
+		
+	</li>
+
+	<li class="">
+		
+			<a href="./meet-our-team.html" class=""><span>Meet Our Team</span></a>
+		
+	</li>
+
+	<li class=" selected">
+		
+			<a href="./about-alexandria/in-the-news.html" class=""><span>In The News</span></a>
+		
+	</li>
+
+	<li class="">
+		
+			<a href="./careers.html" class=""><span>Careers</span></a>
+		
+	</li>
+
+	<li class=" last">
+		
+			<a href="./contact-us.html" class=""><span>Contact Us</span></a>
+		
+	</li>
+
+</ul>
+
+
+</div>
+
+		<div id="content-r">
+        	 <div id="dnn_ContentPane"><div class="DnnModule DnnModule-DNN_HTML DnnModule-452"><a name="452"></a>
+<div class="c_DNN6_SubTitle c_DNN6">
+    <h2 class="Title Grey"><span id="dnn_ctr452_dnnTITLE_titleLabel" class="Head">In The News</span>
+
+
+<img src="/Portals/_default/Containers/DarkKnight/Images/Title-BG-Grey2.png" class="TitleBar" alt="" /></h2>
+    <div id="dnn_ctr452_ContentPane"><!-- Start_Module_452 --><div id="dnn_ctr452_ModuleContent" class="DNNModuleContent ModDNNHTMLC">
+	
+<div id="dnn_ctr452_HtmlModule_lblContent" class="Normal">
+	<table>
+    <tbody>
+        <tr>
+            <td>
+            <p><img alt="Fox Business" src="http://www.are.com/portals/0/claman-countdown.png" style="width: 200px; height: 102px;" />&nbsp; &nbsp;&nbsp;</p>
+            </td>
+            <td><blockquote style="margin: 0px 0px 0px 45px; border: medium none; padding: 0px;"><blockquote style="margin: 0px 0px 0px 45px; border: medium none; padding: 0px;"><strong><em><span style="font-family: verdana; font-size: 13px;">Coronavirus will become a long-term business: Real estate investment expert</span></em></strong><span size="2" style="font-size: 12px; font-family: verdana;"><br />
+            <strong><em><br />
+            </em></strong><a href="https://video.foxbusiness.com/v/6182672575001/#sp=show-clips" target="_blank" style="color: #0070c0; line-height: 16px; font-size: 12px; font-family: verdana;">WATCH HERE</a></span>
+            </blockquote></blockquote></td>
+        </tr>
+    </tbody>
+</table>
+<br />
+<img alt="" src="http://www.are.com/portals/0/content-divider.gif" /><br />
+<table>
+    <tbody>
+        <tr>
+            <td>
+            <p><img alt="CNBC Power Lunch" src="http://www.are.com/portals/0/cnbc_powerlunch_logo.png" style="width: 200px; height: 95px;" /></p>
+            </td>
+            <td><blockquote style="margin: 0px 0px 0px 45px; border: medium none; padding: 0px;"><blockquote style="margin: 0px 0px 0px 45px; border: medium none; padding: 0px;"><strong><em><span style="font-family: verdana; font-size: 13px;">How commercial real estate companies are faring during the coronavirus pandemic</span></em></strong><span size="2" style="font-size: 12px; font-family: verdana;"><br />
+            <strong><em><br />
+            </em></strong><a href="https://www.cnbc.com/video/2020/07/30/how-commercial-real-estate-companies-are-faring-during-the-coronavirus-pandemic.html" target="_blank" style="color: #0070c0; line-height: 16px; font-size: 12px; font-family: verdana;">WATCH HERE</a></span>
+            </blockquote></blockquote></td>
+        </tr>
+    </tbody>
+</table>
+<br />
+<img alt="" src="http://www.are.com/portals/0/content-divider.gif" /><br />
+<table>
+    <tbody>
+        <tr>
+            <td>
+            <p><img alt="Fox Business" src="http://www.are.com/portals/0/mornings-with-maria.png" style="width: 200px; height: 101px;" />&nbsp; &nbsp;&nbsp;</p>
+            </td>
+            <td><blockquote style="margin: 0px 0px 0px 45px; border: medium none; padding: 0px;"><blockquote style="margin: 0px 0px 0px 45px; border: medium none; padding: 0px;"><strong><em><span style="font-family: verdana; font-size: 13px;">Alexandria Real Estate founder on tenants fighting coronavirus</span></em></strong><span size="2" style="font-size: 12px; font-family: verdana;"><br />
+            <strong><em><br />
+            </em></strong><a href="https://video.foxbusiness.com/v/6163325085001/#sp=show-clips" target="_blank" style="color: #0070c0; line-height: 16px; font-size: 12px; font-family: verdana;">WATCH HERE</a></span>
+            </blockquote></blockquote></td>
+        </tr>
+    </tbody>
+</table>
+<br />
+<img alt="" src="http://www.are.com/portals/0/content-divider.gif" /><br />
+<br />
+<table>
+    <tbody>
+        <tr>
+            <td>
+            <p><img alt="CNBC Mad Money with Jim Cramer" src="http://www.are.com/portals/0/Mad_Money.png" /></p>
+            </td>
+            <td><blockquote style="margin: 0px 0px 0px 45px; border: medium none; padding: 0px;"><blockquote style="margin: 0px 0px 0px 45px; border: medium none; padding: 0px;"><strong><em><span style="font-family: verdana; font-size: 13px;">Alexandria Real Estate Equities Chairman talks supporting coronavirus research efforts</span></em></strong><span style="font-family: verdana; font-size: 13px;"><br />
+            <strong style="font-weight: bold; font-style: italic;"><em><br />
+            </em></strong><span style="line-height: 16px; color: #0070c0;"><a href="https://www.cnbc.com/video/2020/05/04/alexandria-real-estate-equities-ceo-on-supporting-covid-19-rd-efforts.html" target="_blank" style="color: #0070c0; line-height: 16px; font-size: 12px; font-family: verdana;">WATCH HERE</a></span></span>
+            </blockquote></blockquote></td>
+        </tr>
+    </tbody>
+</table>
+<br />
+<img alt="" src="http://www.are.com/portals/0/content-divider.gif" /><br />
+<br />
+<table>
+    <tbody>
+        <tr>
+            <td>
+            <p><img alt="CNBC Mad Money with Jim Cramer" src="http://www.are.com/portals/0/Mad_Money.png" /></p>
+            </td>
+            <td><blockquote style="margin: 0px 0px 0px 45px; border: medium none; padding: 0px;"><blockquote style="margin: 0px 0px 0px 45px; border: medium none; padding: 0px;"><strong><em><span style="font-family: verdana; font-size: 13px;">Alexandria Real Estate Equities: Cramer Eyeing the REIT Space for Opportunity Amid COVID-19</span></em></strong><span style="font-family: verdana; font-size: 13px;"><br />
+            <strong style="font-weight: bold; font-style: italic;"><em><br />
+            </em></strong><span style="line-height: 16px; color: #0070c0;"><a href="https://vimeo.com/409030979" target="_blank" style="color: #0070c0; line-height: 16px; font-size: 12px; font-family: verdana;">WATCH HERE</a></span></span>
+            </blockquote></blockquote></td>
+        </tr>
+    </tbody>
+</table>
+<br />
+<img alt="" src="http://www.are.com/portals/0/content-divider.gif" /><br />
+<br />
+<table>
+    <tbody>
+        <tr>
+            <td>
+            <p><img alt="Forbes" src="http://www.are.com/portals/0/forbes-blue.jpg" style="width: 200px; height: 53px;" /></p>
+            </td>
+            <td><blockquote style="margin: 0px 0px 0px 45px; border: medium none; padding: 0px;"><blockquote style="margin: 0px 0px 0px 45px; border: medium none; padding: 0px;"><strong><em><span style="font-family: verdana; font-size: 13px;">Why Investment And IP Clustering Is Key To An Innovative Future Across The Globe, With Joel Marcus</span></em></strong><span size="2" style="font-size: 12px; font-family: verdana;"><br />
+            <strong><em><br />
+            </em></strong><a href="https://www.forbes.com/sites/forbesinsights/2020/03/17/why-investment-and-ip-clustering-is-key-to-an-innovative-future-across-the-globe-with-joel-marcus/#402c43ae5e1c" target="_blank" style="color: #0070c0; line-height: 16px; font-size: 12px; font-family: verdana;">LISTEN</a><br />
+            </span></blockquote></blockquote></td>
+        </tr>
+    </tbody>
+</table>
+<br />
+<img alt="" src="http://www.are.com/portals/0/content-divider.gif" /><br />
+<table>
+    <tbody>
+        <tr>
+            <td>
+            <p><img alt="S&amp;P Global" src="http://www.are.com/portals/0/logo-spmi.png" style="width: 200px; height: 55px;" /></p>
+            </td>
+            <td><blockquote style="margin: 0px 0px 0px 45px; border: medium none; padding: 0px;"><blockquote style="margin: 0px 0px 0px 45px; border: medium none; padding: 0px;"><strong><em><span style="font-family: verdana; font-size: 13px;">Alexandria Real Estate carves out life sciences niche with 'mega campuses'</span></em></strong><span size="2" style="font-size: 12px; font-family: verdana;"><br />
+            <strong><em><br />
+            </em></strong><a href="https://www.spglobal.com/marketintelligence/en/news-insights/latest-news-headlines/alexandria-real-estate-carves-out-life-sciences-niche-with-mega-campuses-57075911" target="_blank" style="color: #0070c0; line-height: 16px; font-size: 12px; font-family: verdana;">READ MORE</a>&nbsp;(subscriber content)<br />
+            </span></blockquote></blockquote></td>
+        </tr>
+    </tbody>
+</table>
+<br />
+<img alt="" src="http://www.are.com/portals/0/content-divider.gif" /><br />
+<table>
+    <tbody>
+        <tr>
+            <td>
+            <p><img alt="Fox Business" src="http://www.are.com/portals/0/logo-lg-fox-business-network.png" style="width: 195px; height: 115px;" /></p>
+            </td>
+            <td><blockquote style="margin: 0px 0px 0px 45px; border: medium none; padding: 0px;"><blockquote style="margin: 0px 0px 0px 45px; border: medium none; padding: 0px;"><strong><em><span style="font-family: verdana; font-size: 13px;">Companies moving to &lsquo;brain trust clusters&rsquo; to attract critical talent: Alexandria Real Estate founder</span></em></strong><span size="2" style="font-size: 12px; font-family: verdana;"><br />
+            <strong><em><br />
+            </em></strong><a href="https://video.foxbusiness.com/v/6122513652001/#sp=show-clips" target="_blank" style="color: #0070c0; line-height: 16px; font-size: 12px; font-family: verdana;">WATCH HERE</a></span>
+            </blockquote></blockquote></td>
+        </tr>
+    </tbody>
+</table>
+<br />
+<img alt="" src="http://www.are.com/portals/0/content-divider.gif" /><br />
+<br />
+<table>
+    <tbody>
+        <tr>
+            <td>
+            <p><img alt="The Long Run with Luke Timmerman" src="http://www.are.com/portals/0/TheLongRun.png" style="width: 200px; height: 98px;" /></p>
+            </td>
+            <td><blockquote style="margin: 0px 0px 0px 45px; border: medium none; padding: 0px;"><blockquote style="margin: 0px 0px 0px 45px; border: medium none; padding: 0px;"><strong><em><span style="font-family: verdana; font-size: 13px;">Getting in on the Ground Floor of the Biotech Boom: Joel Marcus on The Long Run</span></em></strong><span size="2" style="font-size: 12px; font-family: verdana;"><br />
+            <strong><em><br />
+            </em></strong><a href="https://timmermanreport.com/2019/08/getting-in-on-the-ground-floor-of-the-biotech-boom-joel-marcus-on-the-long-run/" target="_blank" style="color: #0070c0; line-height: 16px; font-size: 12px; font-family: verdana;">LISTEN HERE</a></span>
+            </blockquote></blockquote></td>
+        </tr>
+    </tbody>
+</table>
+<br />
+<img alt="" src="http://www.are.com/portals/0/content-divider.gif" /><br />
+<br />
+<table>
+    <tbody>
+        <tr>
+            <td>
+            <p><img alt="Forbes" src="/portals/0/forbes-blue.jpg" style="width: 200px; height: 53px;" /></p>
+            </td>
+            <td><blockquote style="margin: 0px 0px 0px 45px; border: medium none; padding: 0px;"><blockquote style="margin: 0px 0px 0px 45px; border: medium none; padding: 0px;"><strong><em><span style="font-family: verdana; font-size: 13px;">The Future Of Life Science And Tech Innovation Is In Clusters</span></em></strong><span size="2" style="font-size: 12px; font-family: verdana;"><br />
+            <strong><em><br />
+            </em></strong><a href="https://www.forbes.com/sites/jeffsteele/2019/08/12/the-future-of-life-science-and-tech-innovation-is-in-clusters/#6857e5da604a" target="_blank" style="color: #0070c0; line-height: 16px; font-size: 12px; font-family: verdana;">READ MORE</a><br />
+            </span>
+            </blockquote></blockquote></td>
+        </tr>
+    </tbody>
+</table>
+<br />
+<img alt="" src="http://www.are.com/portals/0/content-divider.gif" /><br />
+<br />
+<table>
+    <tbody>
+        <tr>
+            <td>
+            <p><img alt="Fox Business" src="http://www.are.com/portals/0/foxbiz.png" style="width: 200px; height: 95px;" /></p>
+            </td>
+            <td><blockquote style="margin: 0px 0px 0px 45px; border: medium none; padding: 0px;"><blockquote style="margin: 0px 0px 0px 45px; border: medium none; padding: 0px;"><strong><em><span style="font-family: verdana; font-size: 13px;">Alexandria Real Estate, Google team up to fight the opioid epidemic</span></em></strong><span size="2" style="font-size: 12px; font-family: verdana;"><br />
+            <strong><em><br />
+            </em></strong><a href="https://video.foxbusiness.com/v/6052471396001/?playlist_id=937116503001#sp=show-clips&quot;" target="_blank" style="color: #0070c0; line-height: 16px; font-size: 12px; font-family: verdana;">WATCH HERE</a></span>
+            </blockquote></blockquote></td>
+        </tr>
+    </tbody>
+</table>
+<br />
+<img alt="" src="http://www.are.com/portals/0/content-divider.gif" /><br />
+<br />
+<table>
+    <tbody>
+        <tr>
+            <td>
+            <p><img alt="San Francisco Chronicle" src="http://www.are.com/portals/0/sfchron.png" style="width: 200px; height: 95px;" /></p>
+            </td>
+            <td><blockquote style="margin: 0px 0px 0px 45px; border: medium none; padding: 0px;"><blockquote style="margin: 0px 0px 0px 45px; border: medium none; padding: 0px;"><strong><em><span style="font-family: verdana; font-size: 13px;">Pinterest signs massive SF lease as it moves toward IPO</span></em></strong><span size="2" style="font-size: 12px; font-family: verdana;"><br />
+            <strong><em><br />
+            </em></strong><a href="https://www.sfchronicle.com/business/article/Pinterest-signs-massive-SF-lease-as-it-moves-13701350.php?psid=bM7lU#photo-17094135" target="_blank" style="color: #0070c0; line-height: 16px; font-size: 12px; font-family: verdana;">READ MORE</a></span>
+            </blockquote></blockquote></td>
+        </tr>
+    </tbody>
+</table>
+<br />
+<img alt="" src="http://www.are.com/portals/0/content-divider.gif" /><br />
+<br />
+<table>
+    <tbody>
+        <tr>
+            <td>
+            <p><img alt="CNBC Power Lunch" src="http://www.are.com/portals/0/cnbc_powerlunch_logo.png" style="width: 200px; height: 95px;" /></p>
+            </td>
+            <td><blockquote style="margin: 0px 0px 0px 45px; border: medium none; padding: 0px;"><blockquote style="margin: 0px 0px 0px 45px; border: medium none; padding: 0px;"><strong><em><span style="font-family: verdana; font-size: 13px;">Alexandria Real Estate Exec Chairman breaks down what agtech means</span></em></strong><span size="2" style="font-size: 12px; font-family: verdana;"><br />
+            <strong><em><br />
+            </em></strong><a href="https://www.cnbc.com/video/2019/04/01/alexandria-real-estate-ceo-breaks-down-what-ag-tech-means.html" target="_blank" style="color: #0070c0; line-height: 16px; font-size: 12px; font-family: verdana;">WATCH HERE</a></span></blockquote></blockquote></td>
+        </tr>
+    </tbody>
+</table>
+<p>
+<img alt="" src="http://www.are.com/portals/0/content-divider.gif" /></p>
+<table>
+    <tbody>
+        <tr>
+            <td>
+            <p><img alt="The Motley Fool" src="http://www.are.com/portals/0/motleyfool.png" style="width: 200px; height: 65px;" /></p>
+            </td>
+            <td><blockquote style="margin: 0px 0px 0px 45px; border: medium none; padding: 0px;"><blockquote style="margin: 0px 0px 0px 45px; border: medium none; padding: 0px;"><strong><span style="font-family: verdana; font-size: 13px;">INDUSTRY FOCUS PODCAST &ndash; <em>Healthcare: An Interview With Alexandria Real Estate Equities Executive Chairman Joel Marcus</em></span></strong><span size="2" style="font-size: 12px; font-family: verdana;"><br />
+            <strong><em><br />
+            </em></strong><a href="https://www.fool.com/podcasts/industry-focus/2019-02-27-healthcare-an-interview-with-real/" target="_blank" style="color: #0070c0; line-height: 16px; font-size: 12px; font-family: verdana;">LISTEN HERE</a></span></blockquote></blockquote></td>
+        </tr>
+    </tbody>
+</table>
+<p>
+<img alt="" src="http://www.are.com/portals/0/content-divider.gif" /></p>
+<table>
+    <tbody>
+        <tr>
+            <td>
+            <p><img alt="Fox Business" src="http://www.are.com/portals/0/foxbiz.png" style="width: 200px; height: 95px;" /></p>
+            </td>
+            <td><blockquote style="margin: 0px 0px 0px 45px; border: medium none; padding: 0px;"><blockquote style="margin: 0px 0px 0px 45px; border: medium none; padding: 0px;"><strong><em><span style="font-family: verdana; font-size: 13px;">The tech boom in corporate real estate</span></em></strong><span size="2" style="font-size: 12px; font-family: verdana;"><br />
+            <strong><em><br />
+            </em></strong><a href="https://video.foxbusiness.com/v/5986752119001/?#sp=show-clips" target="_blank" style="color: #0070c0; line-height: 16px; font-size: 12px; font-family: verdana;">WATCH HERE</a></span>
+            </blockquote></blockquote></td>
+        </tr>
+    </tbody>
+</table>
+<br />
+<img alt="" src="http://www.are.com/portals/0/content-divider.gif" /><br />
+<br />
+<table>
+    <tbody>
+        <tr>
+            <td>
+            <p><img alt="Nareit" src="http://www.are.com/portals/0/nareit_logo.png" style="width: 200px; height: 30px;" /></p>
+            </td>
+            <td><blockquote style="margin: 0px 0px 0px 45px; border: medium none; padding: 0px;"><blockquote style="margin: 0px 0px 0px 45px; border: medium none; padding: 0px;"><strong><em><span style="font-family: verdana; font-size: 13px;"> Alexandria Real Estate Equities Says Cluster Model Allows Life Science Firms to Thrive</span></em></strong><span size="2" style="font-size: 12px; font-family: verdana;"><br />
+            <strong><em><br />
+            </em></strong><a href="https://www.reit.com/news/videos/alexandria-real-estate-equities-says-cluster-model-allows-life-science-firms-thrive" target="_blank" style="color: #0070c0; line-height: 16px; font-size: 12px; font-family: verdana;">WATCH</a><br />
+            <br />
+            </span>
+            </blockquote></blockquote></td>
+        </tr>
+    </tbody>
+</table>
+<br />
+<img alt="" src="http://www.are.com/portals/0/content-divider.gif" /><br />
+<br />
+<table>
+    <tbody>
+        <tr>
+            <td>
+            <p><img alt="Bloomberg TV" src="http://www.are.com/portals/0/Bloomberg-Television-Logo.jpg" style="width: 200px; height: 54px;" /></p>
+            </td>
+            <td><blockquote style="margin: 0px 0px 0px 45px; border: medium none; padding: 0px;"><blockquote style="margin: 0px 0px 0px 45px; border: medium none; padding: 0px;"><strong><em><span style="font-family: verdana; font-size: 13px;">Marcus on Interest Rates, Drug Pricing</span></em></strong><span size="2" style="font-size: 12px; font-family: verdana;"><br />
+            <strong><em><br />
+            </em></strong><a href="https://www.bloomberg.com/news/videos/2018-10-29/alexandria-real-estate-s-marcus-on-interest-rates-drug-pricing-video" target="_blank" style="color: #0070c0; line-height: 16px; font-size: 12px; font-family: verdana;">WATCH</a></span></blockquote></blockquote></td>
+        </tr>
+    </tbody>
+</table>
+<p>
+<img alt="" src="http://www.are.com/portals/0/content-divider.gif" /></p>
+<table>
+    <tbody>
+        <tr>
+            <td>
+            <p><img alt="CNBC Power Lunch" src="http://www.are.com/portals/0/cnbc_powerlunch_logo.png" style="width: 200px; height: 95px;" /></p>
+            </td>
+            <td><blockquote style="margin: 0px 0px 0px 45px; border: medium none; padding: 0px;"><blockquote style="margin: 0px 0px 0px 45px; border: medium none; padding: 0px;"><strong><em><span style="font-family: verdana; font-size: 13px;">Meet biotech companies' biggest landlord</span></em></strong><span size="2" style="font-size: 12px; font-family: verdana;"><br />
+            <strong><em><br />
+            </em></strong><a href="https://www.cnbc.com/video/2018/10/18/meet-biotech-companies-biggest-landlord.html" target="_blank" style="color: #0070c0; line-height: 16px; font-size: 12px; font-family: verdana;">WATCH HERE</a></span></blockquote></blockquote></td>
+        </tr>
+    </tbody>
+</table>
+<p>
+<img alt="" src="http://www.are.com/portals/0/content-divider.gif" /></p>
+<table>
+    <tbody>
+        <tr>
+            <td>
+            <p><img alt="Bloomberg TV" src="http://www.are.com/portals/0/Bloomberg-Television-Logo.jpg" style="width: 200px; height: 54px;" /></p>
+            </td>
+            <td><blockquote style="margin: 0px 0px 0px 45px; border: medium none; padding: 0px;"><blockquote style="margin: 0px 0px 0px 45px; border: medium none; padding: 0px;"><strong><em><span style="font-family: verdana; font-size: 13px;">How Cambridge Became a Biotech Hub</span></em></strong><span size="2" style="font-size: 12px; font-family: verdana;"><br />
+            <strong><em><br />
+            </em></strong><a href="https://www.bloomberg.com/news/videos/2018-10-05/how-cambridge-became-a-biotech-hub-video" target="_blank" style="color: #0070c0; line-height: 16px; font-size: 12px; font-family: verdana;">WATCH HERE</a></span></blockquote></blockquote></td>
+        </tr>
+    </tbody>
+</table>
+<p>
+<img alt="" src="http://www.are.com/portals/0/content-divider.gif" /></p>
+<table>
+    <tbody>
+        <tr>
+            <td>
+            <p><img alt="The Motley Fool" src="http://www.are.com/portals/0/motleyfool.png" style="width: 200px; height: 65px;" /></p>
+            </td>
+            <td><blockquote style="margin: 0px 0px 0px 45px; border: medium none; padding: 0px;"><blockquote style="margin: 0px 0px 0px 45px; border: medium none; padding: 0px;"><strong><em><span style="font-family: verdana; font-size: 13px;">Alexandria Real Estate Equities: Is This Stock a Buy?</span></em></strong><span size="2" style="font-size: 12px; font-family: verdana;"><br />
+            <strong><em><br />
+            </em></strong><a href="https://www.fool.com/investing/2018/05/24/my-conversation-with-alexandria-real-estate-is-thi.aspx" target="_blank" style="color: #0070c0; line-height: 16px; font-size: 12px; font-family: verdana;">READ MORE</a></span></blockquote></blockquote></td>
+        </tr>
+    </tbody>
+</table>
+<p>
+<img alt="" src="http://www.are.com/portals/0/content-divider.gif" /></p>
+<table>
+    <tbody>
+        <tr>
+            <td>
+            <p><img alt="San Francisco Business Times" src="http://www.are.com/portals/0/logo-sf-business-times.png" style="width: 200px; height: 65px;" /></p>
+            </td>
+            <td><blockquote style="margin: 0px 0px 0px 45px; border: medium none; padding: 0px;"><blockquote style="margin: 0px 0px 0px 45px; border: medium none; padding: 0px;"><strong><em><span style="font-family: verdana; font-size: 13px;">Fast-growing biotech finds Peninsula expansion space with a Twist</span></em></strong><span size="2" style="font-size: 12px; font-family: verdana;"><br />
+            <strong><em><br />
+            </em></strong><a href="https://www.bizjournals.com/sanfrancisco/news/2018/05/02/twist-bioscience-expansion-alexandria-are.html" target="_blank" style="color: #0070c0; line-height: 16px; font-size: 12px; font-family: verdana;">READ MORE</a>&nbsp;(subscriber content)</span></blockquote></blockquote></td>
+        </tr>
+    </tbody>
+</table>
+<p>
+<img alt="" src="http://www.are.com/portals/0/content-divider.gif" /></p>
+<table>
+    <tbody>
+        <tr>
+            <td>
+            <p><img alt="The Boston Globe" src="http://www.are.com/portals/0/boston-globe-logo.jpg" />
+            </p>
+            </td>
+            <td><blockquote style="margin: 0px 0px 0px 45px; border: medium none; padding: 0px;"><blockquote style="margin: 0px 0px 0px 45px; border: medium none; padding: 0px;"><strong><em><span style="font-family: verdana; font-size: 13px;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Incubator aims to invest in biotech tenants, too</span></em></strong><span size="2" style="font-size: 12px; font-family: verdana;"><br />
+            <strong><em><br />
+            </em></strong><span style="line-height: 16px; color: #0070c0;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<a href="https://www.bostonglobe.com/business/2018/04/11/alexandria/u8PvBRgL3sAb7A8qdc6G5O/story.html" target="_blank" style="color: #0070c0; line-height: 16px; font-size: 12px; font-family: verdana;">READ MORE</a></span></span>
+            </blockquote></blockquote></td>
+        </tr>
+    </tbody>
+</table>
+<br />
+<img alt="" src="http://www.are.com/portals/0/content-divider.gif" /><br />
+<br />
+<table>
+    <tbody>
+        <tr>
+            <td>
+            <p><img alt="CNBC Power Lunch" src="http://www.are.com/portals/0/cnbc_powerlunch_logo.png" style="width: 200px; height: 95px;" /></p>
+            </td>
+            <td><blockquote style="margin: 0px 0px 0px 45px; border: medium none; padding: 0px;"><blockquote style="margin: 0px 0px 0px 45px; border: medium none; padding: 0px;"><strong><em><span style="font-family: verdana; font-size: 13px;"> Location to top academic institutions is key to be a landlord...</span></em></strong><span size="2" style="font-size: 12px; font-family: verdana;"><br />
+            <strong><em><br />
+            </em></strong><a href="https://www.cnbc.com/video/2018/03/14/location-to-top-academic-institutions-is-key-to-being-a-landlord-for-biotech.html?play=1" target="_blank" style="color: #0070c0; line-height: 16px; font-size: 12px; font-family: verdana;">WATCH HERE</a></span>
+            </blockquote></blockquote></td>
+        </tr>
+    </tbody>
+</table>
+<br />
+<img alt="" src="http://www.are.com/portals/0/content-divider.gif" /><br />
+<br />
+<table>
+    <tbody>
+        <tr>
+            <td>
+            <p><img alt="Fox Business" src="http://www.are.com/portals/0/foxbiz.png" style="width: 200px; height: 95px;" /></p>
+            </td>
+            <td><blockquote style="margin: 0px 0px 0px 45px; border: medium none; padding: 0px;"><blockquote style="margin: 0px 0px 0px 45px; border: medium none; padding: 0px;"><strong><em><span style="font-family: verdana; font-size: 13px;"> Focus on urban innovation clusters key to commercial real estate success?</span></em></strong><span size="2" style="font-size: 12px; font-family: verdana;"><br />
+            <strong><em><br />
+            </em></strong><a href="http://video.foxbusiness.com/v/5704996626001/?#sp=show-clips" target="_blank" style="color: #0070c0; line-height: 16px; font-size: 12px; font-family: verdana;">WATCH HERE</a></span>
+            </blockquote></blockquote></td>
+        </tr>
+    </tbody>
+</table>
+<br />
+<img alt="" src="http://www.are.com/portals/0/content-divider.gif" /><br />
+<br />
+<table>
+    <tbody>
+        <tr>
+            <td>
+            <p><img alt="Kiplinger" src="/portals/0/kiplinger_logo.png" style="width: 200px; height: 53px;" /></p>
+            </td>
+            <td><blockquote style="margin: 0px 0px 0px 45px; border: medium none; padding: 0px;"><blockquote style="margin: 0px 0px 0px 45px; border: medium none; padding: 0px;"><strong><em><span style="font-family: verdana; font-size: 13px;">5 Great REITs to Buy Now</span></em></strong><span size="2" style="font-size: 12px; font-family: verdana;"><br />
+            <strong><em><br />
+            </em></strong><a href="https://www.kiplinger.com/article/investing/T044-C000-S002-5-great-reits-to-buy-now.html" target="_blank" style="color: #0070c0; line-height: 16px; font-size: 12px; font-family: verdana;">READ MORE</a><br />
+            </span>
+            </blockquote></blockquote></td>
+        </tr>
+    </tbody>
+</table>
+<br />
+<img alt="" src="http://www.are.com/portals/0/content-divider.gif" /><br />
+<br />
+<table>
+    <tbody>
+        <tr>
+            <td>
+            <p><img alt="Nareit" src="http://www.are.com/portals/0/nareit_logo.png" style="width: 200px; height: 30px;" /></p>
+            </td>
+            <td><blockquote style="margin: 0px 0px 0px 45px; border: medium none; padding: 0px;"><blockquote style="margin: 0px 0px 0px 45px; border: medium none; padding: 0px;"><strong><em><span style="font-family: verdana; font-size: 13px;"> Alexandria CEO Marcus Says Wellness Programs Contributing to Healthy Bottom Line</span></em></strong><span size="2" style="font-size: 12px; font-family: verdana;"><br />
+            <strong><em><br />
+            </em></strong><a href="https://www.reit.com/news/videos/alexandria-ceo-marcus-says-wellness-programs-contributing-healthy-bottom-line" target="_blank" style="color: #0070c0; line-height: 16px; font-size: 12px; font-family: verdana;">WATCH</a><br />
+            <br />
+            </span>
+            </blockquote></blockquote></td>
+        </tr>
+    </tbody>
+</table>
+<br />
+<img alt="" src="http://www.are.com/portals/0/content-divider.gif" /><br />
+<br />
+<table>
+    <tbody>
+        <tr>
+            <td>
+            <p><img alt="Bloomberg" src="http://www.are.com/portals/0/BloombergLogo.png" style="width: 200px; height: 55px;" /></p>
+            </td>
+            <td><blockquote style="margin: 0px 0px 0px 45px; border: medium none; padding: 0px;"><blockquote style="margin: 0px 0px 0px 45px; border: medium none; padding: 0px;"><strong><em><span style="font-family: verdana; font-size: 13px;"> Alexandria Real Estate Equities CEO on Biotech Campuses</span></em></strong><span size="2" style="font-size: 12px; font-family: verdana;"><br />
+            <strong><em><br />
+            </em></strong><a href="https://www.bloomberg.com/news/videos/2017-10-20/alexandria-real-estate-ceo-on-biotech-campuses-video" target="_blank" style="color: #0070c0; line-height: 16px; font-size: 12px; font-family: verdana;">WATCH</a><br />
+            <br />
+            </span>
+            </blockquote></blockquote></td>
+        </tr>
+    </tbody>
+</table>
+<br />
+<img alt="" src="http://www.are.com/portals/0/content-divider.gif" /><br />
+<br />
+<table>
+    <tbody>
+        <tr>
+            <td>
+            <p><img alt="Boston Business Journal" src="http://www.are.com/portals/0/BBJ_logo.png" style="width: 200px; height: 55px;" /></p>
+            </td>
+            <td><blockquote style="margin: 0px 0px 0px 45px; border: medium none; padding: 0px;"><blockquote style="margin: 0px 0px 0px 45px; border: medium none; padding: 0px;"><strong><em><span style="font-family: verdana; font-size: 13px;"> In Person: Joel Marcus says Alexandria is still bullish on Greater Boston</span></em></strong><span size="2" style="font-size: 12px; font-family: verdana;"><br />
+            <strong><em><br />
+            </em></strong><a href="https://www.bizjournals.com/boston/news/2017/08/30/in-person-joel-marcus-says-alexandria-is-still.html" target="_blank" style="color: #0070c0; line-height: 16px; font-size: 12px; font-family: verdana;">READ MORE</a>&nbsp;(subscriber content)<br />
+            </span>
+            </blockquote></blockquote></td>
+        </tr>
+    </tbody>
+</table>
+<br />
+<img alt="" src="http://www.are.com/portals/0/content-divider.gif" /><br />
+<br />
+<table>
+    <tbody>
+        <tr>
+            <td>
+            <p><img alt="CNBC Squawk Box" src="http://www.are.com/portals/0/squawkbox_show.jpg" /></p>
+            </td>
+            <td><blockquote style="margin: 0px 0px 0px 45px; border: medium none; padding: 0px;"><blockquote style="margin: 0px 0px 0px 45px; border: medium none; padding: 0px;"><strong><em><span style="font-family: verdana; font-size: 13px;"> Alexandria Real Estate's Joel Marcus: Biotech REIT a pretty good stable investment</span></em></strong><span size="2" style="font-size: 12px; font-family: verdana;"><br />
+            <strong><em><br />
+            </em></strong><a href="http://www.cnbc.com/video/2017/07/05/alexandria-real-estates-joel-marcus.html" target="_blank" style="color: #0070c0; line-height: 16px; font-size: 12px; font-family: verdana;">WATCH HERE</a></span>
+            </blockquote></blockquote></td>
+        </tr>
+    </tbody>
+</table>
+<br />
+<img alt="" src="http://www.are.com/portals/0/content-divider.gif" /><br />
+<br />
+<table>
+    <tbody>
+        <tr>
+            <td>
+            <p><img alt="Fox Business" src="http://www.are.com/portals/0/foxbiz.png" style="width: 200px; height: 95px;" /></p>
+            </td>
+            <td><blockquote style="margin: 0px 0px 0px 45px; border: medium none; padding: 0px;"><blockquote style="margin: 0px 0px 0px 45px; border: medium none; padding: 0px;"><strong><em><span style="font-family: verdana; font-size: 13px;"> Alexandria Real Estate Equities CEO Joel Marcus on outlook for commercial real estate</span></em></strong><span size="2" style="font-size: 12px; font-family: verdana;"><br />
+            <strong><em><br />
+            </em></strong><a href="http://video.foxbusiness.com/v/5443413998001/?#sp=show-clips" target="_blank" style="color: #0070c0; line-height: 16px; font-size: 12px; font-family: verdana;">WATCH HERE</a></span>
+            </blockquote></blockquote></td>
+        </tr>
+    </tbody>
+</table>
+<br />
+<img alt="" src="http://www.are.com/portals/0/content-divider.gif" /><br />
+<br />
+<table>
+    <tbody>
+        <tr>
+            <td>
+            <p><img alt="Forbes" src="/portals/0/forbes-blue.jpg" style="width: 200px; height: 53px;" /></p>
+            </td>
+            <td><blockquote style="margin: 0px 0px 0px 45px; border: medium none; padding: 0px;"><blockquote style="margin: 0px 0px 0px 45px; border: medium none; padding: 0px;"><strong><em><span style="font-family: verdana; font-size: 13px;">The #1 Real Estate Stock To Own Is Built On Trends - Alexandria Real Estate Equities (NYSE:ARE)</span></em></strong><span size="2" style="font-size: 12px; font-family: verdana;"><br />
+            <strong><em><br />
+            </em></strong><a href="https://www.forbes.com/sites/adamhartung/2017/05/20/the-1-real-estate-stock-to-own-is-built-on-trends-alexandria-real-estate-equities-nyseare/#106c3d55572a" target="_blank" style="color: #0070c0; line-height: 16px; font-size: 12px; font-family: verdana;">READ MORE</a><br />
+            </span>
+            </blockquote></blockquote></td>
+        </tr>
+    </tbody>
+</table>
+<br />
+<img alt="" src="http://www.are.com/portals/0/content-divider.gif" /><br />
+<br />
+<table>
+    <tbody>
+        <tr>
+            <td>
+            <p><img alt="The Wall Street Journal" src="http://www.are.com/portals/0/wsj_logo2.jpg" style="width: 190px; height: 128px; float: left;" /></p>
+            </td>
+            <td><blockquote style="margin: 0px 0px 0px 45px; border: medium none; padding: 0px;"><blockquote style="margin: 0px 0px 0px 45px; border: medium none; padding: 0px;"><strong><em><span style="font-family: verdana; font-size: 13px;">Alexandria Real Estate Equities Picks Startups for Manhattan Complex</span></em></strong><span size="2" style="font-size: 12px; font-family: verdana;"><br />
+            <strong><em><br />
+            </em></strong><a href="https://www.wsj.com/articles/alexandria-real-estate-equities-picks-startups-for-manhattan-complex-1488320206" target="_blank" style="color: #0070c0; line-height: 16px; font-size: 12px; font-family: verdana;">READ MORE</a><br />
+            (subscription required for full story)<br />
+            </span>
+            </blockquote></blockquote></td>
+        </tr>
+    </tbody>
+</table>
+<br />
+<img alt="" src="http://www.are.com/portals/0/content-divider.gif" /><br />
+<br />
+<table>
+    <tbody>
+        <tr>
+            <td>
+            <p><img alt="San Francisco Chronicle" src="http://www.are.com/portals/0/sfchron.png" style="width: 200px; height: 95px;" /></p>
+            </td>
+            <td><blockquote style="margin: 0px 0px 0px 45px; border: medium none; padding: 0px;"><blockquote style="margin: 0px 0px 0px 45px; border: medium none; padding: 0px;"><strong><em><span style="font-family: verdana; font-size: 13px;">Success of SF&rsquo;s Mission Bay leaves high demand for office space</span></em></strong><span size="2" style="font-size: 12px; font-family: verdana;"><br />
+            <strong><em><br />
+            </em></strong><a href="http://www.sfchronicle.com/bayarea/article/Success-of-SF-s-Mission-Bay-leaves-high-demand-10839077.php#photo-12144033" target="_blank" style="color: #0070c0; line-height: 16px; font-size: 12px; font-family: verdana;">READ MORE</a></span>
+            </blockquote></blockquote></td>
+        </tr>
+    </tbody>
+</table>
+<br />
+<img alt="" src="http://www.are.com/portals/0/content-divider.gif" /><br />
+<br />
+<table>
+    <tbody>
+        <tr>
+            <td>
+            <p><img alt="Fox Business" src="http://www.are.com/portals/0/foxbiz.png" style="width: 200px; height: 95px;" /></p>
+            </td>
+            <td><blockquote style="margin: 0px 0px 0px 45px; border: medium none; padding: 0px;"><blockquote style="margin: 0px 0px 0px 45px; border: medium none; padding: 0px;"><strong><em><span style="font-family: verdana; font-size: 13px;">Merck selects Alexandria Real Estate to develop research facility</span></em></strong><span size="2" style="font-size: 12px; font-family: verdana;"><br />
+            <strong><em><br />
+            </em></strong><a href="http://video.foxbusiness.com/v/5229313832001/?#sp=show-clips" target="_blank" style="color: #0070c0; line-height: 16px; font-size: 12px; font-family: verdana;">WATCH HERE</a></span>
+            </blockquote></blockquote></td>
+        </tr>
+    </tbody>
+</table>
+<br />
+<img alt="" src="http://www.are.com/portals/0/content-divider.gif" /><br />
+<br />
+<table>
+    <tbody>
+        <tr>
+            <td>
+            <p><img alt="Xconomy" src="http://www.are.com/portals/0/imgres.jpg" /></p>
+            </td>
+            <td><blockquote style="margin: 0px 0px 0px 45px; border: medium none; padding: 0px;"><blockquote style="margin: 0px 0px 0px 45px; border: medium none; padding: 0px;"><strong><em><span style="font-family: verdana; font-size: 13px;">
+            </span></em></strong>
+            <p class="p1"><strong><em><span style="font-family: verdana; font-size: 13px;">Workforce Trends, Economy, &amp; More: Q&amp;A With<br />
+            Alexandria&rsquo;s Joel Marcus</span></em></strong><span style="font-family: verdana; font-size: 13px;"><br />
+            <strong style="font-weight: bold; font-style: italic;"><em><br />
+            </em></strong><span style="line-height: 16px; color: #0070c0;"><a href="http://www.xconomy.com/national/2016/09/19/workforce-trends-economy-more-qa-with-alexandrias-joel-marcus/?single_page=true" target="_blank" style="color: #0070c0; line-height: 16px; font-size: 12px; font-family: verdana;">READ MORE</a></span></span>
+            </p>
+            </blockquote></blockquote></td>
+        </tr>
+    </tbody>
+</table>
+<br />
+<img alt="" src="http://www.are.com/portals/0/content-divider.gif" /><br />
+<br />
+<table>
+    <tbody>
+        <tr>
+            <td>
+            <p><img alt="NYSE" src="http://www.are.com/portals/0/NYSE175.jpg" style="width: 175px; height: 120px;" /></p>
+            </td>
+            <td><blockquote style="margin: 0px 0px 0px 70px; border: medium none; padding: 0px;"><blockquote style="margin: 0px 0px 0px 45px; border: medium none; padding: 0px;"><strong><em><span style="font-family: verdana; font-size: 13px;">Building for the Biotech Revolution</span></em></strong><span style="font-family: verdana; font-size: 13px;"><br />
+            <strong style="font-weight: bold; font-style: italic;"><em><br />
+            </em></strong><span style="line-height: 16px; color: #0070c0;"><a href="https://www.nyse.com/network/article/nyse-alexandria-real-estate" target="_blank" style="color: #0070c0; line-height: 16px; font-size: 12px; font-family: verdana;">READ MORE</a></span></span>
+            </blockquote></blockquote></td>
+        </tr>
+    </tbody>
+</table>
+<br />
+<img alt="" src="http://www.are.com/portals/0/content-divider.gif" /><br />
+<br />
+<table>
+    <tbody>
+        <tr>
+            <td>
+            <p><img alt="CNBC Mad Money with Jim Cramer" src="http://www.are.com/portals/0/Mad_Money.png" /></p>
+            </td>
+            <td><blockquote style="margin: 0px 0px 0px 45px; border: medium none; padding: 0px;"><blockquote style="margin: 0px 0px 0px 45px; border: medium none; padding: 0px;"><strong><em><span style="font-family: verdana; font-size: 13px;">Alexandria Real Estate Equities CEO: Moving Ahead </span></em></strong><span style="font-family: verdana; font-size: 13px;"><br />
+            <strong style="font-weight: bold; font-style: italic;"><em><br />
+            </em></strong><span style="line-height: 16px; color: #0070c0;"><a href="https://www.youtube.com/watch?v=L5rni31lXrw&amp;feature=youtu.be" target="_blank" style="color: #0070c0; line-height: 16px; font-size: 12px; font-family: verdana;">WATCH HERE</a></span></span>
+            </blockquote></blockquote></td>
+        </tr>
+    </tbody>
+</table>
+<br />
+<img alt="" src="http://www.are.com/portals/0/content-divider.gif" /><br />
+<br />
+<table>
+    <tbody>
+        <tr>
+            <td>
+            <p><img alt="Business Insider" src="http://www.are.com/portals/0/BI_logo.jpg" style="width: 200px; height: 95px;" /></p>
+            </td>
+            <td><blockquote style="margin: 0px 0px 0px 45px; border: medium none; padding: 0px;"><blockquote style="margin: 0px 0px 0px 45px; border: medium none; padding: 0px;"><strong><em><span style="font-family: verdana; font-size: 13px;">Take a look inside the stunning offices where companies are reinventing NYC's biotech scene</span></em></strong><span style="font-family: verdana; font-size: 13px;"><br />
+            <strong style="font-weight: bold; font-style: italic;"><em><br />
+            </em></strong><span style="line-height: 16px; color: #0070c0;"><a href="http://www.businessinsider.com/alexandria-center-for-life-science-office-tour-in-manhattan-2016-7" target="_blank" style="color: #0070c0; line-height: 16px; font-size: 12px; font-family: verdana;">READ MORE</a></span></span>
+            </blockquote></blockquote></td>
+        </tr>
+    </tbody>
+</table>
+<br />
+<img alt="" src="http://www.are.com/portals/0/content-divider.gif" /><br />
+<br />
+<table>
+    <tbody>
+        <tr>
+            <td>
+            <p><img alt="Crain's New York Business" src="http://www.are.com/portals/0/crainsnyc.png" style="width: 200px; height: 95px;" /></p>
+            </td>
+            <td><blockquote style="margin: 0px 0px 0px 45px; border: medium none; padding: 0px;"><blockquote style="margin: 0px 0px 0px 45px; border: medium none; padding: 0px;"><strong><em><span style="font-family: verdana; font-size: 13px;">New life science incubator to open next year</span></em></strong><span size="2" style="font-size: 12px; font-family: verdana;"><br />
+            <strong><em><br />
+            </em></strong><span style="line-height: 16px; color: #0070c0;"><a href="http://www.crainsnewyork.com/article/20160608/REAL_ESTATE/160609892/new-life-science-incubator-to-open-on-the-east-side-of-manhattan" target="_blank" style="color: #0070c0; line-height: 16px; font-size: 12px; font-family: verdana;">READ MORE</a></span></span>
+            </blockquote></blockquote></td>
+        </tr>
+    </tbody>
+</table>
+<br />
+<img alt="" src="http://www.are.com/portals/0/content-divider.gif" /><br />
+<br />
+<table>
+    <tbody>
+        <tr>
+            <td>
+            <p><img alt="Financial Times" src="http://www.are.com/portals/0/FTlogo_b.png" style="width: 200px; height: 95px;" /></p>
+            </td>
+            <td><blockquote style="margin: 0px 0px 0px 45px; border: medium none; padding: 0px;"><blockquote style="margin: 0px 0px 0px 45px; border: medium none; padding: 0px;"><strong><em><span style="font-family: verdana; font-size: 13px;">Biotech in the Big Apple</span></em></strong><span size="2" style="font-size: 12px; font-family: verdana;"><br />
+            <strong><em><br />
+            </em></strong><span style="line-height: 16px; color: #0070c0;"><a href="http://video.ft.com/4892542987001/Biotech-in-the-Big-Apple/Companies" target="_blank" style="color: #0070c0; line-height: 16px; font-size: 12px; font-family: verdana;">WATCH HERE</a></span></span>
+            </blockquote></blockquote></td>
+        </tr>
+    </tbody>
+</table>
+<br />
+<img alt="" src="http://www.are.com/portals/0/content-divider.gif" /><br />
+<br />
+<table>
+    <tbody>
+        <tr>
+            <td>
+            <p><img alt="CNBC Squawk Box" src="http://www.are.com/portals/0/cnbc_squawkbox.jpg" style="width: 200px; height: 95px;" /></p>
+            </td>
+            <td><blockquote style="margin: 0px 0px 0px 45px; border: medium none; padding: 0px;"><blockquote style="margin: 0px 0px 0px 45px; border: medium none; padding: 0px;"><strong><em><span style="font-family: verdana; font-size: 13px;">Real estate in middle of multi-year recovery: Pro</span></em></strong><span size="2" style="font-size: 12px; font-family: verdana;"><br />
+            <strong><em><br />
+            </em></strong><span style="line-height: 16px; color: #0070c0;"><a href="http://video.cnbc.com/gallery/?video=3000446464" target="_blank" style="color: #0070c0; line-height: 16px; font-size: 12px; font-family: verdana;">WATCH HERE</a></span></span>
+            </blockquote></blockquote></td>
+        </tr>
+    </tbody>
+</table>
+<p>
+<img alt="" src="http://www.are.com/portals/0/content-divider.gif" /></p>
+<table>
+    <tbody>
+        <tr>
+            <td>
+            <p><img alt="Fox Business" src="http://www.are.com/portals/0/foxbiz.png" style="width: 200px; height: 95px;" /></p>
+            </td>
+            <td><blockquote style="margin: 0px 0px 0px 45px; border: medium none; padding: 0px;"><blockquote style="margin: 0px 0px 0px 45px; border: medium none; padding: 0px;"><strong><em><span style="font-family: verdana; font-size: 13px;">Developing urban campuses for tech, pharma</span></em></strong><span size="2" style="font-size: 12px; font-family: verdana;"><br />
+            <strong><em><br />
+            </em></strong><a href="http://video.foxbusiness.com/v/4434863495001/developing-urban-campuses-for-tech-pharma/?#sp=show-clips" target="_blank" style="color: #0070c0; line-height: 16px; font-size: 12px; font-family: verdana;">WATCH HERE</a></span>
+            </blockquote></blockquote></td>
+        </tr>
+    </tbody>
+</table>
+<p>
+<img alt="" src="http://www.are.com/portals/0/content-divider.gif" /></p>
+<table>
+    <tbody>
+        <tr>
+            <td>
+            <p><img alt="San Francisco Business Times" src="http://www.are.com/portals/0/logo-sf-business-times.png" style="width: 200px; height: 65px;" /></p>
+            </td>
+            <td><blockquote style="margin: 0px 0px 0px 45px; border: medium none; padding: 0px;"><blockquote style="margin: 0px 0px 0px 45px; border: medium none; padding: 0px;"><strong><em><span style="font-family: verdana; font-size: 13px;">Stripe's Future SoMa Headquarters Gets City's Blessing </span></em></strong><span size="2" style="font-size: 12px; font-family: verdana;"><br />
+            <strong><em><br />
+            </em></strong><a href="http://www.bizjournals.com/sanfrancisco/blog/real-estate/2015/08/stripes-soma-hq-sf-510-townsend-alexandria-are.html" target="_blank" style="color: #0070c0; line-height: 16px; font-size: 12px; font-family: verdana;">READ MORE</a>&nbsp;(subscriber content)<br />
+            </span></blockquote></blockquote></td>
+        </tr>
+    </tbody>
+</table>
+<p>
+<img alt="" src="http://www.are.com/portals/0/content-divider.gif" /></p>
+<table>
+    <tbody>
+        <tr>
+            <td>
+            <p><img alt="The New York Times" src="http://www.are.com/portals/0/RTEmagicC_nytLogo_02.jpg.jpg" /></p>
+            </td>
+            <td><blockquote style="margin: 0px 0px 0px 45px; border: medium none; padding: 0px;"><blockquote style="margin: 0px 0px 0px 45px; border: medium none; padding: 0px;"><strong><em><span style="font-family: verdana; font-size: 13px;">Joel S. Marcus on Taking the Ego out of Leading</span></em></strong><span size="2" style="font-size: 12px; font-family: verdana;"><br />
+            <strong><em><br />
+            </em></strong><a href="http://www.nytimes.com/2015/08/02/business/joel-s-marcus-on-taking-the-ego-out-of-leading.html" target="_blank" style="color: #0070c0; line-height: 16px; font-size: 12px; font-family: verdana;">READ MORE</a></span>
+            </blockquote></blockquote></td>
+        </tr>
+    </tbody>
+</table>
+<p>
+<img alt="" src="http://www.are.com/portals/0/content-divider.gif" /></p>
+<table>
+    <tbody>
+        <tr>
+            <td>
+            <p><img alt="Bloomberg Business" src="http://www.are.com/portals/0/bloomberg_logo.jpg" style="width: 200px; height: 94px;" /></p>
+            </td>
+            <td><blockquote style="border: medium none; padding: 0px;"><blockquote style="border: medium none; padding: 0px;">
+            <p style="border: medium none; padding: 0px;"><strong><em><span style="font-family: verdana; font-size: 13px;">Tech, Pharma Companies Go Urban in Real Estate Strategy</span></em></strong><span size="2" style="font-size: 12px; font-family: verdana;"><br />
+            <strong><em><br />
+            </em></strong><a href="http://www.bloomberg.com/news/videos/2015-07-20/tech-pharma-companies-go-urban-in-real-estate-strategy" target="_blank" style="color: #0070c0; line-height: 16px; font-size: 12px; font-family: verdana;">WATCH HERE</a></span></p>
+            </blockquote></blockquote></td>
+        </tr>
+    </tbody>
+</table>
+<p>
+<img alt="" src="http://www.are.com/portals/0/content-divider.gif" /></p>
+<table>
+    <tbody>
+        <tr>
+            <td>
+            <p><img alt="BIO Buzz Center" src="http://www.are.com/portals/0/Buzz_Center_2015_160px.jpg" /></p>
+            </td>
+            <td><blockquote style="margin: 0px 0px 0px 42px; border: medium none; padding: 0px;"><blockquote style="margin: 0px 0px 0px 42px; border: medium none; padding: 0px;">
+            <p style="margin: 0px 0px 0px 42px; border: medium none; padding: 0px;"><span class="Normal" style="font-family: verdana;"><strong><em><span style="font-size: 13px;">&nbsp; Buzz Center, 2015 BIO International Convention<br />
+            </span></em></strong></span><strong style="font-family: verdana; font-size: small;"><em>&nbsp;</em></strong></p>
+            <blockquote style="margin: 0px 0px 0px 25px; border: medium none; padding: 0px;">
+            <p style="margin: 0px 0px 0px 25px; border: medium none; padding: 0px;"><span class="Normal" style="font-family: verdana; font-size: 13px; color: #0070c0;"><a href="https://www.youtube.com/watch?v=OHGUCognhDQ" target="_blank"><span style="font-size: 13px; color: #0070c0;">WATCH HERE</span></a></span></p>
+            </blockquote></blockquote>
+            </blockquote></td>
+        </tr>
+    </tbody>
+</table>
+<img alt="" src="http://www.are.com/portals/0/content-divider.gif" /><br />
+<table>
+    <tbody>
+        <tr>
+            <td>
+            <p><img alt="CNBC" src="http://www.are.com/portals/0/cnbc-logo.jpg" />
+            </p>
+            </td>
+            <td><blockquote style="margin: 0px 0px 0px 35px; border: medium none; padding: 0px;"><blockquote style="margin: 0px 0px 0px 35px; border: medium none; padding: 0px;">
+            <p style="margin: 0px 0px 0px 35px; border: medium none; padding: 0px;"><span class="Normal" style="font-family: verdana;"><strong><em><span style="font-size: 13px;">Biotech's real estate boom<br />
+            </span></em></strong></span><span size="2" style="font-size: 12px; line-height: 16px; font-family: verdana; color: #0070c0;"><br />
+            <a href="http://www.cnbc.com/id/102636461" target="_blank" style="font-size: 12px; line-height: 16px; font-family: verdana;">WATCH HERE</a></span></p>
+            </blockquote>
+            <div><br />
+            </div>
+            </blockquote></td>
+        </tr>
+    </tbody>
+</table>
+<p>
+<img alt="" src="http://www.are.com/portals/0/content-divider.gif" /></p>
+<table>
+    <tbody>
+        <tr>
+            <td>
+            <p><img alt="The Boston Globe" src="http://www.are.com/portals/0/boston-globe-logo.jpg" /></p>
+            </td>
+            <td>
+            <blockquote style="margin: 0px 0px 0px 42px; border: medium none; padding: 0px;"><blockquote style="margin: 0px 0px 0px 42px; border: medium none; padding: 0px;">
+            <p style="margin: 0px 0px 0px 42px; border: medium none; padding: 0px;"><span class="Normal" style="font-family: verdana;"><strong><em><span style="font-size: 13px;">&nbsp; Alexandria Real Estate's empire grows in Kendall Square </span></em></strong></span><strong style="font-family: verdana; font-size: small;"><em>&nbsp;</em></strong></p>
+            <span style="font-size: 12.2222px; line-height: 16px; font-family: verdana;"><br />
+            </span>
+            <blockquote style="margin: 0px 0px 0px 25px; border: medium none; padding: 0px;">
+            <p style="margin: 0px 0px 0px 25px; border: medium none; padding: 0px;"><span class="Normal" style="font-weight: normal; font-family: verdana; font-size: 13px; color: #0070c0;"><a href="https://www.bostonglobe.com/business/2015/04/14/real-estate-empire-grows-kendall-square/6tsJPNZVFVaW1G7VhtekNP/story.html" target="_blank"><span style="font-size: 13px; color: #0070c0;">READ MORE</span></a></span></p>
+            </blockquote>
+            </blockquote></blockquote></td>
+        </tr>
+    </tbody>
+</table>
+<p>
+</p>
+<p><img alt="" src="http://www.are.com/portals/0/content-divider.gif" /></p>
+<p>
+</p>
+<table>
+    <tbody>
+        <tr>
+            <td>
+            <p><img alt="The Wall Street Journal" src="http://www.are.com/portals/0/wsj_logo2.jpg" style="width: 190px; height: 128px; float: left;" /></p>
+            </td>
+            <td>
+            <blockquote style="margin: 0px 0px 0px 42px; border: medium none; padding: 0px;"><blockquote style="margin: 0px 0px 0px 42px; border: medium none; padding: 0px;">
+            <p style="margin: 0px 0px 0px 42px; border: medium none; padding: 0px;"><span class="Normal" style="font-family: verdana;"><strong><em><span style="font-size: 13px;">Joel Marcus of Alexandria Real Estate on the Biotech Boom </span></em></strong></span><strong style="font-family: verdana; font-size: small;"><em>&nbsp;<br />
+            </em></strong><span size="2" style="font-size: 12px; font-family: verdana;"><strong><em><br />
+            </em></strong><a href="http://blogs.wsj.com/venturecapital/2015/03/30/joel-marcus-of-alexandria-real-estate-on-the-biotech-boom/" target="_blank" style="color: #0070c0; line-height: 16px; font-size: 12px; font-family: verdana;">READ MORE</a>&nbsp;<br />
+            (subscription required for full story)</span></p>
+            </blockquote>
+            </blockquote></td>
+        </tr>
+    </tbody>
+</table>
+<p>
+</p>
+<p><img alt="" src="http://www.are.com/portals/0/content-divider.gif" /></p>
+<p>
+</p>
+<table>
+    <tbody>
+        <tr>
+            <td>
+            <p><img alt="The Street" src="/portals/0/TheStreet_logo.png" /></p>
+            </td>
+            <td>
+            <blockquote style="margin: 0px 0px 0px 35px; border: medium none; padding: 0px;"><blockquote style="margin: 0px 0px 0px 35px; border: medium none; padding: 0px;">
+            <p style="margin: 0px 0px 0px 35px; border: medium none; padding: 0px;"><span class="Normal" style="font-family: verdana;"><strong><em><span style="font-size: 13px;">Alexandria Real Estate Not Too Leveraged to Biotech <br />
+            Boom Says CEO&nbsp;</span></em></strong></span><strong style="font-family: verdana; font-size: small;"><em>Benefit from the Drug Boom&nbsp;</em></strong></p>
+            </blockquote>
+            <span style="font-size: 12.2222px; line-height: 16px; font-family: verdana;"><br />
+            </span>
+            <blockquote style="margin: 0px 0px 0px 35px; border: medium none; padding: 0px;">
+            <p style="margin: 0px 0px 0px 35px; border: medium none; padding: 0px;"><span class="Normal" style="font-weight: normal; font-family: verdana; color: #0070c0;"><a href="http://www.thestreet.com/video/13076123/alexandria-real-estate-not-too-leveraged-to-biotech-boom-says-ceo.html" target="_blank"><span style="font-size: 13px; color: #0070c0;">WATCH HERE</span></a></span></p>
+            </blockquote>
+            </blockquote></td>
+        </tr>
+    </tbody>
+</table>
+<p><img alt="" src="/portals/0/content-divider.gif" /></p>
+<table>
+    <tbody>
+        <tr>
+            <td>
+            <p><img alt="Engineering News-Record" src="/portals/0/ENRlogo.jpg" /></p>
+            </td>
+            <td>
+            <blockquote style="margin: 0px 0px 0px 40px; border: medium none; padding: 0px;"><blockquote style="margin: 0px 0px 0px 40px; border: medium none; padding: 0px;">
+            <p style="margin: 0px 0px 0px 40px; border: medium none; padding: 0px;"><span class="Normal" style="font-family: verdana;"><strong><em><span style="font-size: 13px;">ENR New England Names Alexandria Real Estate its <br />
+            2015 Owner of the Year</span></em></strong></span><span class="Normal" style="font-weight: normal; font-family: verdana; font-size: 13px;">&nbsp;<br />
+            <br />
+            </span></p>
+            </blockquote><blockquote style="margin: 0px 0px 0px 40px; border: medium none; padding: 0px;">
+            <p style="margin: 0px 0px 0px 40px; border: medium none; padding: 0px;"><span class="Normal" style="font-family: verdana; font-size: 16px; color: #0070c0;"><a href="http://tinyurl.com/n7r54um" target="_blank"><span style="font-size: 13px; color: #0070c0;">READ MORE</span></a></span></p>
+            </blockquote></blockquote><blockquote style="margin: 0px 0px 0px 40px; border: medium none; padding: 0px;"></blockquote>
+            <div><br />
+            </div>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<img alt="" src="http://www.are.com/portals/0/content-divider.gif" /><br />
+<table>
+    <tbody>
+        <tr>
+            <td>
+            <p><img alt="Nareit" src="/portals/0/REIT-LogoNEW.png" style="width: 200px; height: 53px;" /></p>
+            </td>
+            <td><blockquote style="margin: 0px 0px 0px 40px; border: medium none; padding: 0px;"><blockquote style="margin: 0px 0px 0px 40px; border: medium none; padding: 0px;"><strong style="font-family: verdana; font-size: small;"><em>&nbsp; &nbsp; &nbsp;Alexandria Real Estate Equities CEO Says Demand <br />
+            &nbsp; &nbsp; &nbsp;at 20-Year High<br />
+            </em></strong></blockquote></blockquote><blockquote style="margin: 0px 0px 0px 40px; border: medium none; padding: 0px;"><span style="font-size: 12.2222px; line-height: 16px; font-family: verdana;"><br />
+            </span>
+            <p style="margin: 0px 0px 0px 40px; border: medium none; padding: 0px;"><span class="Normal" style="font-family: verdana; color: #0070c0;">&nbsp; &nbsp; &nbsp;<a href="https://www.reit.com/news/videos/alexandria-real-estate-equities-ceo-says-demand-20-year-high" target="_blank">READ MORE</a></span></p>
+            </blockquote>
+            <div><br />
+            </div>
+            </td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+    </tbody>
+</table>
+<img alt="" src="http://www.are.com/portals/0/content-divider.gif" /><br />
+<table>
+    <tbody>
+        <tr>
+            <td>
+            <p><img alt="Forbes" src="/portals/0/forbes-blue.jpg" style="width: 200px; height: 53px;" /></p>
+            </td>
+            <td>
+            <p style="margin: 0px 0px 0px 40px; border: medium none; padding: 0px;"><span class="Normal" style="font-weight: normal; font-family: verdana;">
+            </span></p>
+            <blockquote style="margin: 0px 0px 0px 40px; border: medium none; padding: 0px;">
+            <p style="margin: 0px 0px 0px 40px; border: medium none; padding: 0px;"><span style="font-family: verdana; font-size: 13px;"><strong><em>&nbsp; &nbsp; &nbsp;Biotech's Builder: How the Pharma's Landlord&nbsp;Could </em></strong></span></p>
+            </blockquote>
+            <blockquote style="margin: 0px 0px 0px 40px; border: medium none; padding: 0px;">
+            <p style="margin: 0px 0px 0px 40px; border: medium none; padding: 0px;"><span style="font-family: verdana; font-size: 13px;"><strong><em>&nbsp; &nbsp; &nbsp;Benefit from the Drug Boom&nbsp;</em></strong></span></p>
+            </blockquote>
+            <span style="font-size: 12.2222px; line-height: 16px; font-family: verdana;"><br />
+            </span>
+            <blockquote style="margin: 0px 0px 0px 40px; border: medium none; padding: 0px;">
+            <p style="margin: 0px 0px 0px 40px; border: medium none; padding: 0px;"><span class="Normal" style="font-weight: normal; font-family: verdana; color: #0070c0;">&nbsp; &nbsp; &nbsp;<a href="http://www.forbes.com/sites/matthewherper/2014/10/15/biotechs-builder-how-the-pharmas-landlord-could-benefit-from-the-drug-boom/" target="_blank">READ MORE</a></span></p>
+            </blockquote>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<p><img alt="" src="/portals/0/content-divider.gif" /></p>
+<table>
+    <tbody>
+        <tr>
+            <td>
+            <p><img alt="The Boston Globe" src="http://www.are.com/portals/0/boston-globe-logo.jpg" /></p>
+            </td>
+            <td>
+            <blockquote style="margin: 0px 0px 0px 40px; border: medium none; padding: 0px;"><blockquote style="margin: 0px 0px 0px 40px; border: medium none; padding: 0px;">
+            <p style="margin: 0px 0px 0px 40px; border: medium none; padding: 0px;"><span class="Normal" style="font-family: verdana;"><strong><em>&nbsp; <span style="font-size: 13px;">&nbsp; Seven Things You Should Know About Joel S. Marcus</span></em></strong></span><span class="Normal" style="font-weight: normal; font-family: verdana; font-size: 13px;">&nbsp;</span></p>
+            </blockquote><span style="font-size: 12.2222px; line-height: 16px; font-family: verdana;"><br />
+            </span><blockquote style="margin: 0px 0px 0px 40px; border: medium none; padding: 0px;">
+            <p style="margin: 0px 0px 0px 40px; border: medium none; padding: 0px;"><span class="Normal" style="font-weight: normal; font-family: verdana;">&nbsp; &nbsp; <a href="http://www.bostonglobe.com/business/2014/10/11/seven-things-you-should-know-about-joel-marcus-founder-alexandria-real-estate/9wN4YcCgafZ2JKOx6LwCaP/story.html" target="_blank"><span style="color: #0070c0;">READ MORE</span></a></span></p>
+            </blockquote></blockquote><blockquote style="margin: 0px 0px 0px 40px; border: medium none; padding: 0px;"></blockquote>
+            <div><br />
+            </div>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<p><img alt="" src="/portals/0/content-divider.gif" /></p>
+<table>
+    <tbody>
+        <tr>
+            <td>
+            <p><img alt="Nareit" src="http://www.are.com/portals/0/REIT-LogoNEW.png" style="width: 200px; height: 53px;" /></p>
+            </td>
+            <td>
+            <blockquote style="margin: 0px 0px 0px 40px; border: medium none; padding: 0px;"><blockquote style="margin: 0px 0px 0px 40px; border: medium none; padding: 0px;"><strong style="font-family: verdana; font-size: small;"><em>&nbsp; &nbsp; &nbsp;Alexandria Real Estate Equities Rides the Biotech</em></strong></blockquote></blockquote><blockquote style="margin: 0px 0px 0px 40px; border: medium none; padding: 0px;">
+            <p style="margin: 0px 0px 0px 40px; border: medium none; padding: 0px;"><span style="font-family: verdana; font-size: 13px;"><strong><em>&nbsp; &nbsp; &nbsp;Innovation Boom</em></strong></span></p>
+            <span style="font-size: 12.2222px; line-height: 16px; font-family: verdana;"><br />
+            </span>
+            <p style="margin: 0px 0px 0px 40px; border: medium none; padding: 0px;"><span class="Normal" style="font-weight: normal; font-family: verdana; color: #0070c0;">&nbsp; &nbsp; &nbsp;<a href="http://www.reit.com/news/articles/alexandria-real-estate-equities-rides-biotech-innovation-boom" target="_blank">READ MORE</a></span></p>
+            </blockquote>
+            <div><br />
+            </div>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<p><img alt="" src="http://www.are.com/portals/0/content-divider.gif" /></p>
+<table>
+    <tbody>
+        <tr>
+            <td>
+            <p><img alt="Bloomberg Business" src="http://www.are.com/portals/0/bloomberg_logo.jpg" /></p>
+            </td>
+            <td>
+            <blockquote style="margin: 0px 0px 0px 40px; border: medium none; padding: 0px;">
+            <p style="margin: 0px 0px 0px 40px; border: medium none; padding: 0px;"><span style="font-family: verdana; font-size: 13px;"><strong><em>&nbsp; Meet Joel Marcus, Uber's New Landlord</em></strong></span>&nbsp;</p>
+            </blockquote><blockquote style="margin: 0px 0px 0px 40px; border: medium none; padding: 0px;">
+            <p><span style="font-family: verdana;">
+            </span></p>
+            <p style="border: medium none; padding: 0px;"><span class="Normal" style="font-weight: normal; font-family: verdana; font-size: 16px; color: #0070c0;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<a href="http://www.bloomberg.com/video/uber-s-new-landlord-meet-joel-marcus-Kk3yspvcT7mipovyMWZ2Dw.html" target="_blank"><span style="font-size: 13px; color: #0070c0;">WATCH HERE</span></a></span></p>
+            </blockquote>
+            <div><br />
+            </div>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<p><img alt="" src="http://www.are.com/portals/0/content-divider.gif" /></p>
+<table>
+    <tbody>
+        <tr>
+            <td>
+            <p><img alt="The Wall Street Journal" src="http://www.are.com/portals/0/wsj_logo2.jpg" style="width: 190px; height: 127px;" /></p>
+            </td>
+            <td>
+            <blockquote style="margin: 0px 0px 0px 40px; border: medium none; padding: 0px;"><blockquote style="margin: 0px 0px 0px 40px; border: medium none; padding: 0px;"><blockquote style="margin: 0px 0px 0px 40px; border: medium none; padding: 0px;"><strong><em>
+            <p><span style="font-family: verdana; font-size: 13px;">Wanted: Biotech Startups in New York City</span></p>
+            </em></strong></blockquote></blockquote></blockquote><blockquote style="margin: 0px 0px 0px 40px; border: medium none; padding: 0px;"><blockquote style="margin: 0px 0px 0px 40px; border: medium none; padding: 0px;"><blockquote style="margin: 0px 0px 0px 40px; border: medium none; padding: 0px;"><strong><em>
+            </em></strong></blockquote></blockquote></blockquote><blockquote style="margin: 0px 0px 0px 40px; border: medium none; padding: 0px;"><blockquote style="margin: 0px 0px 0px 40px; border: medium none; padding: 0px;">
+            <p style="margin: 0px 0px 0px 40px; border: medium none; padding: 0px;"><span style="font-family: verdana; font-size: 13px;">The Alexandria Center for Life Science Looks to Expand</span></p>
+            </blockquote></blockquote><strong><em>
+            </em></strong>
+            <blockquote style="margin: 0px 0px 0px 40px; border: medium none; padding: 0px;"><blockquote style="margin: 0px 0px 0px 40px; border: medium none; padding: 0px;">
+            <p style="margin: 0px 0px 0px 40px; border: medium none; padding: 0px;"><span style="font-family: verdana; color: #0070c0;"><br />
+            <span style="font-size: 13px;"><a href="http://online.wsj.com/articles/wanted-biotech-startups-in-new-york-city-1406603189" target="_blank"><span style="color: #0070c0;">READ MORE</span></a></span></span></p>
+            </blockquote></blockquote>
+            <div><br />
+            </div>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<p><img alt="" src="http://www.are.com/portals/0/content-divider.gif" /></p>
+<table>
+    <tbody>
+        <tr>
+            <td>
+            <p><img alt="CNBC" src="http://www.are.com/portals/0/CNBC_HP_278px.jpg" style="width: 200px; height: 112px;" /></p>
+            </td>
+            <td>
+            <blockquote style="margin: 0px 0px 0px 40px; border: medium none; padding: 0px;"><blockquote style="margin: 0px 0px 0px 40px; border: medium none; padding: 0px;">
+            <p style="margin: 0px 0px 0px 40px; border: medium none; padding: 0px;"><span style="font-family: verdana; font-size: 13px;"><strong><em>Alexandria CEO: Top Tenants Looking for More Space</em></strong></span></p>
+            </blockquote></blockquote><blockquote style="margin: 0px 0px 0px 40px; border: medium none; padding: 0px;">
+            <blockquote style="margin: 0px 0px 0px 45px; border: medium none; padding: 0px;">
+            <p style="border: medium none; padding: 0px;"><span style="font-family: verdana; font-size: 13px;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br />
+            <span style="color: #0070c0;">&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<a href="http://video.cnbc.com/gallery/?video=3000235489" target="_blank">WATCH HERE</a></span></span></p>
+            </blockquote></blockquote>
+            <p style="margin: 0px 0px 0px 40px; border: medium none; padding: 0px;"><span style="font-family: verdana; font-size: 13px;">
+            </span></p>
+            <div><br />
+            </div>
+            </td>
+        </tr>
+    </tbody>
+</table>
+</div>
+
+</div><!-- End_Module_452 --></div>
+</div></div></div>
+        </div>
+   
+   
+    <div class="clearit"></div>
+    <!-- END HOME FEATURES -->
+    
+    <div id="footer">
+      <p id="footer-l"><script type="text/javascript">var d = new Date(); var n = "&#169; " + d.getFullYear();document.getElementById("footer-l").innerHTML = n;</script> Alexandria Real Estate Equities, Inc.</p>
+      <p id="footer-r"><a href="/TermsofService.aspx">Terms of Use</a> | <a href="/Privacy.aspx">Privacy</a></p>
+      <p class="clearit">&#160;</p>
+    </div>
+  </div>
+  <!-- END CONTENT CONTAINER --> 
+  
+</div>
+<!-- END MAIN CONTAINER -->
+ 
+<link href="/css/slick.css" rel="stylesheet"/>
+<link href="/css/slick-theme.css" rel="stylesheet"/>
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script type="text/javascript">var $j = jQuery.noConflict(true);</script>
+<!-- REAL ESTATE PAGE CAROUSEL -->
+<script type="text/javascript">
+        $j('.realestate').slick({
+            dots: true,
+            arrows: false,
+            slideToShow: 1,
+            autoplay: true,
+            fade: true,
+            autoplaySpeed: 5000,
+            appendDots: $j('.realestate')
+        });
+</script>
+
+<!-- CLUSTER MODEL PAGE CAROUSEL -->
+<script type="text/javascript">
+        $j('.clustermodel').slick({
+            dots: false,
+            arrows: false,
+            slideToShow: 1,
+            autoplay: true,
+            fade: true,
+            autoplaySpeed: 4000
+        });
+</script>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-34575909-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+        <input name="ScrollTop" type="hidden" id="ScrollTop" />
+        <input name="__dnnVariable" type="hidden" id="__dnnVariable" autocomplete="off" value="`{`__scdoff`:`1`}" />
+        
+    
+<script type="text/javascript" src="/Resources/Shared/scripts/initWidgets.js" ></script></form>
+    
+    
+
+
+	<div class="simple_overlay">
+	</div>
+
+
+    <script type="text/javascript">
+        //<![CDATA[
+        
+        //This code is to force a refresh of browser cache
+        //in case an old version of dnn.js is loaded
+        //It should be removed as soon as .js versioning is added
+        jQuery(document).ready(function () {
+		
+            if (navigator.userAgent.indexOf(" Chrome/") == -1) {
+                if ((typeof dnnJscriptVersion === 'undefined' || dnnJscriptVersion !== "6.0.0") && typeof dnn !== 'undefined') {
+                    window.location.reload(true);
+                }
+            }
+			/*if(location.pathname=="/"){
+				jQuery(".simple_overlay").overlay({
+					 mask: {
+						color: '#000000',
+						loadSpeed: 200,
+						opacity: 0.6
+					  },
+					  load: true				
+					}
+				);
+			}*/			
+		});
+         //]]>
+    </script>
+
+	<script type="text/javascript">
+	/*<![CDATA[*/
+	(function() {
+		var sz = document.createElement('script'); sz.type = 'text/javascript'; sz.async = true;
+		sz.src = '//siteimproveanalytics.com/js/siteanalyze_6034058.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz, s);
+	})();
+	/*]]>*/
+	</script>
+
+<!-- Texas -->
+
+<script async type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=36&cb=82941278"></script>
+</body>
+</html>
