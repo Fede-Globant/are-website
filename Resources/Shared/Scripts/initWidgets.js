@@ -13,7 +13,7 @@ if (typeof ($dnn) === "undefined") {
     $dnn = new Object();
     $dnn.pageScripts = document.getElementsByTagName("script");
     $dnn.scriptUrl = $dnn.pageScripts[$dnn.pageScripts.length - 1].src;
-    $dnn.hostUrl = (typeof ($dnn.hostUrl) == "undefined" ? $dnn.scriptUrl.toLowerCase().replace("resources/shared/scripts/initwidgets.js", "") : $dnn.hostUrl);
+    $dnn.hostUrl = (typeof ($dnn.hostUrl) == "undefined" ? $dnn.scriptUrl.toLowerCase().replace("resources/shared/Scripts/initWidgets.js", "") : $dnn.hostUrl);
     if (!$dnn.hostUrl.endsWith("/")) $dnn.hostUrl += "/";
     $dnn.baseDnnScriptUrl = $dnn.hostUrl + "Resources/Shared/scripts/";
     $dnn.baseResourcesUrl = $dnn.hostUrl + "Resources/";

@@ -705,7 +705,7 @@ and well-being of our team are important to their success. Our industry-leading 
         <input name="__dnnVariable" type="hidden" id="__dnnVariable" autocomplete="off" value="`{`__scdoff`:`1`}" />
         
     
-<script type="text/javascript" src="/Resources/Shared/scripts/initWidgets.js" ></script></form>
+<script type="text/javascript" src="/Resources/Shared/Scripts/initWidgets.js" ></script></form>
     
     
 

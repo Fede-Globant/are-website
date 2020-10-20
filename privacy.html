@@ -924,7 +924,7 @@ Re:  Privacy Policy Inquiries</p>
         <input name="__dnnVariable" type="hidden" id="__dnnVariable" autocomplete="off" value="`{`__scdoff`:`1`}" />
         
     
-<script type="text/javascript" src="/Resources/Shared/scripts/initWidgets.js" ></script></form>
+<script type="text/javascript" src="/Resources/Shared/Scripts/initWidgets.js" ></script></form>
     
     
 
