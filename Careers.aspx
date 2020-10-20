@@ -63,7 +63,7 @@ Sys.WebForms.PageRequestManager._initialize('ScriptManager', 'Form', [], [], [],
 <div id="dnn_ctr390_ContentPane" class="article"><!-- Start_Module_390 --><div id="dnn_ctr390_ModuleContent" class="DNNModuleContent ModDNNHTMLC">
 	
 <div id="dnn_ctr390_HtmlModule_lblContent" class="Normal">
-	<p style="text-align: center;"><a href="/Home.aspx"><img alt="" src="/portals/0/logo.gif" /></a></p>
+	<p style="text-align: center;"><a href="/Home.aspx"><img alt="" src="/Portals/0/logo.gif" /></a></p>
 
 </div>
 
@@ -467,7 +467,7 @@ Sys.WebForms.PageRequestManager._initialize('ScriptManager', 'Form', [], [], [],
 <div id="dnn_ctr400_HtmlModule_lblContent" class="Normal">
 	<h1>Careers</h1>
 <div class="image">Join Our Mission-Driven Team</div>
-<p><img alt="Alexandria employees at an annual Team Day" src="/portals/0/pasadena-teamday_edit.jpg" /></p>
+<p><img alt="Alexandria employees at an annual Team Day" src="/Portals/0/pasadena-teamday_edit.jpg" /></p>
 <p>Our team is family and at the center of all we do. We're looking for entrepreneurial and genuine individuals to join us in pursuit of <strong>our mission to enable the world's leading innovators in their efforts to advance human health</strong>. Our dedicated and talented team members work and collaborate across a range of functions, including:</p>
 <br />
 <div id="list-2columns">
@@ -503,41 +503,41 @@ Sys.WebForms.PageRequestManager._initialize('ScriptManager', 'Form', [], [], [],
 <p><strong><br />
 </strong></p>
 <p><strong><a href="https://cho.tbe.taleo.net/cho02/ats/careers/v2/searchResults?org=ALEXANDRIARE&amp;cws=40"><span style="text-decoration: underline; color: #0070c0;">View current opportunities</span></a></strong></p>
-<p><strong><a name="Awards" style="font-weight: bold;"><img alt="" src="http://www.are.com/portals/0/content-divider.gif" style="width: 754px; height: 33px;" /></a><br />
+<p><strong><a name="Awards" style="font-weight: bold;"><img alt="" src="http://www.are.com/Portals/0/content-divider.gif" style="width: 754px; height: 33px;" /></a><br />
 </strong>
 </p>
 <h3><strong>Our Culture &amp; Community&nbsp;</strong></h3>
-<p><img alt="We ARE Alexandria" src="/portals/0/20180802-IMG_4570.jpg" style="width: 260px; height: 175px; float: left; margin-right: 14px; margin-bottom: 3px;" />At Alexandria, integrity, respect, humility, and drive are woven into our DNA. We strive to remain agile as our company evolves; to cultivate a culture of excellence defined by our sense of purpose; and to seek opportunities to grow, collaborate, and be inspired.&nbsp;</p>
+<p><img alt="We ARE Alexandria" src="/Portals/0/20180802-IMG_4570.jpg" style="width: 260px; height: 175px; float: left; margin-right: 14px; margin-bottom: 3px;" />At Alexandria, integrity, respect, humility, and drive are woven into our DNA. We strive to remain agile as our company evolves; to cultivate a culture of excellence defined by our sense of purpose; and to seek opportunities to grow, collaborate, and be inspired.&nbsp;</p>
 <p>Since our inception, we have been deeply committed to improving the health and vitality of our local communities and our world. Through our philanthropy and volunteer program, Operation C<strong>ARE</strong>, we provide time, resources, and financial support to impactful non-profit organizations doing critical work in medical research, STEM education, military support services, and local communities.&nbsp;<br />
 <br />
 </p>
 <table>
     <tbody>
         <tr>
-            <td style="text-align: center;">&nbsp;<img alt="Ice Bucket Challenge" src="/portals/0/TS-SummerBBQ20140917_ILB2014_84.jpg" style="width: 311px; height: 164px; float: left; margin-bottom: 4px;" /></td>
-            <td style="text-align: center;"><img alt="Alexandria employees enjoying an NYSE Opening Bell ringing" src="/portals/0/NYSE_Selfie.jpg" style="width: 185px; height: 164px; float: left; margin-right: 4px; margin-bottom: 4px;" /></td>
-            <td style="text-align: center;"><img alt="Happy hour at Farmer &amp; The Seahorse" src="/portals/0/happyhour2.jpg" style="width: 236px; height: 166px; float: left; margin-bottom: 4px;" />&nbsp;</td>
+            <td style="text-align: center;">&nbsp;<img alt="Ice Bucket Challenge" src="/Portals/0/TS-SummerBBQ20140917_ILB2014_84.jpg" style="width: 311px; height: 164px; float: left; margin-bottom: 4px;" /></td>
+            <td style="text-align: center;"><img alt="Alexandria employees enjoying an NYSE Opening Bell ringing" src="/Portals/0/NYSE_Selfie.jpg" style="width: 185px; height: 164px; float: left; margin-right: 4px; margin-bottom: 4px;" /></td>
+            <td style="text-align: center;"><img alt="Happy hour at Farmer &amp; The Seahorse" src="/Portals/0/happyhour2.jpg" style="width: 236px; height: 166px; float: left; margin-bottom: 4px;" />&nbsp;</td>
         </tr>
     </tbody>
 </table>
 <table>
     <tbody>
         <tr>
-            <td><img alt="Feeding the Homeless" src="/portals/0/ServingLunchtoVets.jpg" style="width: 285px; height: 138px; float: left;" longdesc="Alexandria team members serving lunch to homeless vets" />&nbsp;</td>
-            <td><img alt="Gladiator Run" src="/portals/0/GladiatorRun.jpg" style="width: 235px; height: 138px; float: left;" longdesc="Alexandria team members participate in a Gladiator Run" />&nbsp;</td>
-            <td><img alt="Company retreat" src="/portals/0/NYSE_audience.jpg" style="width: 216px; height: 138px; float: left;" longdesc="Celebrating Alexandria's 20th Anniversary on the NYSE" /></td>
+            <td><img alt="Feeding the Homeless" src="/Portals/0/ServingLunchtoVets.jpg" style="width: 285px; height: 138px; float: left;" longdesc="Alexandria team members serving lunch to homeless vets" />&nbsp;</td>
+            <td><img alt="Gladiator Run" src="/Portals/0/GladiatorRun.jpg" style="width: 235px; height: 138px; float: left;" longdesc="Alexandria team members participate in a Gladiator Run" />&nbsp;</td>
+            <td><img alt="Company retreat" src="/Portals/0/NYSE_audience.jpg" style="width: 216px; height: 138px; float: left;" longdesc="Celebrating Alexandria's 20th Anniversary on the NYSE" /></td>
         </tr>
     </tbody>
 </table>
 <p><strong>
 <br />
-<img alt="" src="http://www.are.com/portals/0/content-divider.gif" style="width: 754px; height: 33px;" /></strong></p>
+<img alt="" src="http://www.are.com/Portals/0/content-divider.gif" style="width: 754px; height: 33px;" /></strong></p>
 <h3><strong>Benefits</strong></h3>
 <p>We devote extraordinary efforts to hiring, developing, and retaining our talented employees, and we understand firsthand that the health, happiness,
 and well-being of our team are important to their success. Our industry-leading and comprehensive benefits package includes:&nbsp;</p>
 <ul>
     <li>100% company-paid premiums (top-tier health, dental, and <br />
-    vision plan for you and your family)&nbsp;<img alt="NYC Marathon" src="/portals/0/NYCMarathon_crop_2018.jpg" style="width: 235px; height: 137px; float: right; margin-right: 10px;" longdesc="Alexandria team members after completing the NYC Marathon" /></li>
+    vision plan for you and your family)&nbsp;<img alt="NYC Marathon" src="/Portals/0/NYCMarathon_crop_2018.jpg" style="width: 235px; height: 137px; float: right; margin-right: 10px;" longdesc="Alexandria team members after completing the NYC Marathon" /></li>
     <li>Generous 401(k) profit sharing plan</li>
     <li>Ample paid vacation, sick, and holiday time</li>
     <li>Paid parental leave</li>
@@ -547,9 +547,9 @@ and well-being of our team are important to their success. Our industry-leading 
     <li>Wellness and fitness incentives</li>
     <li>Life insurance, disability plans, and an Employee Assistance Program</li>
 </ul>
-<p><strong><img alt="" src="http://www.are.com/portals/0/content-divider.gif" style="width: 754px; height: 33px;" /></strong></p>
+<p><strong><img alt="" src="http://www.are.com/Portals/0/content-divider.gif" style="width: 754px; height: 33px;" /></strong></p>
 <h3>Grow Your Career at Alexandria</h3>
-<p>Continued learning and flexibility are imperative to the success of our business. We foster an enthusiasm and curiosity about learning and provide you with access to a wide variety of offerings and resources to support your career growth, including:<img alt="Talent Development" src="/portals/0/talent.jpg" style="width: 220px; height: 148px; float: right; margin-top: 22px; margin-right: 10px;" longdesc="Talent Development training" /></p>
+<p>Continued learning and flexibility are imperative to the success of our business. We foster an enthusiasm and curiosity about learning and provide you with access to a wide variety of offerings and resources to support your career growth, including:<img alt="Talent Development" src="/Portals/0/talent.jpg" style="width: 220px; height: 148px; float: right; margin-top: 22px; margin-right: 10px;" longdesc="Talent Development training" /></p>
 <ul>
     <li>In-person trainings on leadership, communication, project management, etc.</li>
     <li>Mentoring</li>
@@ -558,38 +558,38 @@ and well-being of our team are important to their success. Our industry-leading 
     <li>On-demand learning resources</li>
     <li>A personalized on-boarding experience</li>
 </ul>
-<strong><img alt="" src="http://www.are.com/portals/0/content-divider.gif" style="width: 754px; height: 33px;" /></strong><br />
+<strong><img alt="" src="http://www.are.com/Portals/0/content-divider.gif" style="width: 754px; height: 33px;" /></strong><br />
 <h3>Inclusion &amp; Diversity</h3>
-<p><img alt="Alexandria Pasadena Team" src="/portals/0/PASTeamDay2018.jpg" style="width: 220px; height: 148px; float: right; margin-right: 10px; margin-left: 8px;" />We recognize we are better together. We have created an environment where people of diverse backgrounds and perspectives can&nbsp;bring all of who they are to work. We believe in treating every single person equally and with respect and dignity. It is not just something we do, it is at the core of who we are.&nbsp;</p>
-<p><strong><img alt="" src="http://www.are.com/portals/0/content-divider.gif" style="width: 754px; height: 33px;" /></strong></p>
+<p><img alt="Alexandria Pasadena Team" src="/Portals/0/PASTeamDay2018.jpg" style="width: 220px; height: 148px; float: right; margin-right: 10px; margin-left: 8px;" />We recognize we are better together. We have created an environment where people of diverse backgrounds and perspectives can&nbsp;bring all of who they are to work. We believe in treating every single person equally and with respect and dignity. It is not just something we do, it is at the core of who we are.&nbsp;</p>
+<p><strong><img alt="" src="http://www.are.com/Portals/0/content-divider.gif" style="width: 754px; height: 33px;" /></strong></p>
 <h3>Our Locations</h3>
 <table>
     <tbody>
         <tr>
-            <td style="text-align: left;"><strong><img alt="Pasadena Office" src="/portals/0/PAS_office.jpg" style="width: 200px; height: 134px;" /><br />
+            <td style="text-align: left;"><strong><img alt="Pasadena Office" src="/Portals/0/PAS_office.jpg" style="width: 200px; height: 134px;" /><br />
             PASADENA, CA</strong>&nbsp;</td>
             <td style="width: 20px;">&nbsp;</td>
-            <td style="text-align: left;"><strong><img alt="San Diego Office" src="/portals/0/SD_office2a.jpg" style="width: 200px; height: 134px;" /><br />
+            <td style="text-align: left;"><strong><img alt="San Diego Office" src="/Portals/0/SD_office2a.jpg" style="width: 200px; height: 134px;" /><br />
             SAN DIEGO, CA</strong></td>
             <td style="width: 20px;">&nbsp;</td>
-            <td style="text-align: left;"><strong><img alt="San Francisco Office" src="/portals/0/SF_office2.jpg" style="width: 200px; height: 134px;" /><br />
+            <td style="text-align: left;"><strong><img alt="San Francisco Office" src="/Portals/0/SF_office2.jpg" style="width: 200px; height: 134px;" /><br />
             SAN FRANCISCO, CA</strong></td>
         </tr>
         <tr>
             <td colspan="5"><strong>&nbsp;</strong></td>
         </tr>
         <tr>
-            <td style="text-align: left;"><strong><img alt="Seattle Office" src="/portals/0/SEA_office2.jpg" style="width: 200px; height: 134px;" /></strong><br />
+            <td style="text-align: left;"><strong><img alt="Seattle Office" src="/Portals/0/SEA_office2.jpg" style="width: 200px; height: 134px;" /></strong><br />
             <strong>
             SEATTLE, WA</strong><br />
             </td>
             <td style="text-align: center;">&nbsp;</td>
-            <td style="text-align: left;"><strong><img alt="Cambridge Office" src="/portals/0/BOS_office.jpg" style="width: 200px; height: 134px;" /></strong><br />
+            <td style="text-align: left;"><strong><img alt="Cambridge Office" src="/Portals/0/BOS_office.jpg" style="width: 200px; height: 134px;" /></strong><br />
             <strong>
             CAMBRIDGE, MA&nbsp;</strong><br />
             </td>
             <td style="text-align: center;">&nbsp;</td>
-            <td style="text-align: left;"><strong><img alt="NYC Office" src="/portals/0/NY_office.jpg" style="width: 200px; height: 134px;" /></strong><br />
+            <td style="text-align: left;"><strong><img alt="NYC Office" src="/Portals/0/NY_office.jpg" style="width: 200px; height: 134px;" /></strong><br />
             <strong>
             NEW YORK, NY</strong><br />
             </td>
@@ -598,12 +598,12 @@ and well-being of our team are important to their success. Our industry-leading 
             <td style="text-align: left;" colspan="5">&nbsp;</td>
         </tr>
         <tr>
-            <td style="text-align: left;"><strong><img alt="Gaithersburg, MD Office" src="/portals/0/MD_office2a.jpg" style="width: 200px; height: 134px;" /></strong><br />
+            <td style="text-align: left;"><strong><img alt="Gaithersburg, MD Office" src="/Portals/0/MD_office2a.jpg" style="width: 200px; height: 134px;" /></strong><br />
             <strong>
             GAITHERSBURG, MD&nbsp;</strong><br />
             &nbsp;</td>
             <td style="text-align: center;">&nbsp;</td>
-            <td style="text-align: left;"><strong><img alt="Research Triangle Office" src="/portals/0/RTP_office.jpg" style="width: 200px; height: 134px;" /></strong><br />
+            <td style="text-align: left;"><strong><img alt="Research Triangle Office" src="/Portals/0/RTP_office.jpg" style="width: 200px; height: 134px;" /></strong><br />
             <strong>
             RESEARCH TRIANGLE <br />
             PARK, NC</strong><br />

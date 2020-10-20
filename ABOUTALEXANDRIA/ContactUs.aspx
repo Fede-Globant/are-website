@@ -63,7 +63,7 @@ Sys.WebForms.PageRequestManager._initialize('ScriptManager', 'Form', [], [], [],
 <div id="dnn_ctr390_ContentPane" class="article"><!-- Start_Module_390 --><div id="dnn_ctr390_ModuleContent" class="DNNModuleContent ModDNNHTMLC">
 	
 <div id="dnn_ctr390_HtmlModule_lblContent" class="Normal">
-	<p style="text-align: center;"><a href="/Home.aspx"><img alt="" src="/portals/0/logo.gif" /></a></p>
+	<p style="text-align: center;"><a href="/Home.aspx"><img alt="" src="/Portals/0/logo.gif" /></a></p>
 
 </div>
 
@@ -466,7 +466,7 @@ Sys.WebForms.PageRequestManager._initialize('ScriptManager', 'Form', [], [], [],
 	
 <div id="dnn_ctr401_HtmlModule_lblContent" class="Normal">
 	<h1>Contact Us</h1>
-<div class="image full"><img alt="Contact Us" src="/portals/0/are-web-contact.jpg" /></div>
+<div class="image full"><img alt="Contact Us" src="/Portals/0/are-web-contact.jpg" /></div>
 <h3>Alexandria Real Estate Equities, Inc. Headquarters</h3>
 <p class="lg">26 North Euclid Avenue, Pasadena, CA 91101<br />
 <strong>T.&nbsp;</strong>626.578.0777</p>
@@ -475,34 +475,34 @@ Joel S. Marcus, Executive Chairman &amp; Founder</p>
 <p class="lg"><strong>T.</strong> <a href="tel:626.578.0777">626.578.0777</a> (x1832)<br />
 <strong>E.</strong> <a href="mailto:corporateinformation@are.com">corporateinformation@are.com</a></p>
 <div class="clearit">&nbsp;</div>
-<p class="pad20b"><img alt="" src="/portals/0/content-divider.gif" /></p>
+<p class="pad20b"><img alt="" src="/Portals/0/content-divider.gif" /></p>
 <table cellspacing="0" summary="location contact info" class="loc" id="contact">
     <tbody>
         <tr>
-            <td class="img"><img alt="Greater Boston contact info" src="/portals/0/contact-boston-img.jpg" /></td>
+            <td class="img"><img alt="Greater Boston contact info" src="/Portals/0/contact-boston-img.jpg" /></td>
             <td class="txt">
             <h3>Greater Boston</h3>
             <strong>Thomas J. Andrews</strong><br />
             Co-President &amp; Regional Market Director<br />
-            <img alt="" width="1" height="5" style="border-width: 0px; border-style: solid;" src="/portals/0/images/s.gif" /><br />
+            <img alt="" width="1" height="5" style="border-width: 0px; border-style: solid;" src="/Portals/0/images/s.gif" /><br />
             400 Technology Square<br />
             Suite 101<br />
             Cambridge, Massachusetts<br />
             02139<br />
-            <img alt="" width="1" height="5" style="border-width: 0px; border-style: solid;" src="/portals/0/images/s.gif" /><br />
+            <img alt="" width="1" height="5" style="border-width: 0px; border-style: solid;" src="/Portals/0/images/s.gif" /><br />
             <strong>T.</strong> <a href="tel:617.661.6962">617.661.6962</a><br />
             <strong>E.</strong> <a href="mailto:tandrews@are.com">tandrews@are.com</a></td>
-            <td><img alt="" width="15" height="1" style="border-width: 0px; border-style: solid;" src="/portals/0/images/s.gif" /></td>
-            <td class="img"><img alt="San Francisco contact info" src="/portals/0/contact-sf-img.jpg" /></td>
+            <td><img alt="" width="15" height="1" style="border-width: 0px; border-style: solid;" src="/Portals/0/images/s.gif" /></td>
+            <td class="img"><img alt="San Francisco contact info" src="/Portals/0/contact-sf-img.jpg" /></td>
             <td class="txt">
             <h3>San Francisco</h3>
             <strong>Terezia C. Nemeth</strong><br />
             Executive Vice President - Regional Market Director<br />
-            <img alt="" width="1" height="5" style="border-width: 0px; border-style: solid;" src="/portals/0/images/s.gif" /><br />
+            <img alt="" width="1" height="5" style="border-width: 0px; border-style: solid;" src="/Portals/0/images/s.gif" /><br />
             1700 Owens Street<br />
             Suite 590<br />
             San Francisco, California 94158<br />
-            <img alt="" width="1" height="5" style="border-width: 0px; border-style: solid;" src="/portals/0/images/s.gif" /><br />
+            <img alt="" width="1" height="5" style="border-width: 0px; border-style: solid;" src="/Portals/0/images/s.gif" /><br />
             <strong>T.</strong> <a href="tel:415.554.8844">415.554.8847</a><br />
             <strong>E.</strong>&nbsp;<a href="mailto:tnemeth@are.com" class="ApplyClass">tnemeth@are.com</a>&nbsp;<br />
             </td>
@@ -522,34 +522,34 @@ Joel S. Marcus, Executive Chairman &amp; Founder</p>
             <td class="txt">&nbsp;</td>
         </tr>
         <tr>
-            <td class="img"><img alt="NYC contact info" src="/portals/0/contact-nyc-img.jpg" /></td>
+            <td class="img"><img alt="NYC contact info" src="/Portals/0/contact-nyc-img.jpg" /></td>
             <td class="txt">
             <h3>New York City</h3>
             <strong>John H. Cunningham</strong><br />
             Executive Vice President - <br />
             Regional Market Director<br />
-            <img alt="" width="1" height="5" src="http://www.are.com/portals/0/images/s.gif" style="border-width: 0px; border-style: solid;" /><br />
+            <img alt="" width="1" height="5" src="http://www.are.com/Portals/0/images/s.gif" style="border-width: 0px; border-style: solid;" /><br />
             430 East 29th Street<br />
             Suite 100<br />
             New York, New York <br />
             10016<br />
-            <img alt="" width="1" height="5" src="http://www.are.com/portals/0/images/s.gif" style="border-width: 0px; border-style: solid;" /><br />
+            <img alt="" width="1" height="5" src="http://www.are.com/Portals/0/images/s.gif" style="border-width: 0px; border-style: solid;" /><br />
             <strong>T.</strong>&nbsp;<a href="tel:646.223.3880">646.223.3880</a><br />
             <strong>E.</strong>&nbsp;<a href="mailto:jcunningham@are.com">jcunningham@are.com</a><br />
             <a href="mailto:dryan@are.com"></a></td>
-            <td><img alt="" width="15" height="1" style="border-width: 0px; border-style: solid;" src="/portals/0/images/s.gif" /></td>
-            <td class="img"><img alt="San Diego contact info" src="/portals/0/contact-sd-img2.jpg" /></td>
+            <td><img alt="" width="15" height="1" style="border-width: 0px; border-style: solid;" src="/Portals/0/images/s.gif" /></td>
+            <td class="img"><img alt="San Diego contact info" src="/Portals/0/contact-sd-img2.jpg" /></td>
             <td class="txt">
             <h3>San Diego</h3>
             <strong>Daniel J. Ryan</strong><br />
             Co-Chief Investment Officer &amp;&nbsp;&nbsp;<br />
             Regional Market Director<br />
-            <img alt="" width="1" height="5" style="border-width: 0px; border-style: solid;" src="/portals/0/images/s.gif" /><br />
+            <img alt="" width="1" height="5" style="border-width: 0px; border-style: solid;" src="/Portals/0/images/s.gif" /><br />
             10996 Torreyana Road<br />
             Suite 250<br />
             San Diego, California <br />
             92121<br />
-            <img alt="" width="1" height="5" src="http://www.are.com/portals/0/images/s.gif" style="border-width: 0px; border-style: solid;" /><br />
+            <img alt="" width="1" height="5" src="http://www.are.com/Portals/0/images/s.gif" style="border-width: 0px; border-style: solid;" /><br />
             <strong>
             T.</strong>&nbsp;<a href="tel:858.638.2800">858.638.2800</a><br />
             <strong>
@@ -561,34 +561,34 @@ Joel S. Marcus, Executive Chairman &amp; Founder</p>
             <td colspan="5">&nbsp;</td>
         </tr>
         <tr>
-            <td colspan="5"><img alt="" width="1" height="20" style="border-width: 0px; border-style: solid;" src="/portals/0/images/s.gif" /></td>
+            <td colspan="5"><img alt="" width="1" height="20" style="border-width: 0px; border-style: solid;" src="/Portals/0/images/s.gif" /></td>
         </tr>
         <tr>
-            <td class="img"><img alt="Seattle contact info" src="/portals/0/contact-seattle-img.jpg" /></td>
+            <td class="img"><img alt="Seattle contact info" src="/Portals/0/contact-seattle-img.jpg" /></td>
             <td class="txt">
             <h3>Seattle</h3>
             <strong>John J. Cox</strong><br />
             Senior Vice President - <br />
             Regional Market Director <br />
-            <img alt="" width="1" height="5" style="border-width: 0px; border-style: solid;" src="/portals/0/images/s.gif" /><br />
+            <img alt="" width="1" height="5" style="border-width: 0px; border-style: solid;" src="/Portals/0/images/s.gif" /><br />
             400 Dexter Avenue North<br />
             Suite 200<br />
             Seattle, Washington <br />
             98109<br />
-            <img alt="" width="1" height="5" style="border-width: 0px; border-style: solid;" src="/portals/0/images/s.gif" /><br />
+            <img alt="" width="1" height="5" style="border-width: 0px; border-style: solid;" src="/Portals/0/images/s.gif" /><br />
             <strong>T.</strong> <a href="tel:206.408.1550">206.408.1550</a><br />
             <strong>E.</strong> <a href="mailto:jcox@are.com">jcox@are.com</a></td>
-            <td><img alt="" width="15" height="1" style="border-width: 0px; border-style: solid;" src="/portals/0/images/s.gif" /></td>
-            <td class="img"><img alt="Maryland contact info" src="/portals/0/contact-dc-img.jpg" /></td>
+            <td><img alt="" width="15" height="1" style="border-width: 0px; border-style: solid;" src="/Portals/0/images/s.gif" /></td>
+            <td class="img"><img alt="Maryland contact info" src="/Portals/0/contact-dc-img.jpg" /></td>
             <td class="txt">
             <h3>Maryland</h3>
             <strong>Larry J. Diamond</strong><br />
             Co-Chief Operating Officer &amp;&nbsp; Regional Market Director<br />
-            <img alt="" width="1" height="5" style="border-width: 0px; border-style: solid;" src="/portals/0/images/s.gif" /><br />
+            <img alt="" width="1" height="5" style="border-width: 0px; border-style: solid;" src="/Portals/0/images/s.gif" /><br />
             946 Clopper Road<br />
             Gaithersburg, Maryland <br />
             20878<br />
-            <img alt="" width="1" height="5" style="border-width: 0px; border-style: solid;" src="/portals/0/images/s.gif" /><br />
+            <img alt="" width="1" height="5" style="border-width: 0px; border-style: solid;" src="/Portals/0/images/s.gif" /><br />
             <strong>T.</strong> <a href="tel:301.947.1770">301.947.1770</a><br />
             <strong>E.</strong> <a href="mailto:ldiamond@are.com">ldiamond@are.com</a></td>
         </tr>
@@ -596,26 +596,26 @@ Joel S. Marcus, Executive Chairman &amp; Founder</p>
             <td colspan="5">&nbsp;</td>
         </tr>
         <tr>
-            <td colspan="5"><img alt="" width="1" height="20" style="border-width: 0px; border-style: solid;" src="/portals/0/images/s.gif" /></td>
+            <td colspan="5"><img alt="" width="1" height="20" style="border-width: 0px; border-style: solid;" src="/Portals/0/images/s.gif" /></td>
         </tr>
         <tr>
-            <td class="img"><img alt="Research Triangle contact info" src="/portals/0/contact-rtp-img.jpg" /></td>
+            <td class="img"><img alt="Research Triangle contact info" src="/Portals/0/contact-rtp-img.jpg" /></td>
             <td class="txt">
             <h3>Research Triangle</h3>
             <strong>Oliver F. Sherrill</strong><br />
             Senior Vice President - <br />
             Regional Market Director<br />
-            <img alt="" width="1" height="5" style="border-width: 0px; border-style: solid;" src="/portals/0/images/s.gif" /><br />
+            <img alt="" width="1" height="5" style="border-width: 0px; border-style: solid;" src="/Portals/0/images/s.gif" /><br />
             5 Laboratory Drive,<br />
             Suite 3200<br />
             Research Triangle Park,<br />
             North Carolina 27709<br />
-            <img alt="" width="1" height="5" style="border-width: 0px; border-style: solid;" src="/portals/0/images/s.gif" /><br />
+            <img alt="" width="1" height="5" style="border-width: 0px; border-style: solid;" src="/Portals/0/images/s.gif" /><br />
             <strong>T.</strong> <a href="tel:919.313.6645">919.313.6645</a><br />
             <strong>E.</strong> <a href="mailto:osherrill@are.com">osherrill@are.com</a><br />
             </td>
-            <td><img alt="" width="15" height="1" style="border-width: 0px; border-style: solid;" src="/portals/0/images/s.gif" /></td>
-            <td><img alt="" width="15" height="1" style="border-width: 0px; border-style: solid;" src="/portals/0/images/s.gif" /></td>
+            <td><img alt="" width="15" height="1" style="border-width: 0px; border-style: solid;" src="/Portals/0/images/s.gif" /></td>
+            <td><img alt="" width="15" height="1" style="border-width: 0px; border-style: solid;" src="/Portals/0/images/s.gif" /></td>
         </tr>
     </tbody>
 </table>

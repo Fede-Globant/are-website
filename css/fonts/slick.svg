@@ -64,7 +64,7 @@ Sys.WebForms.PageRequestManager._initialize('ScriptManager', 'Form', [], [], [],
 <div id="dnn_ctr390_ContentPane" class="article"><!-- Start_Module_390 --><div id="dnn_ctr390_ModuleContent" class="DNNModuleContent ModDNNHTMLC">
 	
 <div id="dnn_ctr390_HtmlModule_lblContent" class="Normal">
-	<p style="text-align: center;"><a href="/Home.aspx"><img alt="" src="/portals/0/logo.gif" /></a></p>
+	<p style="text-align: center;"><a href="/Home.aspx"><img alt="" src="/Portals/0/logo.gif" /></a></p>
 
 </div>
 
