@@ -246,32 +246,32 @@ Sys.WebForms.PageRequestManager._initialize('ScriptManager', 'Form', [], [], [],
 
 	<li class=" last has-child">
 		
-			<a href="http://investor.are.com/CorporateProfile.aspx?iid=111908" class=""><span>FOR INVESTORS &raquo;</span></a>
+			<a href="https://investor.are.com/CorporateProfile.aspx?iid=111908" class=""><span>FOR INVESTORS &raquo;</span></a>
 		
             <div class="dropdown">
 			    <ul>
 				    
 	<li class="sub-item first has-child">
 		
-			<a href="http://investor.are.com/CorporateProfile.aspx?iid=111908"><span>For Our Investors</span></a>
+			<a href="https://investor.are.com/CorporateProfile.aspx?iid=111908"><span>For Our Investors</span></a>
 		
 			<ul class="shifted">
 				
 	<li class="sub-item first">
 		
-			<a href="http://investor.are.com/corporateprofile.aspx?iid=111908"><span>Corporate Profile</span></a>
+			<a href="https://investor.are.com/corporateprofile.aspx?iid=111908"><span>Corporate Profile</span></a>
 		
 	</li>
 
 	<li class="sub-item">
 		
-			<a href="http://investor.are.com/GenPage.aspx?IID=111908&amp;GKP=1073746504"><span>Company Overview</span></a>
+			<a href="https://investor.are.com/GenPage.aspx?IID=111908&amp;GKP=1073746504"><span>Company Overview</span></a>
 		
 	</li>
 
 	<li class="sub-item last">
 		
-			<a href="http://investor.are.com/inforequest.aspx?iid=111908"><span>Request Information</span></a>
+			<a href="https://investor.are.com/inforequest.aspx?iid=111908"><span>Request Information</span></a>
 		
 	</li>
 
@@ -281,55 +281,55 @@ Sys.WebForms.PageRequestManager._initialize('ScriptManager', 'Form', [], [], [],
 
 	<li class="sub-item has-child">
 		
-			<a href="http://investor.are.com/stockinfo.aspx?iid=111908"><span>Financial Information</span></a>
+			<a href="https://investor.are.com/stockinfo.aspx?iid=111908"><span>Financial Information</span></a>
 		
 			<ul class="shifted">
 				
 	<li class="sub-item first">
 		
-			<a href="http://investor.are.com/stockinfo.aspx?iid=111908"><span>Stock Information</span></a>
+			<a href="https://investor.are.com/stockinfo.aspx?iid=111908"><span>Stock Information</span></a>
 		
 	</li>
 
 	<li class="sub-item">
 		
-			<a href="http://investor.are.com/GenPage.aspx?IID=111908&amp;GKP=206901"><span>Analyst Coverage</span></a>
+			<a href="https://investor.are.com/GenPage.aspx?IID=111908&amp;GKP=206901"><span>Analyst Coverage</span></a>
 		
 	</li>
 
 	<li class="sub-item">
 		
-			<a href="http://investor.are.com/docs.aspx?iid=111908"><span>SEC Filings</span></a>
+			<a href="https://investor.are.com/docs.aspx?iid=111908"><span>SEC Filings</span></a>
 		
 	</li>
 
 	<li class="sub-item">
 		
-			<a href="http://investor.are.com/divs.aspx?iid=111908"><span>Dividends</span></a>
+			<a href="https://investor.are.com/divs.aspx?iid=111908"><span>Dividends</span></a>
 		
 	</li>
 
 	<li class="sub-item">
 		
-			<a href="http://investor.are.com/QuarterlyResults.aspx?iid=111908"><span>Supplemental</span></a>
+			<a href="https://investor.are.com/QuarterlyResults.aspx?iid=111908"><span>Supplemental</span></a>
 		
 	</li>
 
 	<li class="sub-item">
 		
-			<a href="http://investor.are.com/GenPage.aspx?IID=111908&amp;GKP=1073743338"><span>Company Presentations</span></a>
+			<a href="https://investor.are.com/GenPage.aspx?IID=111908&amp;GKP=1073743338"><span>Company Presentations</span></a>
 		
 	</li>
 
 	<li class="sub-item">
 		
-			<a href="http://investor.are.com/GenPage.aspx?IID=111908&amp;GKP=207354"><span>Annual Reports</span></a>
+			<a href="https://investor.are.com/GenPage.aspx?IID=111908&amp;GKP=207354"><span>Annual Reports</span></a>
 		
 	</li>
 
 	<li class="sub-item last">
 		
-			<a href="http://investor.are.com/FinancialDocs.aspx?iid=111908"><span>Proxy</span></a>
+			<a href="https://investor.are.com/FinancialDocs.aspx?iid=111908"><span>Proxy</span></a>
 		
 	</li>
 
@@ -339,25 +339,25 @@ Sys.WebForms.PageRequestManager._initialize('ScriptManager', 'Form', [], [], [],
 
 	<li class="sub-item has-child">
 		
-			<a href="http://investor.are.com/news.aspx?iid=111908"><span>News, Events &amp; Webcasts</span></a>
+			<a href="https://investor.are.com/news.aspx?iid=111908"><span>News, Events &amp; Webcasts</span></a>
 		
 			<ul class="shifted">
 				
 	<li class="sub-item first">
 		
-			<a href="http://investor.are.com/news.aspx?iid=111908"><span>News</span></a>
+			<a href="https://investor.are.com/news.aspx?iid=111908"><span>News</span></a>
 		
 	</li>
 
 	<li class="sub-item">
 		
-			<a href="http://investor.are.com/calendar.aspx?iid=111908"><span>Event Calendar</span></a>
+			<a href="https://investor.are.com/calendar.aspx?iid=111908"><span>Event Calendar</span></a>
 		
 	</li>
 
 	<li class="sub-item last">
 		
-			<a href="http://investor.are.com/presentations.aspx?iid=111908"><span>Webcasts</span></a>
+			<a href="https://investor.are.com/presentations.aspx?iid=111908"><span>Webcasts</span></a>
 		
 	</li>
 
@@ -367,19 +367,19 @@ Sys.WebForms.PageRequestManager._initialize('ScriptManager', 'Form', [], [], [],
 
 	<li class="sub-item last has-child">
 		
-			<a href="http://investor.are.com/govdocs.aspx?iid=111908"><span>Corporate Governance</span></a>
+			<a href="https://investor.are.com/govdocs.aspx?iid=111908"><span>Corporate Governance</span></a>
 		
 			<ul class="shifted">
 				
 	<li class="sub-item first">
 		
-			<a href="http://investor.are.com/govdocs.aspx?iid=111908"><span>Disclosure</span></a>
+			<a href="https://investor.are.com/govdocs.aspx?iid=111908"><span>Disclosure</span></a>
 		
 	</li>
 
 	<li class="sub-item">
 		
-			<a href="http://investor.are.com/insiders.aspx?iid=111908"><span>Insider Filings</span></a>
+			<a href="https://investor.are.com/insiders.aspx?iid=111908"><span>Insider Filings</span></a>
 		
 	</li>
 
@@ -391,7 +391,7 @@ Sys.WebForms.PageRequestManager._initialize('ScriptManager', 'Form', [], [], [],
 
 	<li class="sub-item last">
 		
-			<a href="http://investor.are.com/committeechart.aspx?iid=111908"><span>Committee Charting</span></a>
+			<a href="https://investor.are.com/committeechart.aspx?iid=111908"><span>Committee Charting</span></a>
 		
 	</li>
 
@@ -528,12 +528,12 @@ Joel S. Marcus, Executive Chairman &amp; Founder</p>
             <strong>John H. Cunningham</strong><br />
             Executive Vice President - <br />
             Regional Market Director<br />
-            <img alt="" width="1" height="5" src="http://www.are.com/Portals/0/images/s.gif" style="border-width: 0px; border-style: solid;" /><br />
+            <img alt="" width="1" height="5" src="https://www.are.com/Portals/0/images/s.gif" style="border-width: 0px; border-style: solid;" /><br />
             430 East 29th Street<br />
             Suite 100<br />
             New York, New York <br />
             10016<br />
-            <img alt="" width="1" height="5" src="http://www.are.com/Portals/0/images/s.gif" style="border-width: 0px; border-style: solid;" /><br />
+            <img alt="" width="1" height="5" src="https://www.are.com/Portals/0/images/s.gif" style="border-width: 0px; border-style: solid;" /><br />
             <strong>T.</strong>&nbsp;<a href="tel:646.223.3880">646.223.3880</a><br />
             <strong>E.</strong>&nbsp;<a href="mailto:jcunningham@are.com">jcunningham@are.com</a><br />
             <a href="mailto:dryan@are.com"></a></td>
@@ -549,7 +549,7 @@ Joel S. Marcus, Executive Chairman &amp; Founder</p>
             Suite 250<br />
             San Diego, California <br />
             92121<br />
-            <img alt="" width="1" height="5" src="http://www.are.com/Portals/0/images/s.gif" style="border-width: 0px; border-style: solid;" /><br />
+            <img alt="" width="1" height="5" src="https://www.are.com/Portals/0/images/s.gif" style="border-width: 0px; border-style: solid;" /><br />
             <strong>
             T.</strong>&nbsp;<a href="tel:858.638.2800">858.638.2800</a><br />
             <strong>

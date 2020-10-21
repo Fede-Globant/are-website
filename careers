@@ -246,32 +246,32 @@ Sys.WebForms.PageRequestManager._initialize('ScriptManager', 'Form', [], [], [],
 
 	<li class=" last has-child">
 		
-			<a href="http://investor.are.com/CorporateProfile.aspx?iid=111908" class=""><span>FOR INVESTORS &raquo;</span></a>
+			<a href="https://investor.are.com/CorporateProfile.aspx?iid=111908" class=""><span>FOR INVESTORS &raquo;</span></a>
 		
             <div class="dropdown">
 			    <ul>
 				    
 	<li class="sub-item first has-child">
 		
-			<a href="http://investor.are.com/CorporateProfile.aspx?iid=111908"><span>For Our Investors</span></a>
+			<a href="https://investor.are.com/CorporateProfile.aspx?iid=111908"><span>For Our Investors</span></a>
 		
 			<ul class="shifted">
 				
 	<li class="sub-item first">
 		
-			<a href="http://investor.are.com/corporateprofile.aspx?iid=111908"><span>Corporate Profile</span></a>
+			<a href="https://investor.are.com/corporateprofile.aspx?iid=111908"><span>Corporate Profile</span></a>
 		
 	</li>
 
 	<li class="sub-item">
 		
-			<a href="http://investor.are.com/GenPage.aspx?IID=111908&amp;GKP=1073746504"><span>Company Overview</span></a>
+			<a href="https://investor.are.com/GenPage.aspx?IID=111908&amp;GKP=1073746504"><span>Company Overview</span></a>
 		
 	</li>
 
 	<li class="sub-item last">
 		
-			<a href="http://investor.are.com/inforequest.aspx?iid=111908"><span>Request Information</span></a>
+			<a href="https://investor.are.com/inforequest.aspx?iid=111908"><span>Request Information</span></a>
 		
 	</li>
 
@@ -281,55 +281,55 @@ Sys.WebForms.PageRequestManager._initialize('ScriptManager', 'Form', [], [], [],
 
 	<li class="sub-item has-child">
 		
-			<a href="http://investor.are.com/stockinfo.aspx?iid=111908"><span>Financial Information</span></a>
+			<a href="https://investor.are.com/stockinfo.aspx?iid=111908"><span>Financial Information</span></a>
 		
 			<ul class="shifted">
 				
 	<li class="sub-item first">
 		
-			<a href="http://investor.are.com/stockinfo.aspx?iid=111908"><span>Stock Information</span></a>
+			<a href="https://investor.are.com/stockinfo.aspx?iid=111908"><span>Stock Information</span></a>
 		
 	</li>
 
 	<li class="sub-item">
 		
-			<a href="http://investor.are.com/GenPage.aspx?IID=111908&amp;GKP=206901"><span>Analyst Coverage</span></a>
+			<a href="https://investor.are.com/GenPage.aspx?IID=111908&amp;GKP=206901"><span>Analyst Coverage</span></a>
 		
 	</li>
 
 	<li class="sub-item">
 		
-			<a href="http://investor.are.com/docs.aspx?iid=111908"><span>SEC Filings</span></a>
+			<a href="https://investor.are.com/docs.aspx?iid=111908"><span>SEC Filings</span></a>
 		
 	</li>
 
 	<li class="sub-item">
 		
-			<a href="http://investor.are.com/divs.aspx?iid=111908"><span>Dividends</span></a>
+			<a href="https://investor.are.com/divs.aspx?iid=111908"><span>Dividends</span></a>
 		
 	</li>
 
 	<li class="sub-item">
 		
-			<a href="http://investor.are.com/QuarterlyResults.aspx?iid=111908"><span>Supplemental</span></a>
+			<a href="https://investor.are.com/QuarterlyResults.aspx?iid=111908"><span>Supplemental</span></a>
 		
 	</li>
 
 	<li class="sub-item">
 		
-			<a href="http://investor.are.com/GenPage.aspx?IID=111908&amp;GKP=1073743338"><span>Company Presentations</span></a>
+			<a href="https://investor.are.com/GenPage.aspx?IID=111908&amp;GKP=1073743338"><span>Company Presentations</span></a>
 		
 	</li>
 
 	<li class="sub-item">
 		
-			<a href="http://investor.are.com/GenPage.aspx?IID=111908&amp;GKP=207354"><span>Annual Reports</span></a>
+			<a href="https://investor.are.com/GenPage.aspx?IID=111908&amp;GKP=207354"><span>Annual Reports</span></a>
 		
 	</li>
 
 	<li class="sub-item last">
 		
-			<a href="http://investor.are.com/FinancialDocs.aspx?iid=111908"><span>Proxy</span></a>
+			<a href="https://investor.are.com/FinancialDocs.aspx?iid=111908"><span>Proxy</span></a>
 		
 	</li>
 
@@ -339,25 +339,25 @@ Sys.WebForms.PageRequestManager._initialize('ScriptManager', 'Form', [], [], [],
 
 	<li class="sub-item has-child">
 		
-			<a href="http://investor.are.com/news.aspx?iid=111908"><span>News, Events &amp; Webcasts</span></a>
+			<a href="https://investor.are.com/news.aspx?iid=111908"><span>News, Events &amp; Webcasts</span></a>
 		
 			<ul class="shifted">
 				
 	<li class="sub-item first">
 		
-			<a href="http://investor.are.com/news.aspx?iid=111908"><span>News</span></a>
+			<a href="https://investor.are.com/news.aspx?iid=111908"><span>News</span></a>
 		
 	</li>
 
 	<li class="sub-item">
 		
-			<a href="http://investor.are.com/calendar.aspx?iid=111908"><span>Event Calendar</span></a>
+			<a href="https://investor.are.com/calendar.aspx?iid=111908"><span>Event Calendar</span></a>
 		
 	</li>
 
 	<li class="sub-item last">
 		
-			<a href="http://investor.are.com/presentations.aspx?iid=111908"><span>Webcasts</span></a>
+			<a href="https://investor.are.com/presentations.aspx?iid=111908"><span>Webcasts</span></a>
 		
 	</li>
 
@@ -367,19 +367,19 @@ Sys.WebForms.PageRequestManager._initialize('ScriptManager', 'Form', [], [], [],
 
 	<li class="sub-item last has-child">
 		
-			<a href="http://investor.are.com/govdocs.aspx?iid=111908"><span>Corporate Governance</span></a>
+			<a href="https://investor.are.com/govdocs.aspx?iid=111908"><span>Corporate Governance</span></a>
 		
 			<ul class="shifted">
 				
 	<li class="sub-item first">
 		
-			<a href="http://investor.are.com/govdocs.aspx?iid=111908"><span>Disclosure</span></a>
+			<a href="https://investor.are.com/govdocs.aspx?iid=111908"><span>Disclosure</span></a>
 		
 	</li>
 
 	<li class="sub-item">
 		
-			<a href="http://investor.are.com/insiders.aspx?iid=111908"><span>Insider Filings</span></a>
+			<a href="https://investor.are.com/insiders.aspx?iid=111908"><span>Insider Filings</span></a>
 		
 	</li>
 
@@ -391,7 +391,7 @@ Sys.WebForms.PageRequestManager._initialize('ScriptManager', 'Form', [], [], [],
 
 	<li class="sub-item last">
 		
-			<a href="http://investor.are.com/committeechart.aspx?iid=111908"><span>Committee Charting</span></a>
+			<a href="https://investor.are.com/committeechart.aspx?iid=111908"><span>Committee Charting</span></a>
 		
 	</li>
 
@@ -503,7 +503,7 @@ Sys.WebForms.PageRequestManager._initialize('ScriptManager', 'Form', [], [], [],
 <p><strong><br />
 </strong></p>
 <p><strong><a href="https://cho.tbe.taleo.net/cho02/ats/careers/v2/searchResults?org=ALEXANDRIARE&amp;cws=40"><span style="text-decoration: underline; color: #0070c0;">View current opportunities</span></a></strong></p>
-<p><strong><a name="Awards" style="font-weight: bold;"><img alt="" src="http://www.are.com/Portals/0/content-divider.gif" style="width: 754px; height: 33px;" /></a><br />
+<p><strong><a name="Awards" style="font-weight: bold;"><img alt="" src="https://www.are.com/Portals/0/content-divider.gif" style="width: 754px; height: 33px;" /></a><br />
 </strong>
 </p>
 <h3><strong>Our Culture &amp; Community&nbsp;</strong></h3>
@@ -531,7 +531,7 @@ Sys.WebForms.PageRequestManager._initialize('ScriptManager', 'Form', [], [], [],
 </table>
 <p><strong>
 <br />
-<img alt="" src="http://www.are.com/Portals/0/content-divider.gif" style="width: 754px; height: 33px;" /></strong></p>
+<img alt="" src="https://www.are.com/Portals/0/content-divider.gif" style="width: 754px; height: 33px;" /></strong></p>
 <h3><strong>Benefits</strong></h3>
 <p>We devote extraordinary efforts to hiring, developing, and retaining our talented employees, and we understand firsthand that the health, happiness,
 and well-being of our team are important to their success. Our industry-leading and comprehensive benefits package includes:&nbsp;</p>
@@ -547,7 +547,7 @@ and well-being of our team are important to their success. Our industry-leading 
     <li>Wellness and fitness incentives</li>
     <li>Life insurance, disability plans, and an Employee Assistance Program</li>
 </ul>
-<p><strong><img alt="" src="http://www.are.com/Portals/0/content-divider.gif" style="width: 754px; height: 33px;" /></strong></p>
+<p><strong><img alt="" src="https://www.are.com/Portals/0/content-divider.gif" style="width: 754px; height: 33px;" /></strong></p>
 <h3>Grow Your Career at Alexandria</h3>
 <p>Continued learning and flexibility are imperative to the success of our business. We foster an enthusiasm and curiosity about learning and provide you with access to a wide variety of offerings and resources to support your career growth, including:<img alt="Talent Development" src="/Portals/0/talent.jpg" style="width: 220px; height: 148px; float: right; margin-top: 22px; margin-right: 10px;" longdesc="Talent Development training" /></p>
 <ul>
@@ -558,10 +558,10 @@ and well-being of our team are important to their success. Our industry-leading 
     <li>On-demand learning resources</li>
     <li>A personalized on-boarding experience</li>
 </ul>
-<strong><img alt="" src="http://www.are.com/Portals/0/content-divider.gif" style="width: 754px; height: 33px;" /></strong><br />
+<strong><img alt="" src="https://www.are.com/Portals/0/content-divider.gif" style="width: 754px; height: 33px;" /></strong><br />
 <h3>Inclusion &amp; Diversity</h3>
 <p><img alt="Alexandria Pasadena Team" src="/Portals/0/PASTeamDay2018.jpg" style="width: 220px; height: 148px; float: right; margin-right: 10px; margin-left: 8px;" />We recognize we are better together. We have created an environment where people of diverse backgrounds and perspectives can&nbsp;bring all of who they are to work. We believe in treating every single person equally and with respect and dignity. It is not just something we do, it is at the core of who we are.&nbsp;</p>
-<p><strong><img alt="" src="http://www.are.com/Portals/0/content-divider.gif" style="width: 754px; height: 33px;" /></strong></p>
+<p><strong><img alt="" src="https://www.are.com/Portals/0/content-divider.gif" style="width: 754px; height: 33px;" /></strong></p>
 <h3>Our Locations</h3>
 <table>
     <tbody>
