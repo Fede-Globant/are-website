@@ -3,17 +3,17 @@ function loadWidgets() {
         Type.registerNamespace("DotNetNuke.UI.WebControls");
 
     if (typeof (DotNetNuke.UI.WebControls.Utility) === "undefined")
-        jQuery.getScript($dnn.baseResourcesUrl + "Shared/scripts/DotNetNukeAjaxShared.js",
-                    function() { jQuery.getScript($dnn.baseResourcesUrl + "Shared/scripts/widgets.js"); });
+        jQuery.getScript($dnn.baseResourcesUrl + "Shared/Scripts/DotNetNukeAjaxShared.js",
+                    function() { jQuery.getScript($dnn.baseResourcesUrl + "Shared/Scripts/widgets.js"); });
     else
-        jQuery.getScript($dnn.baseResourcesUrl + "Shared/scripts/widgets.js");
+        jQuery.getScript($dnn.baseResourcesUrl + "Shared/Scripts/widgets.js");
 }
 
 if (typeof ($dnn) === "undefined") {
     $dnn = new Object();
     $dnn.pageScripts = document.getElementsByTagName("script");
     $dnn.scriptUrl = $dnn.pageScripts[$dnn.pageScripts.length - 1].src;
-    $dnn.hostUrl = (typeof ($dnn.hostUrl) == "undefined" ? $dnn.scriptUrl.toLowerCase().replace("resources/shared/Scripts/initWidgets.js", "") : $dnn.hostUrl);
+    $dnn.hostUrl = (typeof ($dnn.hostUrl) == "undefined" ? $dnn.scriptUrl.toLowerCase().replace("Resources/Shared/Scripts/initWidgets.js", "") : $dnn.hostUrl);
     if (!$dnn.hostUrl.endsWith("/")) $dnn.hostUrl += "/";
     $dnn.baseDnnScriptUrl = $dnn.hostUrl + "Resources/Shared/scripts/";
     $dnn.baseResourcesUrl = $dnn.hostUrl + "Resources/";
