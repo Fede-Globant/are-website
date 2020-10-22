@@ -505,7 +505,7 @@ THOUGHT LEADERSHIP</a></span></p>
 <div id="dnn_ctr395_ContentPane" class="article"><!-- Start_Module_395 --><div id="dnn_ctr395_ModuleContent" class="DNNModuleContent ModDNNHTMLC">
 	
 <div id="dnn_ctr395_HtmlModule_lblContent" class="Normal">
-	<p class="pad34b"><span><a href="https://www.cnbc.com/video/2020/07/30/how-commercial-real-estate-companies-are-faring-during-the-coronavirus-pandemic.htmll" target="_blank">ALEXANDRIA ON CNBC<br />
+	<p class="pad34b"><span><a href="https://www.cnbc.com/video/2020/07/30/how-commercial-real-estate-companies-are-faring-during-the-coronavirus-pandemic.html" target="_blank">ALEXANDRIA ON CNBC<br />
 POWER LUNCH</a></span></p>
 <p class="pad20b"><a href="https://www.cnbc.com/video/2020/07/30/how-commercial-real-estate-companies-are-faring-during-the-coronavirus-pandemic.html" target="_blank"><img alt="Alexandria on Mad Money" src="https://www.are.com/Portals/0/JSM_CNBCPL_July2020.png" style="width: 278px; height: 155px;" /></a></p>
 <p>CNBC: "How commercial real estate companies are faring during the coronavirus pandemic"</p>
