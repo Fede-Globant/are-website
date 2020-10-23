@@ -21,15 +21,15 @@
 </div>
 
 
-<script src="/Telerik.Web.UI.WebResource.axd?_TSM_HiddenField_=ScriptManager_TSM&amp;compress=1&amp;_TSM_CombinedScripts_=%3b%3bSystem.Web.Extensions%2c+Version%3d4.0.0.0%2c+Culture%3dneutral%2c+PublicKeyToken%3d31bf3856ad364e35%3aen-US%3ac9cbdec3-c810-4e87-846c-fb25a7c08002%3aea597d4b%3ab25378d2" type="text/javascript"></script>
-<script src="/js/dnn.js" type="text/javascript"></script>
+<!-- <script src="/Telerik.Web.UI.WebResource.axd?_TSM_HiddenField_=ScriptManager_TSM&amp;compress=1&amp;_TSM_CombinedScripts_=%3b%3bSystem.Web.Extensions%2c+Version%3d4.0.0.0%2c+Culture%3dneutral%2c+PublicKeyToken%3d31bf3856ad364e35%3aen-US%3ac9cbdec3-c810-4e87-846c-fb25a7c08002%3aea597d4b%3ab25378d2" type="text/javascript"></script> -->
+<!-- <script src="/js/dnn.js" type="text/javascript"></script> -->
 <div class="aspNetHidden">
 
 	<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" />
 	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="ZJDL+xgw770C2c7TjCrWAGugjjtGbEvBW0FNcmkqciyQjaodXFKU/buUHq+cE+h/We33+9PDGODtIym0gqx2itMhItTJNVeQSVF80NWF5Zpgk17G1mPvOzk6HLyQA9+TJWVwYSa1iKQgrM9D" />
 </div><script type="text/javascript">
 //<![CDATA[
-Sys.WebForms.PageRequestManager._initialize('ScriptManager', 'Form', [], [], [], 90, '');
+// Sys.WebForms.PageRequestManager._initialize('ScriptManager', 'Form', [], [], [], 90, '');
 //]]>
 </script>
 
@@ -489,14 +489,14 @@ THOUGHT LEADERSHIP</a></span></p>
 
 </div><script type="text/javascript">
 
-  jwplayer("video").setup({
-   flashplayer: "video/player.swf",
-   file: "video/interview_matthewFust_2.m4v",
-   image: "images/fust.jpg",
-   width: "100%",
-   height: "100%",
-   controlbar: "none"
-  });
+//   // jwplayer("video").setup({
+//    flashplayer: "video/player.swf",
+//    file: "video/interview_matthewFust_2.m4v",
+//    image: "images/fust.jpg",
+//    width: "100%",
+//    height: "100%",
+//    controlbar: "none"
+//   });
 
  </script><!-- End_Module_394 --></div>
 </div></div></div>
@@ -628,6 +628,6 @@ $(document).ready(function() {
 
 <!-- Texas -->
 
-<script async type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=26&cb=219046860"></script>
+<!-- <script async type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=26&cb=219046860"></script> -->
 </body>
 </html>
