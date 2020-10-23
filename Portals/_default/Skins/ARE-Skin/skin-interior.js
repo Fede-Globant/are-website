@@ -18,7 +18,7 @@ jQuery(document).ready(function () {
         timeout: 100,
         out: HoverOut
     };
-    //jQuery(".nav-wrap .top-level > li").hoverIntent(config);
+    jQuery(".nav-wrap .top-level > li").hoverIntent(config);
 	
 });
 
