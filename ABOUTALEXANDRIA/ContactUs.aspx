@@ -21,15 +21,15 @@
 </div>
 
 
-<!-- <script src="/Telerik.Web.UI.WebResource.axd?_TSM_HiddenField_=ScriptManager_TSM&amp;compress=1&amp;_TSM_CombinedScripts_=%3b%3bSystem.Web.Extensions%2c+Version%3d4.0.0.0%2c+Culture%3dneutral%2c+PublicKeyToken%3d31bf3856ad364e35%3aen-US%3ac9cbdec3-c810-4e87-846c-fb25a7c08002%3aea597d4b%3ab25378d2" type="text/javascript"></script> -->
-<!-- <script src="/js/dnn.js" type="text/javascript"></script> -->
+<script src="/Telerik.Web.UI.WebResource.axd?_TSM_HiddenField_=ScriptManager_TSM&amp;compress=1&amp;_TSM_CombinedScripts_=%3b%3bSystem.Web.Extensions%2c+Version%3d4.0.0.0%2c+Culture%3dneutral%2c+PublicKeyToken%3d31bf3856ad364e35%3aen-US%3ac9cbdec3-c810-4e87-846c-fb25a7c08002%3aea597d4b%3ab25378d2" type="text/javascript"></script>
+<script src="/js/dnn.js" type="text/javascript"></script>
 <div class="aspNetHidden">
 
 	<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" />
 	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="k64EYNJ+o1Wucvy3l4VxeAZcRy5YlliyGMvIhawAfLqjx0XA21F9iZE5CxCsm7wrFa4wdabz8YtUyECU0PeE5SI4ifu44bl5qSUOPFDU2g5keC9TNWvWNRGV4LiJeeUc1EIFEO1tvpG8ce4s" />
 </div><script type="text/javascript">
 //<![CDATA[
-// Sys.WebForms.PageRequestManager._initialize('ScriptManager', 'Form', [], [], [], 90, '');
+Sys.WebForms.PageRequestManager._initialize('ScriptManager', 'Form', [], [], [], 90, '');
 //]]>
 </script>
 
@@ -737,6 +737,6 @@ Joel S. Marcus, Executive Chairman &amp; Founder</p>
 
 <!-- Texas -->
 
-<!-- <script async type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=28&cb=428397767"></script> -->
+<script async type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=28&cb=428397767"></script>
 </body>
 </html>
