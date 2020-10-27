@@ -166,8 +166,8 @@ function debug(s) {
 		log(s);
 }		
 function log() {
-	if (window.console && console.log)
-		console.log('[cycle] ' + Array.prototype.join.call(arguments,' '));
+	//if (window.console && console.log)
+		//console.log('[cycle] ' + Array.prototype.join.call(arguments,' '));
 }
 $.expr[':'].paused = function(el) {
 	return el.cyclePause;
@@ -235,7 +235,7 @@ $.fn.cycle = function(options, arg2) {
 			startTime += (opts2.delay || 0);
 			if (startTime < 10)
 				startTime = 10;
-			debug('first timeout: ' + startTime);
+			//debug('first timeout: ' + startTime);
 			this.cycleTimeout = setTimeout(function(){go(els,opts2,0,!opts.backwards);}, startTime);
 		}
 	});
@@ -553,7 +553,7 @@ function buildOptions($cont, $slides, els, options, o) {
 			// don't requeue for images that are still loading but have a valid size
 			if (loadingIE || loadingFF || loadingOp || loadingOther) {
 				if (o.s && opts.requeueOnImageNotLoaded && ++options.requeueAttempts < 100) { // track retry count so we don't loop forever
-					log(options.requeueAttempts,' - img slide not loaded, requeuing slideshow: ', this.src, this.cycleW, this.cycleH);
+					//log(options.requeueAttempts,' - img slide not loaded, requeuing slideshow: ', this.src, this.cycleW, this.cycleH);
 					setTimeout(function() {$(o.s,o.c).cycle(options);}, opts.requeueTimeout);
 					requeue = true;
 					return false; // break each loop
@@ -691,7 +691,7 @@ function supportMultiTransitions(opts) {
 			var r2 = Math.floor(Math.random() * opts.fxs.length);
 			opts.fxs.push(opts.fxs.splice(r2,1)[0]);
 		}
-		debug('randomized fx sequence: ',opts.fxs);
+		//debug('randomized fx sequence: ',opts.fxs);
 	}
 	return true;
 }
@@ -768,7 +768,7 @@ function go(els, opts, manual, fwd) {
 	// opts.busy is true if we're in the middle of an animation
 	if (manual && opts.busy && opts.manualTrump) {
 		// let manual transitions requests trump active ones
-		debug('manualTrump in go(), stopping active transition');
+		//debug('manualTrump in go(), stopping active transition');
 		$(els).stop(true,true);
 		opts.busy = 0;
 		clearTimeout(p.cycleTimeout);
@@ -776,7 +776,7 @@ function go(els, opts, manual, fwd) {
 
 	// don't begin another timeout-based transition if there is one active
 	if (opts.busy) {
-		debug('transition active, ignoring new tx request');
+		//debug('transition active, ignoring new tx request');
 		return;
 	}
 
@@ -842,7 +842,7 @@ function go(els, opts, manual, fwd) {
 			}
 		};
 
-		debug('tx firing('+fx+'); currSlide: ' + opts.currSlide + '; nextSlide: ' + opts.nextSlide);
+		//debug('tx firing('+fx+'); currSlide: ' + opts.currSlide + '; nextSlide: ' + opts.nextSlide);
 		
 		// get ready to perform the transition
 		opts.busy = 1;
@@ -928,7 +928,7 @@ function getTimeout(curr, next, opts, fwd) {
 		var t = opts.timeoutFn.call(curr,curr,next,opts,fwd);
 		while (opts.fx != 'none' && (t - opts.speed) < 250) // sanitize timeout
 			t += opts.speed;
-		debug('calculated timeout: ' + t + '; speed: ' + opts.speed);
+		//debug('calculated timeout: ' + t + '; speed: ' + opts.speed);
 		if (t !== false)
 			return t;
 	}
@@ -991,7 +991,7 @@ $.fn.cycle.createPagerAnchor = function(i, el, $p, els, opts) {
 	var a;
 	if ($.isFunction(opts.pagerAnchorBuilder)) {
 		a = opts.pagerAnchorBuilder(i,el);
-		debug('pagerAnchorBuilder('+i+', el) returned: ' + a);
+		//debug('pagerAnchorBuilder('+i+', el) returned: ' + a);
 	}
 	else
 		a = '<a href="#">'+(i+1)+'</a>';
@@ -1073,7 +1073,7 @@ $.fn.cycle.hopsFromLast = function(opts, fwd) {
 // fix clearType problems in ie6 by setting an explicit bg color
 // (otherwise text slides look horrible during a fade transition)
 function clearTypeFix($slides) {
-	debug('applying clearType background-color hack');
+	//debug('applying clearType background-color hack');
 	function hex(s) {
 		s = parseInt(s,10).toString(16);
 		return s.length < 2 ? '0'+s : s;
