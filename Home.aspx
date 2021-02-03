@@ -170,7 +170,7 @@
 
 	<li class="sub-item">
 		
-			<a href="/san-francisco.html"><span>San Francisco Bay Area</span></a>
+			<a href="/san-francisco.html"><span>San Francisco</span></a>
 		
 	</li>
 
@@ -194,7 +194,7 @@
 
 	<li class="sub-item">
 		
-			<a href="/suburban-dc.html"><span>Maryland</span></a>
+			<a href="/maryland.html"><span>Maryland</span></a>
 		
 	</li>
 
