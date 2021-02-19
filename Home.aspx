@@ -454,8 +454,8 @@ INVESTORS</a></span></p>
 <br />
 <br />
 <br />
-<p class="pad34b"><span><a href="https://investor.are.com/news-events-and-webcasts/news/news-details/2020/Alexandria-Real-Estate-Equities-Inc.-in-Partnership-With-Verily-Delivers-OneFifteen-Living-a-Residential-Housing-Component-of-OneFifteens-One-of-a-Kind-Campus-Dedicated-to-Reversing-the-Trajectory-of-the-Opioid-Epidemic-and-Overcoming-Addiction/default.aspx" target="_blank">TACKLING OPIOID<br />
-ADDICTION</a></span></p>
+<p class="pad34b"><span><a href="https://investor.are.com/news-events-and-webcasts/news/news-details/2020/Alexandria-Real-Estate-Equities-Inc.-in-Partnership-With-Verily-Delivers-OneFifteen-Living-a-Residential-Housing-Component-of-OneFifteens-One-of-a-Kind-Campus-Dedicated-to-Reversing-the-Trajectory-of-the-Opioid-Epidemic-and-Overcoming-Addiction/default.aspx" target="_blank">OVERCOMING THE<br />
+	OPIOID EPIDEMIC</a></span></p>
 <p class="pad20b"><a href="https://investor.are.com/news-events-and-webcasts/news/news-details/2020/Alexandria-Real-Estate-Equities-Inc.-in-Partnership-With-Verily-Delivers-OneFifteen-Living-a-Residential-Housing-Component-of-OneFifteens-One-of-a-Kind-Campus-Dedicated-to-Reversing-the-Trajectory-of-the-Opioid-Epidemic-and-Overcoming-Addiction/default.aspx" target="_blank"><img alt="OneFifteenCampus" src="/Portals/0/OneFifteenLiving_Night278.jpg" style="width: 278px; height: 151px;" /></a></p>
 <p>We recently delivered OneFifteen Living, the residential facility of our state-of-the-art OneFifteen campus in Dayton, Ohio. OneFifteen provides evidence-based holistic treatment for the full and sustained recovery of people suffering from opioid addiction. &nbsp;</p>
 <p id="home-feature-link3"><a href="https://investor.are.com/news-events-and-webcasts/news/news-details/2020/Alexandria-Real-Estate-Equities-Inc.-in-Partnership-With-Verily-Delivers-OneFifteen-Living-a-Residential-Housing-Component-of-OneFifteens-One-of-a-Kind-Campus-Dedicated-to-Reversing-the-Trajectory-of-the-Opioid-Epidemic-and-Overcoming-Addiction/default.aspx" class="more" target="_blank"><br />
