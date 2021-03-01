@@ -1,0 +1,713 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html  xml:lang="en-US" lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
+<meta http-equiv="X-UA-Compatible" content="IE=8" />
+<head id="Head">
+<!--**********************************************************************************-->
+<!-- DotNetNuke - http://www.dotnetnuke.com                                          -->
+<!-- Copyright (c) 2002-2012                                                          -->
+<!-- by DotNetNuke Corporation                                                        -->
+<!--**********************************************************************************-->
+<meta content="text/html; charset=UTF-8" http-equiv="Content-Type" /><meta content="text/javascript" http-equiv="Content-Script-Type" /><meta content="text/css" http-equiv="Content-Style-Type" /><meta id="MetaKeywords" name="KEYWORDS" content=",DotNetNuke,DNN" /><meta id="MetaCopyright" name="COPYRIGHT" content="Copyright [year] by DotNetNuke Corporation" /><meta id="MetaGenerator" name="GENERATOR" content="DotNetNuke " /><meta id="MetaAuthor" name="AUTHOR" content="ARE" /><meta name="RESOURCE-TYPE" content="DOCUMENT" /><meta name="DISTRIBUTION" content="GLOBAL" /><meta id="MetaRobots" name="ROBOTS" content="INDEX, FOLLOW" /><meta name="REVISIT-AFTER" content="1 DAYS" /><meta name="RATING" content="GENERAL" /><meta http-equiv="PAGE-ENTER" content="RevealTrans(Duration=0,Transition=1)" /><style id="StylePlaceholder" type="text/css"></style><link href="/Portals/_default/default.css?cdv=27" type="text/css" rel="stylesheet"/><link href="/DesktopModules/HTML/module.css?cdv=27" type="text/css" rel="stylesheet"/><link href="/Portals/_default/Skins/ARE-Skin/skin.css?cdv=27" type="text/css" rel="stylesheet"/><link href="/Portals/_default/Skins/_default/WebControlSkin/Default/ComboBox.Default.css?cdv=27" type="text/css" rel="stylesheet"/><link href="/admin/ControlPanel/module.css?cdv=27" type="text/css" rel="stylesheet"/><script src="/Resources/Shared/Scripts/jquery/jquery.min.js?cdv=27" type="text/javascript"></script><script src="/Resources/Shared/Scripts/jquery/jquery-ui.min.js?cdv=27" type="text/javascript"></script><link rel="stylesheet" type="text/css" href="modal.css" /><link rel='SHORTCUT ICON' href='/Portals/0/favicon.ico' type='image/x-icon' /><title>
+	Alexandria® - Building the Future of Life Science™ - Our Cluster Locations
+</title></head>
+
+<body id="Body">
+    
+    <form method="post" action="/global-properties.html" id="Form" enctype="multipart/form-data">
+<div class="aspNetHidden">
+<input type="hidden" name="StylesheetManager_TSSM" id="StylesheetManager_TSSM" value="" />
+<input type="hidden" name="ScriptManager_TSM" id="ScriptManager_TSM" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="NlEOoDINao8bwnHSTsqNKqwPPSqK/bnnTo8i9cqliArln6EqAZh4Txgtu+IBXXifqd25IBwptFMpMpRG8Uhro1sNFqduCGw0oDj8C3UeqPvs3H/VzbH0hJcnqosro705ubSfdBtlURjQF1CDWdpGIfzqo+mPAYg8LckGcI3DKptMg5WlBXFl902rNhbCW8rbR7AyT9B2oDtlisIoa0OSA/Ja6/F1Ow3LYmImx0Bk/J6JoWQCiy0fp4V+KXUWwB6pd3cIX37QjvE8PZCi3zgMeMtUKr+fCcVdsfhGdJH25JxU/yJA2bTaaX95kBf6BWUo/nEtXFPKtmQlbLSVF5HBkopPV4HbmFv02/zi6g/4C6Y6vTrKPO4dN7FFRu4gaqU+rEouYx+JmhMpUg/N5SmnhedwDYMSDJ9sGIW3lNJiNBlBjThGnT2ncOHweddelASBcKbybYKxJZ+3vFGb3jMA/uRKnXbf/17SCLjeZbBAJJvX68LWUMSpkFvsa6v1P99DLccLamM1CSaaN+4ZSDp0jBEspLiA76Zf2GxkuvcgAF2rLkgpHUMFO1XSBm/p5fVgh9MKae0aqC6S/E1xgbLnaOBIRqeH8biwNgqCbnVRi3DitES9hBlPR53X1Sbhs1cpH5lkqgmG9TypvMXP4OK3I376AQBYONnxw5jwUmIWZHtmElhufjRRBjCuWHyUzHDZgrm3TX2p19hDRcTQpoxLYV79FWhY6o/DIFO4OP7WVb24fHn4Jo8dXLy8gtriU0bmlxCb+Vsapy5aVevOEGlj8nWZ/PS9fVNAafmdlmgLjkaEVVzUUpHHexNdHiR2/e88PFCqLINywGJKtQE+qQdudkcXojIB6j6IXhp507SQWBSR4hFRQ5c2SM2W2D2BXDP+eY0WuhyUF02ObUtvBm9UFJtq/aZ5gGS7s8U9sQS9IJyzdDYd+eaR/qtlT6hNXGQQ5F2Eo2fwEMY0/GMK1H8Qgp1vEW4YYulsP7XmM53aU7nmTXcNL7VsUbfIzoeFIfcpf0Q/VFR7FdqlyOXQExnQwZsXM7m2RPASzPCHnTBywPL8Fnc3Au2dqoLSpLirUGUJiJuZXT9cpYo/WBT1iKrXVww5XVCfhulP7Ug69wHoB8+mPztZQd7v9vNfj05dhdi6+Zjn0BVJeBDuOPoZAz+o0iTmz31XReJSPEVjd7Boygls8orAawUv1UUpfCkhQNql3hv/lLBfCEy9pvx93L4bmR7alGl2C1o8EVVQDtxOZA8cxC6wc7xvKWC+/JuOBOUtCxZOyVPXFMrhY/zJBEqRUz4SmX3xOyOo12kru3XaOl4LTEOI1QMPsu2B/FBXWW4QwQpDEKC7ZhyT/EY3RpE9SLNT2YgQ0M9UWy94W8almf8IgMZ5OqgcgdFBg58lTGWUC2P/fy4FMKwiTNjgc9Zm7g6XHJQwrTu+/gpCDNkVumK+8bnxYF3LjY3sWl8CjBuWxRmbcFvn/etEPXPPgEjrZDd69gfGepwkxSIhaSMZ7KN0a8axo24eQJreI8scVkpR8dD8PRZ36qJ/Zc51cdWZAU52F35k30dgT7bnDcrCFFnXiYoE3EDrqrK7RgIa6Y6kHwDthjfqD8Ce0o2Fx06B0Ss91ZMMC/PtSvMR/zitOMjgpfP55kDSu/7gdNIRMAppZWQD2KnC3mQ4lAmpXCMs/lxcAZAOpX4mDGK6UQifLIEn4oc8OIGVK8/faYvpBvIbkkIqhg==" />
+</div>
+
+
+<!-- <script src="/Telerik.Web.UI.WebResource.axd?_TSM_HiddenField_=ScriptManager_TSM&amp;compress=1&amp;_TSM_CombinedScripts_=%3b%3bSystem.Web.Extensions%2c+Version%3d4.0.0.0%2c+Culture%3dneutral%2c+PublicKeyToken%3d31bf3856ad364e35%3aen-US%3ac9cbdec3-c810-4e87-846c-fb25a7c08002%3aea597d4b%3ab25378d2" type="text/javascript"></script> -->
+<!-- <script src="/js/dnn.js" type="text/javascript"></script> -->
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="bw9HZPo3DwDQcdOpGvp6QV780mKuQ8DHHGXgz3/F5IuJEZnVXJrczUUhv5JV0vEbXTnv6SHpK+AujAglb+ykGz0WQNrcWafvPmw+zFSFVIMkC37mmq+0qQ0cT22dMugw4JJuyhAR4vYk4/CV" />
+</div><script type="text/javascript">
+//<![CDATA[
+// Sys.WebForms.PageRequestManager._initialize('ScriptManager', 'Form', [], [], [], 90, '');
+//]]>
+</script>
+
+        <script src="/js/dnncore.js?cdv=27" type="text/javascript"></script><script src="/js/dnn.modalpopup.js?cdv=27" type="text/javascript"></script><script src="/Resources/ControlPanel/ControlPanel.debug.js?cdv=27" type="text/javascript"></script><script src="/Resources/Shared/Scripts/jquery/jquery.hoverIntent.min.js?cdv=27" type="text/javascript"></script><script src="/js/dnn.jquery.js?cdv=27" type="text/javascript"></script>
+        
+        
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-tools/1.2.7/jquery.tools.min.js"></script>
+<script type="text/javascript" src="/Portals/_default/Skins/ARE-Skin/skin-map.js"></script>
+<!-- BEGIN MAIN CONTAINER -->
+<div id="main-container"> 
+  
+  <!-- BEGIN CONTENT CONTAINER -->
+  <div id="content-container">
+    <div id="banner">
+      <div id="util">
+		<div id="dnn_utilitynav"><div class="DnnModule DnnModule-DNN_HTML DnnModule-391"><a name="391"></a>
+<div id="dnn_ctr391_ContentPane" class="article"><!-- Start_Module_391 --><div id="dnn_ctr391_ModuleContent" class="DNNModuleContent ModDNNHTMLC">
+	
+<div id="dnn_ctr391_HtmlModule_lblContent" class="Normal">
+	<a href="/" title="Home">Home</a>&nbsp;|&nbsp;<a href="/contact-us.html" title="Contact Us">Contact Us</a>
+&nbsp;|&nbsp; <a href="/careers.html" title="Careers">Careers</a> &nbsp;|&nbsp;<a href="https://www.ng1.angusanywhere.com/TENANT/Alexandria/Main/Default.aspx" title="Tenant Requests" target="_blank">Tenant Requests</a>
+</div>
+
+</div><!-- End_Module_391 --></div>
+</div></div>
+      </div>
+      
+      <div id="dnn_logo"><div class="DnnModule DnnModule-DNN_HTML DnnModule-390"><a name="390"></a>
+<div id="dnn_ctr390_ContentPane" class="article"><!-- Start_Module_390 --><div id="dnn_ctr390_ModuleContent" class="DNNModuleContent ModDNNHTMLC">
+	
+<div id="dnn_ctr390_HtmlModule_lblContent" class="Normal">
+	<p style="text-align: center;"><a href="/"><img alt="" src="/Portals/0/logo.gif" /></a></p>
+
+</div>
+
+</div><!-- End_Module_390 --></div>
+</div></div>
+      <div class="clearit">&#160;</div>
+    </div>
+    
+    <!-- BEGIN MAIN NAVIGATION -->
+    <div class="main-nav"><!-- DDRmenu v02.00.01 - ARE-main-nav template --><div class="nav-wrap">
+<ul class="top-level">
+	
+	<li class=" first has-child">
+		
+			<a href="/about.html" class=" first"><span>ABOUT ALEXANDRIA &raquo;</span></a>
+		
+            <div class="dropdown">
+			    <ul>
+				    
+	<li class="sub-item first">
+		
+			<a href="/about.html"><span>About Alexandria</span></a>
+		
+	</li>
+
+	<li class="sub-item">
+		
+			<a href="/sustainability.html"><span>Sustainability</span></a>
+		
+	</li>
+
+	<li class="sub-item">
+		
+			<a href="/timeline.html"><span>Timeline</span></a>
+		
+	</li>
+
+	<li class="sub-item">
+		
+			<a href="/meet-our-team.html"><span>Meet Our Team</span></a>
+		
+	</li>
+
+	<li class="sub-item">
+		
+			<a href="/about-alexandria/in-the-news.html"><span>In The News</span></a>
+		
+	</li>
+
+	<li class="sub-item">
+		
+			<a href="/careers.html"><span>Careers</span></a>
+		
+	</li>
+
+	<li class="sub-item last">
+		
+			<a href="/contact-us.html"><span>Contact Us</span></a>
+		
+	</li>
+
+			    </ul>
+            </div>
+		
+	</li>
+
+	<li class=" has-child">
+		
+			<a href="/cluster-model.html" class=""><span>OUR CLUSTER MODEL &raquo;</span></a>
+		
+            <div class="dropdown">
+			    <ul>
+				    
+	<li class="sub-item first last">
+		
+			<a href="/cluster-model.html"><span>Our Cluster Model</span></a>
+		
+	</li>
+
+			    </ul>
+            </div>
+		
+	</li>
+
+	<li class=" selected has-child">
+		
+			<a href="/global-properties.html" class=""><span>OUR CLUSTERS &raquo;</span></a>
+		
+            <div class="dropdown">
+			    <ul>
+				    
+	<li class="sub-item first selected">
+		
+			<a href="/global-properties.html"><span>Our Cluster Locations</span></a>
+		
+	</li>
+
+	<li class="sub-item">
+		
+			<a href="/greater-boston.html"><span>Greater Boston</span></a>
+		
+	</li>
+
+	<li class="sub-item">
+		
+			<a href="/san-francisco.html"><span>San Francisco</span></a>
+		
+	</li>
+
+	<li class="sub-item">
+		
+			<a href="/new-york-city.html"><span>New York City</span></a>
+		
+	</li>
+
+	<li class="sub-item">
+		
+			<a href="/san-diego.html"><span>San Diego</span></a>
+		
+	</li>
+
+	<li class="sub-item">
+		
+			<a href="/seattle.html"><span>Seattle</span></a>
+		
+	</li>
+
+	<li class="sub-item">
+		
+			<a href="/maryland.html"><span>Maryland</span></a>
+		
+	</li>
+
+	<li class="sub-item last">
+		
+			<a href="/research-triangle-park.html"><span>Research Triangle</span></a>
+		
+	</li>
+
+			    </ul>
+            </div>
+		
+	</li>
+
+	<li class=" has-child">
+		
+			<a href="/business-verticals.html" class=""><span>OUR BUSINESS VERTICALS &raquo;</span></a>
+		
+            <div class="dropdown">
+			    <ul>
+				    
+	<li class="sub-item first">
+		
+			<a href="/real-estate.html"><span>Real Estate</span></a>
+		
+	</li>
+
+	<li class="sub-item">
+		
+			<a href="/corporate-responsibility.html"><span>Corporate Responsibility</span></a>
+		
+	</li>
+
+	<li class="sub-item">
+		
+			<a href="/venture-investments.html"><span>Venture Investments</span></a>
+		
+	</li>
+
+	<li class="sub-item last">
+		
+			<a href="/thought-leadership.html"><span>Thought Leadership</span></a>
+		
+	</li>
+
+			    </ul>
+            </div>
+		
+	</li>
+
+	<li class=" last has-child">
+		
+			<a href="https://investor.are.com/CorporateProfile.aspx?iid=111908" class=""><span>FOR INVESTORS &raquo;</span></a>
+		
+            <div class="dropdown">
+			    <ul>
+				    
+	<li class="sub-item first has-child">
+		
+			<a href="https://investor.are.com/CorporateProfile.aspx?iid=111908"><span>For Our Investors</span></a>
+		
+			<ul class="shifted">
+				
+	<li class="sub-item first">
+		
+			<a href="https://investor.are.com/corporateprofile.aspx?iid=111908"><span>Corporate Profile</span></a>
+		
+	</li>
+
+	<li class="sub-item">
+		
+			<a href="https://investor.are.com/GenPage.aspx?IID=111908&amp;GKP=1073746504"><span>Company Overview</span></a>
+		
+	</li>
+
+	<li class="sub-item last">
+		
+			<a href="https://investor.are.com/inforequest.aspx?iid=111908"><span>Request Information</span></a>
+		
+	</li>
+
+			</ul>
+		
+	</li>
+
+	<li class="sub-item has-child">
+		
+			<a href="https://investor.are.com/stockinfo.aspx?iid=111908"><span>Financial Information</span></a>
+		
+			<ul class="shifted">
+				
+	<li class="sub-item first">
+		
+			<a href="https://investor.are.com/stockinfo.aspx?iid=111908"><span>Stock Information</span></a>
+		
+	</li>
+
+	<li class="sub-item">
+		
+			<a href="https://investor.are.com/GenPage.aspx?IID=111908&amp;GKP=206901"><span>Analyst Coverage</span></a>
+		
+	</li>
+
+	<li class="sub-item">
+		
+			<a href="https://investor.are.com/docs.aspx?iid=111908"><span>SEC Filings</span></a>
+		
+	</li>
+
+	<li class="sub-item">
+		
+			<a href="https://investor.are.com/divs.aspx?iid=111908"><span>Dividends</span></a>
+		
+	</li>
+
+	<li class="sub-item">
+		
+			<a href="https://investor.are.com/QuarterlyResults.aspx?iid=111908"><span>Supplemental</span></a>
+		
+	</li>
+
+	<!-- <li class="sub-item">
+		
+			<a href="https://investor.are.com/GenPage.aspx?IID=111908&amp;GKP=1073743338"><span>Company Presentations </span></a>
+		
+	</li> -->
+
+	<li class="sub-item">
+		
+			<a href="https://investor.are.com/GenPage.aspx?IID=111908&amp;GKP=207354"><span>Annual Reports</span></a>
+		
+	</li>
+
+	<li class="sub-item last">
+		
+			<a href="https://investor.are.com/FinancialDocs.aspx?iid=111908"><span>Proxy</span></a>
+		
+	</li>
+
+			</ul>
+		
+	</li>
+
+	<li class="sub-item has-child">
+		
+			<a href="https://investor.are.com/news.aspx?iid=111908"><span>News, Events &amp; Webcasts</span></a>
+		
+			<ul class="shifted">
+				
+	<li class="sub-item first">
+		
+			<a href="https://investor.are.com/news.aspx?iid=111908"><span>News</span></a>
+		
+	</li>
+
+	<li class="sub-item">
+		
+			<a href="https://investor.are.com/calendar.aspx?iid=111908"><span>Event Calendar</span></a>
+		
+	</li>
+
+	<li class="sub-item last">
+		
+			<a href="https://investor.are.com/presentations.aspx?iid=111908"><span>Webcasts</span></a>
+		
+	</li>
+
+			</ul>
+		
+	</li>
+
+	<li class="sub-item last has-child">
+		
+			<a href="https://investor.are.com/govdocs.aspx?iid=111908"><span>Corporate Governance</span></a>
+		
+			<ul class="shifted">
+				
+	<li class="sub-item first">
+		
+			<a href="https://investor.are.com/govdocs.aspx?iid=111908"><span>Disclosure</span></a>
+		
+	</li>
+
+	<li class="sub-item">
+		
+			<a href="https://investor.are.com/insiders.aspx?iid=111908"><span>Insider Filings</span></a>
+		
+	</li>
+
+	<li class="sub-item">
+		
+			<a href="/meet-our-team.html"><span>Officers &amp; Directors</span></a>
+		
+	</li>
+
+	<li class="sub-item last">
+		
+			<a href="https://investor.are.com/committeechart.aspx?iid=111908"><span>Committee Charting</span></a>
+		
+	</li>
+
+			</ul>
+		
+	</li>
+
+			    </ul>
+            </div>
+		
+	</li>
+
+</ul>
+
+
+</div></div>
+    <!-- END MAIN NAVIGATION -->
+    
+    <!-- DDRmenu v02.00.01 - ARE-sub-nav template --><div id="lnav">
+<ul class="side_menu">
+	
+	<li class=" first selected">
+		
+			<a href="/global-properties.html" class=" first"><span>Our Cluster Locations</span></a>
+		
+	</li>
+
+	<li class="">
+		
+			<a href="/greater-boston.html" class=""><span>Greater Boston</span></a>
+		
+	</li>
+
+	<li class="">
+		
+			<a href="/san-francisco.html" class=""><span>San Francisco</span></a>
+		
+	</li>
+
+	<li class="">
+		
+			<a href="/new-york-city.html" class=""><span>New York City</span></a>
+		
+	</li>
+
+	<li class="">
+		
+			<a href="/san-diego.html" class=""><span>San Diego</span></a>
+		
+	</li>
+
+	<li class="">
+		
+			<a href="/seattle.html" class=""><span>Seattle</span></a>
+		
+	</li>
+
+	<li class="">
+		
+			<a href="/maryland.html" class=""><span>Maryland</span></a>
+		
+	</li>
+
+	<li class=" last">
+		
+			<a href="/research-triangle-park.html" class=""><span>Research Triangle</span></a>
+		
+	</li>
+
+</ul>
+
+
+</div>
+
+		<div id="content-r">
+        	 <div id="dnn_ContentPane"><div class="DnnModule DnnModule-DNN_HTML DnnModule-404"><a name="404"></a>
+<div id="dnn_ctr404_ContentPane" class="article"><!-- Start_Module_404 --><div id="dnn_ctr404_ModuleContent" class="DNNModuleContent ModDNNHTMLC">
+	
+<div id="dnn_ctr404_HtmlModule_lblContent" class="Normal">
+	<h1>LOCATION + INNOVATION + TALENT + CAPITAL</h1>
+<p class="image" style="text-align: left;"><span class="Normal" style="font-size: 16px;"><img alt="Cluster Model" src="/Portals/0/medallion.png" style="width: 115px; height: 115px; float: left; margin-right: 15px;" />Alexandria locates its facilities in the world's best clusters; strategic locations where the key building blocks for innovation thrive. Our collaborative life science, technology, and agtech campuses powerfully complement the cutting-edge scientific and managerial talent, smart capital and world-renowned academic and medical institutions in these locations, providing our tenants with a dynamic ecosystem to accelerate discovery and commercialization.</span></p>
+<p style="font-size: 17px; text-align: center;"><strong>Click on Alexandria's Clusters for More Information</strong></p>
+<p>
+</p>
+<div class="int-map" style="font-size: 17px;">
+<img alt="Interactive Map ARE Locations in the USA" src="/Portals/0/images/interactive-map-usa.jpg" class="map" />
+<a href="#" onclick="showCity('Sea'); return false;" class="loc loc-sea"><span>Seattle</span></a>
+<div class="city" id="cityOverlaySea">
+<a class="close" onclick="closeCity('Sea'); return false;">Close</a>
+<img src="/Portals/0/images/int-map-seattle.png" alt="Seattle" />
+<div class="address">
+<h2>Seattle</h2>
+<p>Approximately 2.1 million RSF</p>
+<p>
+</p>
+<p>Submarket: Lake Union</p>
+<p>
+</p>
+<p class="more"><a href="/seattle.html">Learn More &raquo;</a></p>
+<p>
+</p>
+</div>
+<div class="clear">&nbsp;</div>
+</div>
+<a href="#" onclick="showCity('SF'); return false;" class="loc loc-sf"><span>San Francisco</span></a>
+<div class="city" id="cityOverlaySF">
+<a class="close" onclick="closeCity('SF'); return false;">Close</a>
+<img src="/Portals/0/images/int-map-san-francisco.png" alt="San Francisco" />
+<div class="address">
+<h2>San Francisco</h2>
+<p>Approximately 8.3 million RSF</p>
+<p>
+</p>
+<p>Submarkets: Mission Bay, SoMa, South San Francisco, Greater Stanford</p>
+<p>
+</p>
+<p class="more"><a href="/san-francisco.html">Learn More &raquo;</a></p>
+<p>
+</p>
+</div>
+<div class="clear">&nbsp;</div>
+</div>
+<a href="#" onclick="showCity('SD'); return false;" class="loc loc-sd"><span>San Diego</span></a>
+<div class="city" id="cityOverlaySD">
+<a class="close" onclick="closeCity('SD'); return false;">Close</a>
+<img src="/Portals/0/images/int-map-san-diego.png" alt="San Diego" />
+<div class="address">
+<h2>San Diego</h2>
+<p>Approximately 6.6 million RSF</p>
+<p>
+</p>
+<p>Submarkets: Torrey Pines, University Town Center, Sorrento Mesa, Sorrento Valley</p>
+<p>
+</p>
+<p class="more"><a href="/san-diego.html">Learn More &raquo;</a></p>
+<p>
+</p>
+</div>
+<div class="clear">&nbsp;</div>
+</div>
+<a href="#" onclick="showCity('Bos'); return false;" class="loc loc-bos"><span>Greater Boston</span></a>
+<div class="city" id="cityOverlayBos">
+<a class="close" onclick="closeCity('Bos'); return false;">Close</a>
+<img src="/Portals/0/images/int-map-boston.png" alt="Greater Boston" />
+<div class="address">
+<h2>Greater Boston</h2>
+<p>Approximately 8.8 million RSF</p>
+<p>
+</p>
+<p>Submarkets: Cambridge/Inner Suburbs, Seaport Innovation District, Route 128, Route 495</p>
+<p>
+</p>
+<p class="more"><a href="/greater-boston.html">Learn More &raquo;</a></p>
+<p>
+</p>
+</div>
+<div class="clear">&nbsp;</div>
+</div>
+<a href="#" onclick="showCity('NYC'); return false;" class="loc loc-nyc"><span>New York City</span></a>
+<div class="city" id="cityOverlayNYC">
+<a class="close" onclick="closeCity('NYC'); return false;">Close</a>
+<img src="/Portals/0/images/int-map-new-york.png" alt="New York City" />
+<div class="address">
+<h2>New York City</h2>
+<p>Approximately 1.3M RSF</p>
+<p>
+</p>
+<p class="more"><a href="/new-york-city.html">Learn More &raquo;</a></p>
+<p>
+</p>
+</div>
+<div class="clear">&nbsp;</div>
+</div>
+<a href="#" onclick="showCity('DC'); return false;" class="loc loc-dc"><span>Maryland</span></a>
+<div class="city" id="cityOverlayDC">
+<a class="close" onclick="closeCity('DC'); return false;">Close</a>
+<img src="/Portals/0/images/int-map-washington.png" alt="Maryland" />
+<div class="address">
+<h2>Maryland</h2>
+<p>Approximately 3.3 million RSF</p>
+<p>
+</p>
+<p>Submarkets: Rockville, Gaithersburg</p>
+<p>
+</p>
+<p class="more"><a href="/maryland.html">Learn More &raquo;</a></p>
+<p>
+</p>
+</div>
+<div class="clear">&nbsp;</div>
+</div>
+<a href="#" onclick="showCity('RTP'); return false;" class="loc loc-rtp"><span>Research Triangle</span></a>
+<div class="city" id="cityOverlayRTP">
+<a class="close" onclick="closeCity('RTP'); return false;">Close</a>
+<img src="/Portals/0/images/int-map-research.png" alt="Research Triangle" />
+<div class="address">
+<h2>Research Triangle</h2>
+<p>Approximately 3.9 million RSF</p>
+<p>
+</p>
+<p class="more"><a href="/research-triangle-park.html">Learn More &raquo;</a></p>
+<p>
+</p>
+</div>
+<div class="clear">&nbsp;</div>
+</div>
+</div>
+</div>
+
+</div><script type="text/javascript">
+function showCity(city) {
+	if ($('.city').hasClass('active')) {
+		$('.city.active').fadeOut(500);
+	}
+	$('#cityOverlay' + city).fadeIn(500).addClass('active');
+	$('a.loc span').fadeOut(500);
+}
+function closeCity(city) {
+	$('#cityOverlay' + city).fadeOut(500);
+	$('a.loc span').fadeIn(500);
+}
+</script><!-- End_Module_404 --></div>
+</div></div>
+        </div>
+   
+   
+    <div class="clearit"></div>
+    <!-- END HOME FEATURES -->
+    
+    <div id="footer">
+      <p id="footer-l"><script type="text/javascript">var d = new Date(); var n = "&#169; " + d.getFullYear();document.getElementById("footer-l").innerHTML = n;</script> Alexandria Real Estate Equities, Inc.</p>
+      <p id="footer-r"><a href="/terms-of-service.html">Terms of Use</a> | <a href="/privacy.html">Privacy</a></p>
+      <p class="clearit">&#160;</p>
+    </div>
+  </div>
+  <!-- END CONTENT CONTAINER --> 
+  
+</div>
+<!-- END MAIN CONTAINER --> 
+
+<!--
+<script type="text/javascript">
+	$('#clustermapimg').mapster({
+		clickNavigate: true,
+		render_highlight: {
+        fillColor: 'fdc92c',
+        stroke: true,
+    	}	
+	});
+</script>
+-->
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-34575909-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+        <input name="ScrollTop" type="hidden" id="ScrollTop" />
+        <input name="__dnnVariable" type="hidden" id="__dnnVariable" autocomplete="off" value="`{`__scdoff`:`1`}" />
+        
+    
+<script type="text/javascript" src="/Resources/Shared/Scripts/initWidgets.js" ></script></form>
+    
+    
+
+
+	<div class="simple_overlay">
+	</div>
+
+
+    <script type="text/javascript">
+        //<![CDATA[
+        
+        //This code is to force a refresh of browser cache
+        //in case an old version of dnn.js is loaded
+        //It should be removed as soon as .js versioning is added
+        jQuery(document).ready(function () {
+		
+            if (navigator.userAgent.indexOf(" Chrome/") == -1) {
+                if ((typeof dnnJscriptVersion === 'undefined' || dnnJscriptVersion !== "6.0.0") && typeof dnn !== 'undefined') {
+                    window.location.reload(true);
+                }
+            }
+			/*if(location.pathname=="/"){
+				jQuery(".simple_overlay").overlay({
+					 mask: {
+						color: '#000000',
+						loadSpeed: 200,
+						opacity: 0.6
+					  },
+					  load: true				
+					}
+				);
+			}*/			
+		});
+         //]]>
+    </script>
+
+	<script type="text/javascript">
+	/*<![CDATA[*/
+	(function() {
+		var sz = document.createElement('script'); sz.type = 'text/javascript'; sz.async = true;
+		sz.src = '//siteimproveanalytics.com/js/siteanalyze_6034058.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz, s);
+	})();
+	/*]]>*/
+	</script>
+
+<!-- Texas -->
+
+</body>
+</html>

@@ -1,0 +1,30 @@
+/* the overlayed element */
+.simple_overlay {
+    /* must be initially hidden */
+    display:none;
+	position: relative;
+	margin: auto;
+	width: 1010px;
+    /* place overlay on top of other elements */
+    z-index:1000000;
+ 
+    /* styling */
+    background-image:url('images/ARE_NAREIT_AWARD_1010x530.jpg');
+    min-height:530px;
+    border:1px solid #666;
+ 
+    /* CSS3 styling for latest browsers */
+    -moz-box-shadow:0 0 90px 5px #000;
+    -webkit-box-shadow: 0 0 90px #000;
+	box-shadow: 0 0 90px #000
+}
+/* close button positioned on upper right corner */
+.simple_overlay .close {
+    background-image:url('images/close.png');
+    position:absolute;
+    right:-15px;
+    top:-15px;
+    cursor:pointer;
+    height:35px;
+    width:35px;
+}
