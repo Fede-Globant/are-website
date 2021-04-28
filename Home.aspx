@@ -170,7 +170,7 @@
 
 	<li class="sub-item">
 		
-			<a href="/san-francisco.html"><span>San Francisco</span></a>
+			<a href="/san-francisco-bay-area.html"><span>San Francisco</span></a>
 		
 	</li>
 
