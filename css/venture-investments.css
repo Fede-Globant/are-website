@@ -1,0 +1,45 @@
+@charset 'UTF-8';
+.track-record-main {
+    margin-left: 6px;
+}
+
+#track-record-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.track-record-item {
+    border-right: 1px solid #4bacc6;
+    width: 33%;
+    height: auto;
+    text-align: center;
+}
+
+#track-record-container > .track-record-item > span > h2 {
+    color: #4bacc6;
+    font-size: 34px;
+    font-weight: bold;
+    font-family: inherit;
+}
+
+#track-record-container > .track-record-item > span > h3 {
+    border: none;
+    padding: 0;
+    margin: 0;
+    color: black;
+    line-height: 130%;
+    font-size: 12.8px;
+    font-weight: 700;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.track-record-item > span > p {
+    margin-top: 20px;
+}
+
+.track-record-item:last-child {
+    border-right: none;
+}
