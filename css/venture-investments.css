@@ -67,3 +67,22 @@
 .subheader-container > .subheader-img > img {
     width: 100%;
 }
+
+#track-record-container > .track-record-item > .track-record-subitem {
+    height: 50%;
+}
+
+#track-record-container > .track-record-item > .separator {
+    border-top: 1px solid #4bacc6;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#track-record-container > .track-record-item > .track-record-subitem > span > h2 {
+    color: #4bacc6;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: inherit;
+    margin-top: 12px;
+}
+
