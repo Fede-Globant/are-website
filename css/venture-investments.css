@@ -43,3 +43,27 @@
 .track-record-item:last-child {
     border-right: none;
 }
+
+.subheader-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.subheader-container > p {
+    width: calc(69% - 30px);
+    margin-left: 30px;
+}
+
+.subheader-container > .subheader-img {
+    display: flex;
+    border-right: 1px solid #4bacc6;
+    flex-direction: row;
+    align-items: center;
+    padding-right: 30px;
+    width: calc(30% - 30px);
+}
+
+.subheader-container > .subheader-img > img {
+    width: 100%;
+}
