@@ -84,5 +84,7 @@
     font-weight: bold;
     font-family: inherit;
     margin-top: 12px;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
