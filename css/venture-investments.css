@@ -86,5 +86,12 @@
     margin-top: 12px;
     margin-bottom: 0;
     padding-bottom: 0;
+    line-height: 1;
+}
+
+#track-record-container > .track-record-item > .track-record-subitem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
