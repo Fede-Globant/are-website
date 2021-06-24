@@ -1,0 +1,155 @@
+/* .card-image {
+    margin-bottom: 20px;
+} */
+section {
+    margin: 40px 0;
+}
+
+.subtitle-blue {
+    font-weight: bold;
+    text-align: left;
+    color: #4bacc6;
+    margin-bottom: 15px;
+}
+
+.banner-image {
+    width: 750px;
+}
+
+.card-title {
+    margin: 15px 0;
+}
+
+.card-text {
+    font-weight: 200;
+    font-size: 14px;
+    text-align: left;
+}
+
+.foot-disclaimer {
+    margin: 6px 0px 0px 0px;
+    font-stretch: normal;
+    font-size: 10px;
+}
+
+.climatechange-image-wrapper {
+    margin: 20px 0;
+}
+
+.climatechange-image {
+    height: 56px;
+    width: auto;
+    margin-right: 80px;
+}
+
+.constructiongoals-wrapper {
+    width: 750px;
+    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.constructiongoals-image {
+    width: calc(50% - 20px);
+}
+
+.environmental-list {
+    font-size: 14px;
+}
+
+.sustainability-wrapper {
+    margin-top: 20px;
+}
+
+.pragraph-wrapper {
+    column-count: 3;
+}
+
+.pragraph-wrapper > p{
+    max-width: 200px;
+}
+
+.paragraphlist-wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 750;
+}
+
+.list-container {
+    width: calc(33% - 10px);
+}
+
+.divider-blue {
+    border-top: solid .2px #4bacc6;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.captions-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 750px;
+
+}
+
+.pillar-card {
+    margin-bottom: 30px;
+    width: calc(33% - 10px);
+    height: calc(33% - 10px);
+}
+
+.governance-text-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 750px;
+}
+
+.governance-text {
+    width: 40%;
+}
+
+.governance-image {
+    height: fit-content;
+    width: 40%;
+}
+
+.subtitle-black {
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.downloads-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px 0;
+    width: 750px;
+}
+
+.downloads-list {
+    display: flex;
+    flex-direction: column;
+    width: calc(50% - 30px);
+}
+
+.downloads-list a {
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: underline;
+    margin: 5px 0;
+}
+
+.downloadsubtitle-blue {
+    font-weight: bold;
+    text-align: left;
+    color: #4bacc6;
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
