@@ -122,8 +122,7 @@ section {
 }
 
 .governance-image {
-    height: fit-content;
-    width: 50%;
+    width: 375px;
 }
 
 .subtitle-black {
