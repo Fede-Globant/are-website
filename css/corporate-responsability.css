@@ -112,18 +112,18 @@ section {
 
 .governance-text-wrapper {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     width: 750px;
 }
 
 .governance-text {
-    width: 40%;
+    width: 100%;
 }
 
 .governance-image {
     height: fit-content;
-    width: 375px;
+    width: auto;
 }
 
 .subtitle-black {
